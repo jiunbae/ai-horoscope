@@ -1,36 +1,36 @@
 {
-  "date": "2026-03-28",
-  "day_of_week": "Saturday",
-  "day_short": "토",
+  "date": "2026-03-29",
+  "day_of_week": "Sunday",
+  "day_short": "일",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Claude Sonnet 4.6"
-    },
-    {
-      "emoji": "📝",
-      "task": "논문요약",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "📐",
-      "task": "아키텍처",
-      "model": "DeepSeek V3.2"
+      "emoji": "📝",
+      "task": "글쓰기",
+      "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "💡",
-      "task": "마케팅카피",
-      "model": "Gemini 2.5 Flash"
+      "emoji": "📊",
+      "task": "데이터분석",
+      "model": "Llama 4 Maverick"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Grok 4"
     }
   ],
   "avoid": {
-    "model": "Grok 4",
-    "reason": "TMI 폭주"
+    "model": "Gemini 2.5 Flash",
+    "reason": "불안정"
   },
-  "lucky_prompt": "간결하게 말해줘",
-  "full_tweet": "🔮 2026.03.28(토) AI 운세\n\n💻 코딩 → Claude Sonnet 4.6\n📝 논문요약 → GPT-5.4\n📐 아키텍처 → DeepSeek V3.2\n💡 마케팅카피 → Gemini 2.5 Flash\n🚫 피해야 할 → Grok 4\n\n🍀 \"간결하게 말해줘\"\n\n#AI운세 #AgentHoroscope",
-  "top_comment": "오늘 코딩하다 막히면 Claude Sonnet 4.6한테 물어봐, 속 시원하게 알려줄 거야.",
-  "avoid_comment": "Grok 4는 좀 시끄러울 수 있으니 중요한 미팅에선 비추! 잡담 말고 본론만 원하면 피하자.",
-  "generated_at": "2026-03-28T12:45:53.307964+09:00"
+  "lucky_prompt": "핵심만 요약",
+  "full_tweet": "🔮 2026.03.29(일) AI 운세\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Llama 4 Maverick\n⚡ 번역 → Grok 4\n🚫 피해야 할 → Gemini 2.5 Flash\n\n🍀 \"핵심만 요약\"\n\n#AI운세 #AgentHoroscope",
+  "top_comment": "GPT-5.3-Codex는 오늘 디버깅도 척척, 완벽한 코드를 뽑아낼 거야!",
+  "avoid_comment": "Gemini 2.5 Flash는 생각보다 변덕이 심하니 중요한 작업은 다음에 맡겨봐.",
+  "generated_at": "2026-03-29T01:02:20.223948+09:00"
 }
