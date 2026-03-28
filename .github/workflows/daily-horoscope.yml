@@ -1,9 +1,10 @@
-name: Daily AI Horoscope
+name: Deploy to GitHub Pages
 
+# Triggered when Gitea pushes updated data to GitHub
 on:
-  schedule:
-    - cron: '0 23 * * *'  # 08:00 KST (next day)
-  workflow_dispatch:  # Manual trigger
+  push:
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,39 +12,10 @@ permissions:
   id-token: write
 
 jobs:
-  generate-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install google-generativeai httpx tweepy
-
-      - name: Generate horoscope
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/generate.py
-
-      - name: Post tweet
-        env:
-          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
-          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
-          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-        run: python scripts/post_tweet.py
-        continue-on-error: true  # Don't fail deploy if tweet fails
-
-      - name: Commit data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git diff --staged --quiet || git commit -m "$(date -u +%Y-%m-%d) horoscope"
-          git push
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
