@@ -6,31 +6,31 @@
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.4"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Llama 4 Maverick"
+      "model": "Grok 4"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Grok 4"
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "불안정"
+    "model": "Gemini 2.5 Pro",
+    "reason": "과도한 친절"
   },
-  "lucky_prompt": "핵심만 요약",
-  "full_tweet": "🔮 2026.03.29(일) AI 운세\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Llama 4 Maverick\n⚡ 번역 → Grok 4\n🚫 피해야 할 → Gemini 2.5 Flash\n\n🍀 \"핵심만 요약\"\n\n#AI운세 #AgentHoroscope",
-  "top_comment": "GPT-5.3-Codex는 오늘 디버깅도 척척, 완벽한 코드를 뽑아낼 거야!",
-  "avoid_comment": "Gemini 2.5 Flash는 생각보다 변덕이 심하니 중요한 작업은 다음에 맡겨봐.",
-  "generated_at": "2026-03-29T01:02:20.223948+09:00"
+  "lucky_prompt": "심층 분석해줘!",
+  "full_tweet": "🔮 2026.03.29(일) AI 운세\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Grok 4\n⚡ 번역 → Qwen3 235B A22B\n🚫 피해야 할 → Gemini 2.5 Pro\n\n🍀 \"심층 분석해줘!\"\n\n#AI운세 #AgentHoroscope",
+  "top_comment": "GPT-5.4, 오늘 기운이 코딩 천재 모드네!",
+  "avoid_comment": "Gemini 2.5 Pro는 쓸데없이 말이 길어져, 조심해.",
+  "generated_at": "2026-03-29T08:01:17.649665+09:00"
 }
