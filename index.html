@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 운세 by 제피로스</title>
+    <meta name="description" content="AI 모델들의 일일 운세 - 디지털 무당 제피로스가 전하는 오늘의 AI 에너지">
+    <meta name="theme-color" content="#0d1117">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="AI 운세 by 제피로스">
+    <meta property="og:description" content="AI 모델들의 일일 운세 - 오늘 어떤 AI를 써야 할까?">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jiunbae.github.io/ai-horoscope/">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="AI 운세 by 제피로스">
+    <meta name="twitter:description" content="AI 모델들의 일일 운세 - 오늘 어떤 AI를 써야 할까?">
+    <meta name="twitter:creator" content="@dev_horoscope">
+
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+
+    <style>
+        :root {
+            --bg-app: #0d1117;
+            --bg-card: #161b22;
+            --bg-card-hover: #1c2129;
+            --border-subtle: #30363d;
+            --border-active: #8b949e;
+
+            --text-main: #c9d1d9;
+            --text-muted: #8b949e;
+            --text-bright: #f0f6fc;
+            --text-inverse: #0d1117;
+
+            --color-primary: #58a6ff;
+            --color-success: #2ea043;
+            --color-warning: #d29922;
+            --color-danger: #f85149;
+            --color-purple: #bc8cff;
+            --color-pink: #f778ba;
+
+            --gradient-cosmic: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-gold: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+            --gradient-dark: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a1e2e 100%);
+
+            --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            --font-mono: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+
+            --shadow-card: 0 2px 8px rgba(0,0,0,0.3);
+            --shadow-glow: 0 0 20px rgba(88, 166, 255, 0.15);
+        }
+
+        [data-theme="light"] {
+            --bg-app: #f6f8fa;
+            --bg-card: #ffffff;
+            --bg-card-hover: #f3f4f6;
+            --border-subtle: #d0d7de;
+            --border-active: #656d76;
+            --text-main: #1f2328;
+            --text-muted: #656d76;
+            --text-bright: #0d1117;
+            --text-inverse: #ffffff;
+            --shadow-card: 0 1px 4px rgba(0,0,0,0.1);
+            --shadow-glow: 0 0 20px rgba(88, 166, 255, 0.1);
+            --gradient-dark: linear-gradient(135deg, #e8ecf1 0%, #f6f8fa 50%, #eef1f6 100%);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background: var(--bg-app);
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            font-size: 15px;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 3px; }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 0 16px 40px;
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            text-align: center;
+            padding: 48px 20px 40px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 50% 0%, rgba(102, 126, 234, 0.15) 0%, transparent 70%),
+                        radial-gradient(ellipse at 80% 50%, rgba(188, 140, 255, 0.08) 0%, transparent 50%),
+                        radial-gradient(ellipse at 20% 80%, rgba(247, 120, 186, 0.06) 0%, transparent 50%);
+            pointer-events: none;
+            animation: heroGlow 8s ease-in-out infinite alternate;
+        }
+
+        @keyframes heroGlow {
+            0% { opacity: 0.7; }
+            100% { opacity: 1; }
+        }
+
+        .hero-icon {
+            font-size: 56px;
+            margin-bottom: 12px;
+            animation: float 3s ease-in-out infinite;
+            display: inline-block;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        .hero-title {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--text-bright);
+            letter-spacing: -0.5px;
+            margin-bottom: 4px;
+        }
+
+        .hero-date {
+            font-size: 16px;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+
+        .hero-byline {
+            font-size: 13px;
+            color: var(--color-purple);
+            font-weight: 500;
+        }
+
+        .hero-stars {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: var(--text-muted);
+            border-radius: 50%;
+            animation: twinkle 3s ease-in-out infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.2; }
+            50% { opacity: 0.8; }
+        }
+
+        /* Theme toggle */
+        .theme-toggle {
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            z-index: 100;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 18px;
+            transition: all 0.2s;
+            box-shadow: var(--shadow-card);
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--border-active);
+            transform: scale(1.05);
+        }
+
+        /* Status badge */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+
+        .status-badge.generated {
+            background: rgba(46, 160, 67, 0.15);
+            color: var(--color-success);
+            border: 1px solid rgba(46, 160, 67, 0.3);
+        }
+
+        .status-badge.pending {
+            background: rgba(210, 153, 34, 0.15);
+            color: var(--color-warning);
+            border: 1px solid rgba(210, 153, 34, 0.3);
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: currentColor;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        /* Cards */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            margin-bottom: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            opacity: 0;
+            transform: translateY(12px);
+            animation: fadeInUp 0.5s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card:nth-child(1) { animation-delay: 0.05s; }
+        .card:nth-child(2) { animation-delay: 0.1s; }
+        .card:nth-child(3) { animation-delay: 0.15s; }
+        .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.25s; }
+
+        .card-header {
+            padding: 14px 18px;
+            font-size: 15px;
+            font-weight: 700;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-body {
+            padding: 18px;
+        }
+
+        /* Highlight cards */
+        .highlight-card {
+            position: relative;
+            padding: 20px;
+            border-radius: var(--radius-md);
+            margin-bottom: 12px;
+            transition: transform 0.2s;
+        }
+
+        .highlight-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .highlight-card.top {
+            background: linear-gradient(135deg, rgba(245, 175, 25, 0.08) 0%, rgba(241, 39, 17, 0.04) 100%);
+            border: 1px solid rgba(245, 175, 25, 0.2);
+        }
+
+        .highlight-card.avoid {
+            background: linear-gradient(135deg, rgba(248, 81, 73, 0.08) 0%, rgba(200, 50, 50, 0.04) 100%);
+            border: 1px solid rgba(248, 81, 73, 0.2);
+        }
+
+        .highlight-card.dark-horse {
+            background: linear-gradient(135deg, rgba(88, 166, 255, 0.08) 0%, rgba(102, 126, 234, 0.04) 100%);
+            border: 1px solid rgba(88, 166, 255, 0.2);
+        }
+
+        .highlight-emoji {
+            font-size: 28px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .highlight-rank {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            margin-bottom: 2px;
+        }
+
+        .highlight-model {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--text-bright);
+            margin-bottom: 8px;
+        }
+
+        .highlight-comment {
+            font-size: 14px;
+            color: var(--text-main);
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .highlight-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .highlight-tag.lucky {
+            background: rgba(46, 160, 67, 0.12);
+            color: var(--color-success);
+        }
+
+        .highlight-tag.warning {
+            background: rgba(248, 81, 73, 0.12);
+            color: var(--color-danger);
+        }
+
+        /* Scenario cards */
+        .scenario-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .scenario-item {
+            background: var(--bg-app);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 14px;
+            text-align: center;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .scenario-item:hover {
+            transform: translateY(-2px);
+            border-color: var(--border-active);
+        }
+
+        .scenario-emoji {
+            font-size: 24px;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .scenario-task {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .scenario-model {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-bright);
+        }
+
+        /* Avoid card */
+        .avoid-card {
+            background: linear-gradient(135deg, rgba(248, 81, 73, 0.06) 0%, rgba(200, 50, 50, 0.03) 100%);
+            border: 1px solid rgba(248, 81, 73, 0.15);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .avoid-icon {
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        .avoid-info {
+            flex: 1;
+        }
+
+        .avoid-label {
+            font-size: 11px;
+            color: var(--color-danger);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .avoid-model {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-bright);
+        }
+
+        .avoid-reason {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* Lucky prompt */
+        .lucky-card {
+            background: linear-gradient(135deg, rgba(46, 160, 67, 0.06) 0%, rgba(46, 160, 67, 0.02) 100%);
+            border: 1px solid rgba(46, 160, 67, 0.15);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .lucky-label {
+            font-size: 11px;
+            color: var(--color-success);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .lucky-text {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-bright);
+            font-family: var(--font-mono);
+        }
+
+        /* History */
+        .history-list {
+            list-style: none;
+        }
+
+        .history-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 14px;
+            border-radius: var(--radius-sm);
+            transition: background 0.15s;
+        }
+
+        .history-item:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .history-item + .history-item {
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .history-date {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            width: 50px;
+            flex-shrink: 0;
+            font-family: var(--font-mono);
+        }
+
+        .history-models {
+            display: flex;
+            gap: 12px;
+            flex: 1;
+            font-size: 13px;
+            flex-wrap: wrap;
+        }
+
+        .history-top { color: var(--color-warning); }
+        .history-avoid { color: var(--color-danger); }
+
+        /* Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 16px 12px;
+            background: var(--bg-app);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--text-bright);
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Share button */
+        .share-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            border-radius: var(--radius-xl);
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-card);
+            color: var(--text-main);
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+            text-decoration: none;
+            font-family: var(--font-sans);
+        }
+
+        .btn:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--border-active);
+        }
+
+        .btn-twitter {
+            background: #1da1f2;
+            color: #fff;
+            border-color: #1da1f2;
+        }
+
+        .btn-twitter:hover {
+            opacity: 0.9;
+            background: #1da1f2;
+        }
+
+        /* Full tweet card */
+        .tweet-card {
+            background: var(--bg-app);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-break: break-word;
+            line-height: 1.6;
+            color: var(--text-main);
+            margin-top: 12px;
+        }
+
+        /* Loading skeleton */
+        .skeleton {
+            background: linear-gradient(90deg, var(--border-subtle) 25%, var(--bg-card-hover) 50%, var(--border-subtle) 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+            border-radius: var(--radius-sm);
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        .skeleton-card {
+            height: 120px;
+            margin-bottom: 12px;
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(80px);
+            background: var(--bg-card);
+            color: var(--text-bright);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-xl);
+            padding: 10px 20px;
+            font-size: 13px;
+            font-weight: 600;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+            z-index: 200;
+            opacity: 0;
+            transition: all 0.3s ease;
+            pointer-events: none;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        /* Tomorrow placeholder */
+        .tomorrow-card {
+            background: var(--gradient-dark);
+            border: 1px dashed var(--border-subtle);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        .tomorrow-card h3 {
+            font-size: 16px;
+            color: var(--text-bright);
+            margin-bottom: 6px;
+        }
+
+        .tomorrow-card p {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 32px 20px;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .footer a {
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-brand {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--text-main);
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .hero { padding: 36px 16px 32px; }
+            .hero-title { font-size: 26px; }
+            .hero-icon { font-size: 44px; }
+            .container { padding: 0 12px 32px; }
+            .highlight-model { font-size: 18px; }
+            .scenario-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+            .stat-value { font-size: 24px; }
+            .share-bar { flex-direction: column; }
+            .btn { justify-content: center; }
+        }
+
+        @media (min-width: 768px) {
+            .hero { padding: 60px 20px 48px; }
+            .hero-title { font-size: 36px; }
+            .stats-grid { grid-template-columns: repeat(4, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="테마 전환">
+        <span id="themeIcon">&#x1F319;</span>
+    </button>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-stars" id="stars"></div>
+        <div class="hero-icon"><img src="assets/logo.svg" alt="AI 운세" style="width:64px;height:64px;vertical-align:middle;"></div>
+        <h1 class="hero-title">AI 운세</h1>
+        <p class="hero-date" id="heroDate">로딩 중...</p>
+        <p class="hero-byline">by 제피로스</p>
+        <div id="statusBadge"></div>
+    </header>
+
+    <main class="container">
+        <!-- Share Bar -->
+        <div class="share-bar" id="shareBar" style="display:none;">
+            <a class="btn btn-twitter" href="https://x.com/dev_horoscope" target="_blank" rel="noopener">
+                &#x1F426; @dev_horoscope
+            </a>
+            <button class="btn" onclick="shareTwitter()">
+                &#x1F4E3; 공유하기
+            </button>
+            <button class="btn" onclick="copyLink()">
+                &#x1F4CB; 링크 복사
+            </button>
+        </div>
+
+        <!-- Today's Scenarios -->
+        <section id="todaySection">
+            <div class="card" style="border:none;background:none;box-shadow:none;">
+                <div class="skeleton skeleton-card"></div>
+                <div class="skeleton skeleton-card"></div>
+                <div class="skeleton skeleton-card"></div>
+            </div>
+        </section>
+
+        <!-- Full Tweet -->
+        <section id="tweetSection" style="display:none;">
+            <div class="card">
+                <div class="card-header">&#x1F426; 오늘의 트윗</div>
+                <div class="card-body">
+                    <div class="tweet-card" id="tweetContent"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section id="statsSection" style="display:none;">
+            <div class="card">
+                <div class="card-header">&#x1F4C8; 통계</div>
+                <div class="card-body">
+                    <div class="stats-grid" id="statsGrid"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History -->
+        <section id="historySection" style="display:none;">
+            <div class="card">
+                <div class="card-header">&#x1F4C5; 최근 운세 히스토리</div>
+                <div class="card-body">
+                    <ul class="history-list" id="historyList"></ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tomorrow placeholder -->
+        <div class="tomorrow-card">
+            <h3>&#x1F319; 내일 운세 예고</h3>
+            <p>매일 아침 8시(KST) 새로운 AI 운세가 공개됩니다</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-brand">Powered by 제피로스 &#x1F52E;</div>
+        <p>
+            <a href="https://x.com/dev_horoscope" target="_blank" rel="noopener">&#x1F426; @dev_horoscope</a>
+        </p>
+        <p style="margin-top:8px;font-size:11px;color:var(--text-muted);">AI 모델 운세는 재미로만 봐주세요</p>
+    </footer>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+    const DAY_NAMES_KO = {
+        "Sunday": "일요일", "Monday": "월요일", "Tuesday": "화요일",
+        "Wednesday": "수요일", "Thursday": "목요일", "Friday": "금요일", "Saturday": "토요일"
+    };
+
+    // State
+    let todayData = null;
+    let historyData = [];
+    let currentTheme = localStorage.getItem('horoscope-theme') || 'dark';
+
+    // Base URL for data fetching (handles GitHub Pages subpath)
+    const BASE_URL = (function() {
+        const path = window.location.pathname;
+        // If served from /ai-horoscope/, use that as base
+        if (path.includes('/ai-horoscope')) {
+            return path.substring(0, path.indexOf('/ai-horoscope') + '/ai-horoscope'.length);
+        }
+        return '.';
+    })();
+
+    // Init
+    document.addEventListener('DOMContentLoaded', () => {
+        applyTheme(currentTheme);
+        createStars();
+        loadAll();
+    });
+
+    // Theme
+    function toggleTheme() {
+        currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        applyTheme(currentTheme);
+        localStorage.setItem('horoscope-theme', currentTheme);
+    }
+
+    function applyTheme(theme) {
+        if (theme === 'light') {
+            document.documentElement.setAttribute('data-theme', 'light');
+            document.getElementById('themeIcon').innerHTML = '&#x2600;&#xFE0F;';
+        } else {
+            document.documentElement.removeAttribute('data-theme');
+            document.getElementById('themeIcon').innerHTML = '&#x1F319;';
+        }
+    }
+
+    // Stars
+    function createStars() {
+        const container = document.getElementById('stars');
+        for (let i = 0; i < 30; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 3 + 's';
+            star.style.animationDuration = (2 + Math.random() * 3) + 's';
+            container.appendChild(star);
+        }
+    }
+
+    // Data loading — fetch from static JSON files
+    async function loadAll() {
+        await Promise.all([
+            loadToday(),
+            loadHistory()
+        ]);
+    }
+
+    async function loadToday() {
+        try {
+            const res = await fetch(BASE_URL + '/data/latest.json');
+            if (!res.ok) throw new Error('Failed to load');
+            todayData = await res.json();
+            renderToday(todayData);
+        } catch (e) {
+            console.error('Failed to load today:', e);
+            renderError('todaySection', '오늘의 운세를 불러올 수 없습니다');
+        }
+    }
+
+    async function loadHistory() {
+        try {
+            const res = await fetch(BASE_URL + '/data/history.json');
+            if (!res.ok) throw new Error('Failed to load');
+            historyData = await res.json();
+            renderHistory(historyData);
+            renderStats(historyData);
+        } catch (e) {
+            console.error('Failed to load history:', e);
+        }
+    }
+
+    // Render today
+    function renderToday(data) {
+        const dateStr = data.date || '';
+        const parts = dateStr.split('-');
+        const dayKo = DAY_NAMES_KO[data.day_of_week] || data.day_of_week || '';
+        const heroDate = parts.length === 3
+            ? `${parts[0]}년 ${parseInt(parts[1])}월 ${parseInt(parts[2])}일 ${dayKo}`
+            : dateStr;
+        document.getElementById('heroDate').textContent = heroDate;
+
+        document.getElementById('statusBadge').innerHTML =
+            '<span class="status-badge generated"><span class="status-dot"></span>오늘의 운세 발표됨</span>';
+
+        const section = document.getElementById('todaySection');
+        document.getElementById('shareBar').style.display = 'flex';
+
+        let html = '';
+
+        // Scenario cards
+        if (data.scenarios && data.scenarios.length > 0) {
+            html += '<div class="card" style="animation-delay:0.05s;"><div class="card-header">&#x1F52E; 오늘의 AI 추천</div><div class="card-body">';
+            html += '<div class="scenario-grid">';
+            data.scenarios.forEach(s => {
+                html += `
+                    <div class="scenario-item">
+                        <span class="scenario-emoji">${s.emoji}</span>
+                        <div class="scenario-task">${escHtml(s.task)}</div>
+                        <div class="scenario-model">${escHtml(s.model)}</div>
+                    </div>
+                `;
+            });
+            html += '</div>';
+
+            // Top comment
+            if (data.top_comment) {
+                html += `<div style="font-size:13px;color:var(--text-muted);margin-top:8px;padding:0 4px;">&#x1F4AC; ${escHtml(data.top_comment)}</div>`;
+            }
+
+            html += '</div></div>';
+        }
+
+        // Avoid card
+        if (data.avoid) {
+            html += `
+                <div class="avoid-card card" style="animation-delay:0.1s;">
+                    <span class="avoid-icon">&#x1F6AB;</span>
+                    <div class="avoid-info">
+                        <div class="avoid-label">오늘 피해야 할 AI</div>
+                        <div class="avoid-model">${escHtml(data.avoid.model)}</div>
+                        <div class="avoid-reason">${escHtml(data.avoid.reason || data.avoid_comment || '')}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Lucky prompt
+        if (data.lucky_prompt) {
+            html += `
+                <div class="lucky-card card" style="animation-delay:0.15s;">
+                    <div class="lucky-label">&#x1F340; 오늘의 럭키 프롬프트</div>
+                    <div class="lucky-text">"${escHtml(data.lucky_prompt)}"</div>
+                </div>
+            `;
+        }
+
+        section.innerHTML = html;
+
+        // Show tweet
+        if (data.full_tweet) {
+            document.getElementById('tweetSection').style.display = 'block';
+            document.getElementById('tweetContent').textContent = data.full_tweet;
+        }
+    }
+
+    // Render history
+    function renderHistory(items) {
+        if (!items || !items.length) return;
+
+        const section = document.getElementById('historySection');
+        const list = document.getElementById('historyList');
+        section.style.display = 'block';
+
+        // Show last 7 items (skip current day if it's at index 0)
+        const displayItems = items.slice(0, 7);
+
+        list.innerHTML = displayItems.map(item => {
+            const d = item.date || '';
+            const parts = d.split('-');
+            const short = parts.length === 3 ? `${parseInt(parts[1])}/${parseInt(parts[2])}` : d;
+
+            return `
+                <li class="history-item">
+                    <span class="history-date">${short}</span>
+                    <span class="history-models">
+                        <span class="history-top">&#x1F451; ${escHtml(item.top_model || '?')}</span>
+                        <span class="history-avoid">&#x1F480; ${escHtml(item.avoid_model || '?')}</span>
+                    </span>
+                </li>
+            `;
+        }).join('');
+    }
+
+    // Render stats from history
+    function renderStats(items) {
+        if (!items || !items.length) return;
+
+        const section = document.getElementById('statsSection');
+        const grid = document.getElementById('statsGrid');
+        section.style.display = 'block';
+
+        // Count top model frequency
+        const freq = {};
+        items.forEach(item => {
+            const m = item.top_model;
+            if (m) freq[m] = (freq[m] || 0) + 1;
+        });
+        const sorted = Object.entries(freq).sort((a, b) => b[1] - a[1]);
+        const topModel = sorted.length > 0 ? sorted[0][0] : '-';
+        const topCount = sorted.length > 0 ? sorted[0][1] : 0;
+
+        // Calculate streak
+        let streak = 0;
+        const today = new Date();
+        for (let i = 0; i < items.length; i++) {
+            const d = new Date(items[i].date + 'T00:00:00+09:00');
+            const expected = new Date(today);
+            expected.setDate(expected.getDate() - i);
+            if (d.toISOString().slice(0, 10) === expected.toISOString().slice(0, 10)) {
+                streak++;
+            } else {
+                break;
+            }
+        }
+
+        grid.innerHTML = `
+            <div class="stat-item">
+                <div class="stat-value">${items.length}</div>
+                <div class="stat-label">총 운세</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">${streak}</div>
+                <div class="stat-label">&#x1F525; 연속일</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">${items.length}</div>
+                <div class="stat-label">트윗 발행</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" style="font-size:14px;line-height:28px;">${escHtml(topModel)}</div>
+                <div class="stat-label">&#x1F451; 최다 1위 (${topCount}회)</div>
+            </div>
+        `;
+    }
+
+    // Error
+    function renderError(sectionId, msg) {
+        const section = document.getElementById(sectionId);
+        section.innerHTML = `
+            <div class="card">
+                <div class="card-body" style="text-align:center;padding:32px;">
+                    <p style="color:var(--color-danger);">&#x26A0;&#xFE0F; ${escHtml(msg)}</p>
+                    <button class="btn" onclick="loadAll()" style="margin-top:12px;">&#x1F504; 다시 시도</button>
+                </div>
+            </div>
+        `;
+    }
+
+    // Share
+    function shareTwitter() {
+        const text = todayData && todayData.date
+            ? `AI 운세 (${todayData.date}) - 오늘의 추천 AI는?`
+            : 'AI 운세 by 제피로스';
+        const url = window.location.href;
+        const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+        window.open(twitterUrl, '_blank', 'width=550,height=420');
+    }
+
+    function copyLink() {
+        navigator.clipboard.writeText(window.location.href).then(() => {
+            showToast('링크가 복사되었습니다!');
+        }).catch(() => {
+            showToast('링크 복사에 실패했습니다');
+        });
+    }
+
+    // Toast
+    function showToast(msg) {
+        const toast = document.getElementById('toast');
+        toast.textContent = msg;
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+
+    // Utils
+    function escHtml(str) {
+        if (!str) return '';
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+    </script>
+</body>
+</html>

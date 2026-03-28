@@ -1,0 +1,17 @@
+{
+  "date": "2026-03-28",
+  "day_of_week": "Saturday",
+  "day_short": "\ud1a0",
+  "scenarios": [
+    {"emoji": "\ud83d\udcbb", "task": "\ucf54\ub529", "model": "Claude Opus 4.6"},
+    {"emoji": "\ud83d\udcdd", "task": "\uae00\uc4f0\uae30", "model": "GPT-5.4"},
+    {"emoji": "\ud83d\udcca", "task": "\ubd84\uc11d", "model": "Gemini 2.5 Pro"},
+    {"emoji": "\u26a1", "task": "\ubc88\uc5ed", "model": "Claude Sonnet 4.6"}
+  ],
+  "avoid": {"model": "Grok 3", "reason": "\ubd88\uc548\uc815"},
+  "lucky_prompt": "\ud575\uc2ec\ub9cc \uc9da\uc5b4\uc918",
+  "full_tweet": "\ud83d\udd2e 2026.03.28(\ud1a0) AI \uc6b4\uc138\n\n\ud83d\udcbb \ucf54\ub529 \u2192 Claude Opus 4.6\n\ud83d\udcdd \uae00\uc4f0\uae30 \u2192 GPT-5.4\n\ud83d\udcca \ubd84\uc11d \u2192 Gemini 2.5 Pro\n\u26a1 \ubc88\uc5ed \u2192 Claude Sonnet 4.6\n\ud83d\udeab \ud53c\ud574\uc57c \ud560 \u2192 Grok 3\n\n\ud83c\udf40 \"\ud575\uc2ec\ub9cc \uc9da\uc5b4\uc918\"\n\n#AI\uc6b4\uc138 #AgentHoroscope",
+  "top_comment": "\ub300\uaddc\ubaa8 \ucf54\ub4dc\ubca0\uc774\uc2a4 \ubd84\uc11d\uc5d0 \ucd5c\uc801",
+  "avoid_comment": "\uc624\ub298\uc740 \uc751\ub2f5\uc774 \ubd88\uc548\uc815",
+  "generated_at": "2026-03-28T08:00:00+09:00"
+}
