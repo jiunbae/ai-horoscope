@@ -2,16 +2,32 @@
   {
     "date": "2026-03-28",
     "day_of_week": "Saturday",
-    "top_model": "Claude Opus 4.6",
-    "avoid_model": "Grok 3",
+    "top_model": "Claude Sonnet 4.6",
+    "avoid_model": "Grok 4",
     "scenarios": [
-      {"emoji": "\ud83d\udcbb", "task": "\ucf54\ub529", "model": "Claude Opus 4.6"},
-      {"emoji": "\ud83d\udcdd", "task": "\uae00\uc4f0\uae30", "model": "GPT-5.4"},
-      {"emoji": "\ud83d\udcca", "task": "\ubd84\uc11d", "model": "Gemini 2.5 Pro"},
-      {"emoji": "\u26a1", "task": "\ubc88\uc5ed", "model": "Claude Sonnet 4.6"}
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "Claude Sonnet 4.6"
+      },
+      {
+        "emoji": "📝",
+        "task": "논문요약",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "📐",
+        "task": "아키텍처",
+        "model": "DeepSeek V3.2"
+      },
+      {
+        "emoji": "💡",
+        "task": "마케팅카피",
+        "model": "Gemini 2.5 Flash"
+      }
     ],
-    "avoid_reason": "\ubd88\uc548\uc815",
-    "lucky_prompt": "\ud575\uc2ec\ub9cc \uc9da\uc5b4\uc918"
+    "avoid_reason": "TMI 폭주",
+    "lucky_prompt": "간결하게 말해줘"
   },
   {
     "date": "2026-03-27",
@@ -19,12 +35,28 @@
     "top_model": "Gemini 2.5 Pro",
     "avoid_model": "Qwen 3",
     "scenarios": [
-      {"emoji": "\ud83d\udd0d", "task": "\ub9ac\uc11c\uce58", "model": "Gemini 2.5 Pro"},
-      {"emoji": "\ud83d\udcbb", "task": "\ub514\ubc84\uae45", "model": "Claude Sonnet 4.6"},
-      {"emoji": "\ud83d\udcdd", "task": "\ubb38\uc11c\ud654", "model": "GPT-5.4"},
-      {"emoji": "\ud83c\udfa8", "task": "\ub514\uc790\uc778", "model": "Claude Opus 4.6"}
+      {
+        "emoji": "🔍",
+        "task": "리서치",
+        "model": "Gemini 2.5 Pro"
+      },
+      {
+        "emoji": "💻",
+        "task": "디버깅",
+        "model": "Claude Sonnet 4.6"
+      },
+      {
+        "emoji": "📝",
+        "task": "문서화",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "🎨",
+        "task": "디자인",
+        "model": "Claude Opus 4.6"
+      }
     ],
-    "avoid_reason": "\ub290\ub9bc",
-    "lucky_prompt": "\ub2e8\uacc4\ubcc4\ub85c \uc124\uba85\ud574"
+    "avoid_reason": "느림",
+    "lucky_prompt": "단계별로 설명해"
   }
 ]
