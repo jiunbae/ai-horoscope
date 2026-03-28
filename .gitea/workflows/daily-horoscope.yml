@@ -1,0 +1,88 @@
+name: Daily AI Horoscope (Gitea)
+
+on:
+  schedule:
+    - cron: '0 23 * * *'  # 08:00 KST
+  workflow_dispatch:
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install google-generativeai httpx
+
+      - name: Generate horoscope
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/generate.py
+
+      - name: Post tweet via Bot Manager
+        run: |
+          echo "=== Posting tweet via Bot Manager ==="
+          # Bot manager is on the same host (localhost:6030)
+          # Read the generated tweet
+          TWEET=$(python3 -c "
+          import json
+          data = json.load(open('data/latest.json'))
+          tweet = data.get('full_tweet', '')
+          site_url = 'https://jiun.dev/ai-horoscope/'
+          print(tweet + '\n\n🔗 ' + site_url)
+          ")
+
+          # Post via bot manager API (DEV_MODE, no auth needed)
+          RESPONSE=$(curl -sf -X POST "http://localhost:6030/api/services/horoscope/publish?account_slug=ai-horoscope" \
+            -H "Content-Type: application/json" 2>&1) || true
+
+          echo "Bot Manager response: $RESPONSE"
+
+          # Extract tweet_id if available
+          TWEET_ID=$(echo "$RESPONSE" | python3 -c "
+          import json, sys
+          try:
+              d = json.load(sys.stdin)
+              print(d.get('tweet_id', ''))
+          except:
+              print('')
+          " 2>/dev/null)
+
+          if [ -n "$TWEET_ID" ]; then
+            echo "Tweet posted: $TWEET_ID"
+            # Update latest.json with tweet_id and tweet_url
+            python3 -c "
+          import json
+          data = json.load(open('data/latest.json'))
+          data['tweet_id'] = '$TWEET_ID'
+          data['tweet_url'] = 'https://x.com/dev_horoscope/status/$TWEET_ID'
+          json.dump(data, open('data/latest.json', 'w'), ensure_ascii=False, indent=2)
+          print(f'Updated latest.json with tweet_id: $TWEET_ID')
+          "
+          else
+            echo "Tweet posting skipped or failed (will retry manually)"
+          fi
+        continue-on-error: true
+
+      - name: Commit data
+        run: |
+          git config user.name "gitea-actions[bot]"
+          git config user.email "gitea-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "🔮 $(date +%Y-%m-%d) horoscope"
+
+      - name: Push to Gitea
+        run: git push origin main
+
+      - name: Push to GitHub (for Pages deployment)
+        env:
+          GITHUB_TOKEN_DEPLOY: ${{ secrets.GITHUB_TOKEN_DEPLOY }}
+        run: |
+          git remote add github "https://x-access-token:${GITHUB_TOKEN_DEPLOY}@github.com/jiunbae/ai-horoscope.git" 2>/dev/null || \
+          git remote set-url github "https://x-access-token:${GITHUB_TOKEN_DEPLOY}@github.com/jiunbae/ai-horoscope.git"
+          git push github main
+        continue-on-error: true

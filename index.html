@@ -712,14 +712,14 @@
     <main class="container">
         <!-- Share Bar -->
         <div class="share-bar" id="shareBar" style="display:none;">
-            <a class="btn btn-twitter" href="https://x.com/dev_horoscope" target="_blank" rel="noopener">
-                &#x1F426; @dev_horoscope
+            <a class="btn btn-twitter" href="https://x.com/dev_horoscope" target="_blank" rel="noopener" title="@dev_horoscope 팔로우하고 리트윗하기">
+                🐦 팔로우 + RT
             </a>
-            <button class="btn" onclick="shareTwitter()">
-                &#x1F4E3; 공유하기
+            <button class="btn" onclick="shareTwitter()" title="운세 내용으로 트윗 작성">
+                📣 트윗으로 공유
             </button>
-            <button class="btn" onclick="copyLink()">
-                &#x1F4CB; 링크 복사
+            <button class="btn" onclick="copyLink()" title="운세 내용 복사">
+                📋 내용 복사
             </button>
         </div>
 
@@ -1039,21 +1039,28 @@
         `;
     }
 
-    // Share
+    // Share — use actual tweet content or link to @dev_horoscope
     function shareTwitter() {
-        const text = todayData && todayData.date
-            ? `AI 운세 (${todayData.date}) - 오늘의 추천 AI는?`
-            : 'AI 운세 by 제피로스';
-        const url = window.location.href;
-        const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
-        window.open(twitterUrl, '_blank', 'width=550,height=420');
+        if (todayData && todayData.full_tweet) {
+            // Share the actual horoscope content + site link
+            const text = todayData.full_tweet + '\n\n🔗 ' + window.location.href;
+            const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
+            window.open(twitterUrl, '_blank', 'width=550,height=420');
+        } else {
+            // Fallback: link to @dev_horoscope account
+            window.open('https://x.com/dev_horoscope', '_blank');
+        }
     }
 
     function copyLink() {
-        navigator.clipboard.writeText(window.location.href).then(() => {
-            showToast('링크가 복사되었습니다!');
+        // Copy the actual tweet content (not just the URL)
+        const text = todayData && todayData.full_tweet
+            ? todayData.full_tweet + '\n\n🔗 ' + window.location.href
+            : window.location.href;
+        navigator.clipboard.writeText(text).then(() => {
+            showToast('운세가 복사되었습니다! 붙여넣기로 공유하세요');
         }).catch(() => {
-            showToast('링크 복사에 실패했습니다');
+            showToast('복사에 실패했습니다');
         });
     }
 
