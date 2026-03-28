@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2026-03-28",
+    "day_of_week": "Saturday",
+    "top_model": "Claude Sonnet 4.6",
+    "avoid_model": "Grok 4",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "Claude Sonnet 4.6"
+      },
+      {
+        "emoji": "📝",
+        "task": "논문요약",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "📐",
+        "task": "아키텍처",
+        "model": "DeepSeek V3.2"
+      },
+      {
+        "emoji": "💡",
+        "task": "마케팅카피",
+        "model": "Gemini 2.5 Flash"
+      }
+    ],
+    "avoid_reason": "TMI 폭주",
+    "lucky_prompt": "간결하게 말해줘"
+  },
+  {
+    "date": "2026-03-27",
+    "day_of_week": "Friday",
+    "top_model": "Gemini 2.5 Pro",
+    "avoid_model": "Qwen 3",
+    "scenarios": [
+      {
+        "emoji": "🔍",
+        "task": "리서치",
+        "model": "Gemini 2.5 Pro"
+      },
+      {
+        "emoji": "💻",
+        "task": "디버깅",
+        "model": "Claude Sonnet 4.6"
+      },
+      {
+        "emoji": "📝",
+        "task": "문서화",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "🎨",
+        "task": "디자인",
+        "model": "Claude Opus 4.6"
+      }
+    ],
+    "avoid_reason": "느림",
+    "lucky_prompt": "단계별로 설명해"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "date": "2026-03-28",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "scenarios": [
+    {
+      "emoji": "💻",
+      "task": "코딩",
+      "model": "Claude Sonnet 4.6"
+    },
+    {
+      "emoji": "📝",
+      "task": "논문요약",
+      "model": "GPT-5.4"
+    },
+    {
+      "emoji": "📐",
+      "task": "아키텍처",
+      "model": "DeepSeek V3.2"
+    },
+    {
+      "emoji": "💡",
+      "task": "마케팅카피",
+      "model": "Gemini 2.5 Flash"
+    }
+  ],
+  "avoid": {
+    "model": "Grok 4",
+    "reason": "TMI 폭주"
+  },
+  "lucky_prompt": "간결하게 말해줘",
+  "full_tweet": "🔮 2026.03.28(토) AI 운세\n\n💻 코딩 → Claude Sonnet 4.6\n📝 논문요약 → GPT-5.4\n📐 아키텍처 → DeepSeek V3.2\n💡 마케팅카피 → Gemini 2.5 Flash\n🚫 피해야 할 → Grok 4\n\n🍀 \"간결하게 말해줘\"\n\n#AI운세 #AgentHoroscope",
+  "top_comment": "오늘 코딩하다 막히면 Claude Sonnet 4.6한테 물어봐, 속 시원하게 알려줄 거야.",
+  "avoid_comment": "Grok 4는 좀 시끄러울 수 있으니 중요한 미팅에선 비추! 잡담 말고 본론만 원하면 피하자.",
+  "generated_at": "2026-03-28T12:45:53.307964+09:00"
+}
