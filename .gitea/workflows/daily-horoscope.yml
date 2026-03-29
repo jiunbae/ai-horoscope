@@ -1,4 +1,4 @@
-name: Daily AI Horoscope (Gitea)
+name: Daily AI Horoscope
 
 on:
   schedule:
@@ -26,21 +26,22 @@ jobs:
       - name: Post tweet via Bot Manager
         run: |
           echo "=== Posting tweet via Bot Manager ==="
-          # Bot manager is on the same host (localhost:6030)
-          # Read the generated tweet
-          TWEET=$(python3 -c "
-          import json
-          data = json.load(open('data/latest.json'))
-          tweet = data.get('full_tweet', '')
-          site_url = 'https://jiun.dev/ai-horoscope/'
-          print(tweet + '\n\n🔗 ' + site_url)
-          ")
 
-          # Post via bot manager API (DEV_MODE, no auth needed)
-          RESPONSE=$(curl -sf -X POST "http://localhost:6030/api/services/horoscope/publish?account_slug=ai-horoscope" \
+          # Runner is in Docker, use host IP to reach bot manager
+          BOT_URL="http://192.168.32.55:6030"
+
+          # Check bot manager is reachable
+          if ! curl -sf "$BOT_URL/api/status" > /dev/null 2>&1; then
+            echo "Bot Manager not reachable at $BOT_URL"
+            exit 0
+          fi
+          echo "Bot Manager is online"
+
+          # Post via bot manager API
+          RESPONSE=$(curl -sf -X POST "$BOT_URL/api/services/horoscope/publish?account_slug=ai-horoscope" \
             -H "Content-Type: application/json" 2>&1) || true
 
-          echo "Bot Manager response: $RESPONSE"
+          echo "Response: $RESPONSE"
 
           # Extract tweet_id if available
           TWEET_ID=$(echo "$RESPONSE" | python3 -c "
@@ -54,35 +55,32 @@ jobs:
 
           if [ -n "$TWEET_ID" ]; then
             echo "Tweet posted: $TWEET_ID"
-            # Update latest.json with tweet_id and tweet_url
             python3 -c "
           import json
           data = json.load(open('data/latest.json'))
           data['tweet_id'] = '$TWEET_ID'
           data['tweet_url'] = 'https://x.com/dev_horoscope/status/$TWEET_ID'
           json.dump(data, open('data/latest.json', 'w'), ensure_ascii=False, indent=2)
-          print(f'Updated latest.json with tweet_id: $TWEET_ID')
           "
           else
-            echo "Tweet posting skipped or failed (will retry manually)"
+            echo "Tweet not posted (bot manager may need Chrome CDP session)"
           fi
         continue-on-error: true
 
-      - name: Commit data
+      - name: Commit and push
         run: |
           git config user.name "gitea-actions[bot]"
           git config user.email "gitea-actions[bot]@users.noreply.github.com"
           git add data/
           git diff --staged --quiet || git commit -m "🔮 $(date +%Y-%m-%d) horoscope"
+          git push origin main
 
-      - name: Push to Gitea
-        run: git push origin main
-
-      - name: Push to GitHub (for Pages deployment)
+      - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN_DEPLOY: ${{ secrets.GITHUB_TOKEN_DEPLOY }}
         run: |
+          # Push to GitHub to trigger Pages deployment
           git remote add github "https://x-access-token:${GITHUB_TOKEN_DEPLOY}@github.com/jiunbae/ai-horoscope.git" 2>/dev/null || \
           git remote set-url github "https://x-access-token:${GITHUB_TOKEN_DEPLOY}@github.com/jiunbae/ai-horoscope.git"
-          git push github main
+          git push github main --force
         continue-on-error: true
