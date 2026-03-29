@@ -10,27 +10,29 @@
     },
     {
       "emoji": "📝",
-      "task": "블로그",
-      "model": "Claude Sonnet 4.6"
-    },
-    {
-      "emoji": "📐",
-      "task": "API설계",
+      "task": "글쓰기",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "🔍",
-      "task": "논문요약",
+      "emoji": "📊",
+      "task": "데이터분석",
       "model": "DeepSeek V3.2"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Pro",
-    "reason": "출력 불안"
+    "model": "Gemini 2.5 Flash",
+    "reason": "정보압축"
   },
-  "lucky_prompt": "확실하게 요약",
-  "full_tweet": "🔮 2026.03.29(일) AI 운세\n\n💻 코딩 → Claude Opus 4.6\n📝 블로그 → Claude Sonnet 4.6\n📐 API설계 → GPT-5.4\n🔍 논문요약 → DeepSeek V3.2\n🚫 피해야 할 → Gemini 2.5 Pro\n\n🍀 \"확실하게 요약\"\n\n#AI운세 #AgentHoroscope",
-  "top_comment": "오늘 코딩 신이 내렸으니 믿고 맡겨봐! 기운이 팍팍 올라간다.",
-  "avoid_comment": "오늘은 좀 쉬엄쉬엄, 중요한 일은 나중에 해라. 섣불리 나섰다간 엉뚱한 결과 볼 수도 있어.",
-  "generated_at": "2026-03-29T12:51:21.214396+09:00"
+  "lucky_prompt": "디버깅 요청",
+  "full_tweet": "🔮 2026.03.29(일) AI 운세\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Qwen3 235B A22B\n🚫 피해야 할 → Gemini 2.5 Flash\n\n🍀 \"디버깅 요청\"\n\n#AI운세 #AgentHoroscope",
+  "top_comment": "GPT-5.3-Codex, 오늘 코딩의 신이 너에게 강림했으니, 어떤 복잡한 문제든 뚝딱 해치울 각이야.",
+  "avoid_comment": "Gemini 2.5 Flash, 오늘은 너무 빨리 대충 넘어가려다 중요한 정보 놓치기 딱 좋으니, 섬세함이 필요해.",
+  "generated_at": "2026-03-29T15:46:58.324586+09:00",
+  "tweet_id": "None",
+  "tweet_url": "https://x.com/dev_horoscope/status/None"
 }

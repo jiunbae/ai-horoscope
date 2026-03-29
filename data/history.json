@@ -3,7 +3,7 @@
     "date": "2026-03-29",
     "day_of_week": "Sunday",
     "top_model": "Claude Opus 4.6",
-    "avoid_model": "Gemini 2.5 Pro",
+    "avoid_model": "Gemini 2.5 Flash",
     "scenarios": [
       {
         "emoji": "💻",
@@ -12,22 +12,22 @@
       },
       {
         "emoji": "📝",
-        "task": "블로그",
-        "model": "Claude Sonnet 4.6"
-      },
-      {
-        "emoji": "📐",
-        "task": "API설계",
+        "task": "글쓰기",
         "model": "GPT-5.4"
       },
       {
-        "emoji": "🔍",
-        "task": "논문요약",
+        "emoji": "📊",
+        "task": "데이터분석",
         "model": "DeepSeek V3.2"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "Qwen3 235B A22B"
       }
     ],
-    "avoid_reason": "출력 불안",
-    "lucky_prompt": "확실하게 요약"
+    "avoid_reason": "정보압축",
+    "lucky_prompt": "디버깅 요청"
   },
   {
     "date": "2026-03-28",
