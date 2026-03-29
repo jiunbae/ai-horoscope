@@ -23,28 +23,34 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/generate.py
 
-      - name: Post tweet via Bot Manager
+      - name: Save to Bot Manager DB
         run: |
-          echo "=== Posting tweet via Bot Manager ==="
-
-          # Runner is in Docker, use host IP to reach bot manager
           BOT_URL="http://192.168.32.55:6030"
 
           # Check bot manager is reachable
           if ! curl -sf "$BOT_URL/api/status" > /dev/null 2>&1; then
-            echo "Bot Manager not reachable at $BOT_URL"
+            echo "Bot Manager not reachable at $BOT_URL — skipping DB save"
             exit 0
           fi
-          echo "Bot Manager is online"
 
-          # Post via bot manager API
+          # Save horoscope to bot manager DB (no tweet posting — that's handled by CDP pipeline)
           RESPONSE=$(curl -sf -X POST "$BOT_URL/api/services/horoscope/publish?account_slug=ai-horoscope" \
             -H "Content-Type: application/json" 2>&1) || true
+          echo "Saved to DB: $RESPONSE"
 
-          echo "Response: $RESPONSE"
+      - name: Trigger tweet via Bot Manager pipeline
+        run: |
+          BOT_URL="http://192.168.32.55:6030"
 
-          # Extract tweet_id if available
-          TWEET_ID=$(echo "$RESPONSE" | python3 -c "
+          # Trigger the horoscope pipeline which posts via CDP
+          RESPONSE=$(curl -sf -X POST "$BOT_URL/api/jobs/ai-horoscope_horoscope_pipeline/trigger" 2>&1) || true
+          echo "Pipeline trigger: $RESPONSE"
+
+          # Wait for tweet to be posted
+          sleep 30
+
+          # Check if tweet was posted by querying the latest horoscope
+          TWEET_URL=$(curl -sf "$BOT_URL/api/services/horoscope/today" 2>&1 | python3 -c "
           import json, sys
           try:
               d = json.load(sys.stdin)
@@ -53,17 +59,17 @@ jobs:
               print('')
           " 2>/dev/null)
 
-          if [ -n "$TWEET_ID" ]; then
-            echo "Tweet posted: $TWEET_ID"
+          if [ -n "$TWEET_URL" ]; then
+            echo "Tweet posted!"
             python3 -c "
           import json
           data = json.load(open('data/latest.json'))
-          data['tweet_id'] = '$TWEET_ID'
-          data['tweet_url'] = 'https://x.com/dev_horoscope/status/$TWEET_ID'
+          data['tweet_id'] = '$TWEET_URL'
+          data['tweet_url'] = 'https://x.com/dev_horoscope/status/$TWEET_URL'
           json.dump(data, open('data/latest.json', 'w'), ensure_ascii=False, indent=2)
           "
           else
-            echo "Tweet not posted (bot manager may need Chrome CDP session)"
+            echo "Tweet not yet posted — Chrome CDP may not be running"
           fi
         continue-on-error: true
 
