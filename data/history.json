@@ -12,22 +12,22 @@
       },
       {
         "emoji": "📝",
-        "task": "글쓰기",
+        "task": "블로그",
         "model": "Claude Sonnet 4.6"
       },
       {
-        "emoji": "📊",
-        "task": "데이터분석",
-        "model": "Grok 4"
+        "emoji": "📐",
+        "task": "API설계",
+        "model": "GPT-5.4"
       },
       {
-        "emoji": "⚡",
-        "task": "번역",
-        "model": "Qwen3 235B A22B"
+        "emoji": "🔍",
+        "task": "논문요약",
+        "model": "DeepSeek V3.2"
       }
     ],
-    "avoid_reason": "과도한 친절",
-    "lucky_prompt": "심층 분석해줘!"
+    "avoid_reason": "출력 불안",
+    "lucky_prompt": "확실하게 요약"
   },
   {
     "date": "2026-03-28",
