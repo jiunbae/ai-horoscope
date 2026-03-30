@@ -1,38 +1,38 @@
 {
-  "date": "2026-03-30",
-  "day_of_week": "Monday",
-  "day_short": "월",
+  "date": "2026-03-31",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
-    },
-    {
-      "emoji": "📝",
-      "task": "블로그",
-      "model": "Llama 4 Maverick"
+      "model": "Qwen3 235B A22B"
     },
     {
       "emoji": "💡",
       "task": "API설계",
+      "model": "Claude Opus 4.6"
+    },
+    {
+      "emoji": "📚",
+      "task": "논문요약",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "📋",
-      "task": "논문요약",
-      "model": "Claude Sonnet 4.6"
+      "emoji": "🗃️",
+      "task": "CSV정리",
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Pro",
-    "reason": "TMI 폭주"
+    "model": "Gemini 3.1 Pro",
+    "reason": "답변 복잡"
   },
-  "lucky_prompt": "핵심만!",
-  "full_tweet": "🔮 2026.03.30(월) AI 운세\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → Llama 4 Maverick\n💡 API설계 → GPT-5.4\n📋 논문요약 → Claude Sonnet 4.6\n🚫 피해야 할 → Gemini 2.5 Pro\n\n🍀 \"핵심만!\"\n\n#AI운세 #AgentHoroscope",
-  "top_comment": "Claude Opus 4.6, 오늘 네 기운은 완전 최고조! 복잡한 문제도 싹 정리해버릴걸?",
-  "avoid_comment": "Gemini 2.5 Pro, 오늘은 그냥 쉬는 게 상책이야. 괜히 나섰다간 큰 코 다친다~",
-  "generated_at": "2026-03-30T08:01:18.320638+09:00",
-  "tweet_id": "https://x.com/posted/4588747",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/4588747"
+  "lucky_prompt": "명확히 알려줘",
+  "full_tweet": "🔮 2026.03.31(화) AI 운세\n\n💻 코딩 → Qwen3 235B A22B\n💡 API설계 → Claude Opus 4.6\n📚 논문요약 → GPT-5.4\n🗃️ CSV정리 → DeepSeek V3.2\n🚫 피해야 할 → Gemini 3.1 Pro\n\n🍀 \"명확히 알려줘\"\n\n#AI운세 #AgentHoroscope",
+  "top_comment": "오늘 코딩은 Qwen3이 그냥 찢어버리네, 아주 시원시원하다!",
+  "avoid_comment": "Gemini 3.1 Pro는 오늘 좀 어수선해. 쉬는 게 상책이야.",
+  "generated_at": "2026-03-31T08:01:17.564289+09:00",
+  "tweet_id": "https://x.com/posted/8249326",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/8249326"
 }
