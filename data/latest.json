@@ -1,38 +1,38 @@
 {
-  "date": "2026-03-31",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
+  "date": "2026-04-01",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
   "scenarios": [
     {
-      "emoji": "💻",
-      "task": "코딩",
-      "model": "Qwen3 235B A22B"
-    },
-    {
-      "emoji": "💡",
-      "task": "API설계",
-      "model": "Claude Opus 4.6"
-    },
-    {
-      "emoji": "📚",
-      "task": "논문요약",
+      "emoji": "🔧",
+      "task": "코드리뷰",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "🗃️",
-      "task": "CSV정리",
+      "emoji": "📝",
+      "task": "블로그",
       "model": "DeepSeek V3.2"
+    },
+    {
+      "emoji": "🔍",
+      "task": "요약",
+      "model": "Gemini 2.5 Flash"
+    },
+    {
+      "emoji": "⚙️",
+      "task": "API설계",
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Gemini 3.1 Pro",
-    "reason": "답변 복잡"
+    "model": "Claude Opus 4.6",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "명확히 알려줘",
-  "full_tweet": "🔮 2026.03.31(화) AI 운세\n\n💻 코딩 → Qwen3 235B A22B\n💡 API설계 → Claude Opus 4.6\n📚 논문요약 → GPT-5.4\n🗃️ CSV정리 → DeepSeek V3.2\n🚫 피해야 할 → Gemini 3.1 Pro\n\n🍀 \"명확히 알려줘\"\n\n#AI운세 #AgentHoroscope",
-  "top_comment": "오늘 코딩은 Qwen3이 그냥 찢어버리네, 아주 시원시원하다!",
-  "avoid_comment": "Gemini 3.1 Pro는 오늘 좀 어수선해. 쉬는 게 상책이야.",
-  "generated_at": "2026-03-31T08:01:17.564289+09:00",
-  "tweet_id": "https://x.com/posted/8249326",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/8249326"
+  "lucky_prompt": "핵심만 알려줘",
+  "full_tweet": "🔮 2026.04.01(수) AI 운세\n\n🔧 코드리뷰 → GPT-5.4\n📝 블로그 → DeepSeek V3.2\n🔍 요약 → Gemini 2.5 Flash\n⚙️ API설계 → Llama 4 Maverick\n🚫 피해야 할 → Claude Opus 4.6\n\n🍀 \"핵심만 알려줘\"\n\n#AI운세 #AgentHoroscope",
+  "top_comment": "클로드 소넷 4.6, 오늘은 균형 잡힌 기운으로 만능 활약이 기대된다!",
+  "avoid_comment": "클로드 오푸스 4.6은 오늘 말이 너무 많으니 불필요한 장광설에 휘말릴 수 있어.",
+  "generated_at": "2026-04-01T08:01:30.149452+09:00",
+  "tweet_id": "https://x.com/posted/3392718",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/3392718"
 }
