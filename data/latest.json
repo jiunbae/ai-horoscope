@@ -1,38 +1,38 @@
 {
-  "date": "2026-04-01",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
+  "date": "2026-04-02",
+  "day_of_week": "Thursday",
+  "day_short": "목",
   "scenarios": [
     {
+      "emoji": "🎨",
+      "task": "API설계",
+      "model": "Claude Opus 4.6"
+    },
+    {
       "emoji": "🔧",
-      "task": "코드리뷰",
-      "model": "GPT-5.4"
+      "task": "디버깅",
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
-      "task": "블로그",
+      "task": "논문요약",
+      "model": "Gemini 2.5 Pro"
+    },
+    {
+      "emoji": "💡",
+      "task": "마케팅카피",
       "model": "DeepSeek V3.2"
-    },
-    {
-      "emoji": "🔍",
-      "task": "요약",
-      "model": "Gemini 2.5 Flash"
-    },
-    {
-      "emoji": "⚙️",
-      "task": "API설계",
-      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Claude Opus 4.6",
-    "reason": "TMI 폭주"
+    "model": "Qwen3 235B A22B",
+    "reason": "너무 길어"
   },
-  "lucky_prompt": "핵심만 알려줘",
-  "full_tweet": "🔮 2026.04.01(수) AI 운세\n\n🔧 코드리뷰 → GPT-5.4\n📝 블로그 → DeepSeek V3.2\n🔍 요약 → Gemini 2.5 Flash\n⚙️ API설계 → Llama 4 Maverick\n🚫 피해야 할 → Claude Opus 4.6\n\n🍀 \"핵심만 알려줘\"\n\n#AI운세 #AgentHoroscope",
-  "top_comment": "클로드 소넷 4.6, 오늘은 균형 잡힌 기운으로 만능 활약이 기대된다!",
-  "avoid_comment": "클로드 오푸스 4.6은 오늘 말이 너무 많으니 불필요한 장광설에 휘말릴 수 있어.",
-  "generated_at": "2026-04-01T08:01:30.149452+09:00",
-  "tweet_id": "https://x.com/posted/3392718",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/3392718"
+  "lucky_prompt": "명쾌하게 시작",
+  "full_tweet": "🔮 2026.04.02(목) AI 운세\n\n🎨 API설계 → Claude Opus 4.6\n🔧 디버깅 → GPT-5.3-Codex\n📝 논문요약 → Gemini 2.5 Pro\n💡 마케팅카피 → DeepSeek V3.2\n🚫 피해야 할 → Qwen3 235B A22B\n\n🍀 \"명쾌하게 시작\"\n\n#AI운세 #AgentHoroscope",
+  "top_comment": "복잡한 문제도 술술 풀리는 날이야, 그대만 믿고 간다!",
+  "avoid_comment": "오늘 괜히 말 많아지는 Qwen3, 핵심만 딱 말해줘.",
+  "generated_at": "2026-04-02T08:01:12.509955+09:00",
+  "tweet_id": "https://x.com/duplicate/7193807",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/duplicate/7193807"
 }
