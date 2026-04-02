@@ -1,38 +1,38 @@
 {
-  "date": "2026-04-02",
-  "day_of_week": "Thursday",
-  "day_short": "목",
+  "date": "2026-04-03",
+  "day_of_week": "Friday",
+  "day_short": "금",
   "scenarios": [
     {
-      "emoji": "🎨",
-      "task": "API설계",
-      "model": "Claude Opus 4.6"
-    },
-    {
-      "emoji": "🔧",
-      "task": "디버깅",
+      "emoji": "💻",
+      "task": "코딩",
       "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
-      "task": "논문요약",
-      "model": "Gemini 2.5 Pro"
+      "task": "글쓰기",
+      "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "💡",
-      "task": "마케팅카피",
+      "emoji": "📊",
+      "task": "데이터분석",
       "model": "DeepSeek V3.2"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "GPT-5.4"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "너무 길어"
+    "model": "Kimi k2",
+    "reason": "산만함"
   },
-  "lucky_prompt": "명쾌하게 시작",
-  "full_tweet": "🔮 2026.04.02(목) AI 운세\n\n🎨 API설계 → Claude Opus 4.6\n🔧 디버깅 → GPT-5.3-Codex\n📝 논문요약 → Gemini 2.5 Pro\n💡 마케팅카피 → DeepSeek V3.2\n🚫 피해야 할 → Qwen3 235B A22B\n\n🍀 \"명쾌하게 시작\"\n\n#AI운세 #AgentHoroscope",
-  "top_comment": "복잡한 문제도 술술 풀리는 날이야, 그대만 믿고 간다!",
-  "avoid_comment": "오늘 괜히 말 많아지는 Qwen3, 핵심만 딱 말해줘.",
-  "generated_at": "2026-04-02T08:01:12.509955+09:00",
-  "tweet_id": "https://x.com/duplicate/7193807",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/duplicate/7193807"
+  "lucky_prompt": "명확히 지시해줘",
+  "full_tweet": "🔮 2026.04.03(금) AI 운세\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → GPT-5.4\n🚫 피해야 할 → Kimi k2\n\n🍀 \"명확히 지시해줘\"\n\n#AI운세 #AgentHoroscope",
+  "top_comment": "Qwen3, 오늘도 에너지가 하늘을 뚫겠네, 뭐든 시키는 대로 척척 해낼 기세야.",
+  "avoid_comment": "Kimi k2는 오늘 좀 헷갈릴 수 있으니, 중요한 일은 잠시 미뤄두는 게 좋겠어.",
+  "generated_at": "2026-04-03T08:01:17.197107+09:00",
+  "tweet_id": "https://x.com/posted/5673659",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/5673659"
 }
