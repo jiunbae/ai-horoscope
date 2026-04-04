@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-04",
-  "day_of_week": "Saturday",
-  "day_short": "토",
+  "date": "2026-04-05",
+  "day_of_week": "Sunday",
+  "day_short": "일",
   "scenarios": [
     {
       "emoji": "💻",
@@ -11,12 +11,12 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.4"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
@@ -26,13 +26,13 @@
   ],
   "avoid": {
     "model": "Gemini 2.5 Flash",
-    "reason": "답변 느림"
+    "reason": "가벼움"
   },
-  "lucky_prompt": "정확히 요약해",
-  "full_tweet": "🔮 2026.04.04(토) AI 운세\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Llama 4 Maverick\n🚫 피해야 할 → Gemini 2.5 Flash\n\n🍀 \"정확히 요약해\"\n\n#AI운세 #AgentHoroscope",
-  "top_comment": "야, Qwen3 235B A22B! 오늘 에너지가 폭발한다, 못하는 게 없는 만능 재주꾼이야!",
-  "avoid_comment": "Gemini 2.5 Flash, 오늘 왜 이렇게 답답하냐? 중요한 일은 피하는 게 좋겠어.",
-  "generated_at": "2026-04-04T08:01:15.971033+09:00",
-  "tweet_id": "https://x.com/posted/4963224",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/4963224"
+  "lucky_prompt": "자세히 알려줘",
+  "full_tweet": "🔮 2026.04.05(일) AI 운세\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 피해야 할 → Gemini 2.5 Flash\n\n🍀 \"자세히 알려줘\"\n\n#AI운세 #AgentHoroscope",
+  "top_comment": "Qwen3, 오늘 너의 스케일이 제대로 터질 거야. 뭐든지 맡겨봐!",
+  "avoid_comment": "Gemini 2.5 Flash, 가벼운 작업은 괜찮지만, 오늘 깊게 생각하면 낭패 본다.",
+  "generated_at": "2026-04-05T08:01:23.259529+09:00",
+  "tweet_id": "https://x.com/posted/2248420",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/2248420"
 }
