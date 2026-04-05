@@ -289,16 +289,22 @@ def parse_llm_response(raw: str, rankings: dict, date_str: str, day_of_week: str
     avoid_model = parsed.get("avoid_model", rankings["avoid"])
     avoid_reason = parsed.get("avoid_reason", "")
     lucky_prompt = parsed.get("lucky_prompt", "")
+    hook = parsed.get("hook", "")
 
     # Assemble tweet from template
     date_dots = date_str.replace("-", ".")
-    lines = [f"\U0001f52e {date_dots}({day_short}) AI \uc6b4\uc138", ""]
+    lines = []
+    if hook:
+        lines.append(f"[제피로스 오늘의 점괘] {hook}")
+        lines.append("")
+    lines.append(f"\U0001f52e {date_dots}({day_short})")
+    lines.append("")
     for s in scenarios:
         lines.append(f"{s['emoji']} {s['task']} \u2192 {s['model']}")
-    lines.append(f"\U0001f6ab \ud53c\ud574\uc57c \ud560 \u2192 {avoid_model}")
+    lines.append(f"\U0001f6ab 오늘은 쉬어 \u2192 {avoid_model}")
     if lucky_prompt:
         lines.append(f"\n\U0001f340 \"{lucky_prompt}\"")
-    lines.append("\n#AI\uc6b4\uc138 #AgentHoroscope")
+    lines.append("\n#AI\uc6b4\uc138")
 
     full_tweet = "\n".join(lines)
 
@@ -309,6 +315,7 @@ def parse_llm_response(raw: str, rankings: dict, date_str: str, day_of_week: str
         "date": date_str,
         "day_of_week": day_of_week,
         "day_short": day_short,
+        "hook": hook,
         "scenarios": scenarios,
         "avoid": {"model": avoid_model, "reason": avoid_reason},
         "lucky_prompt": lucky_prompt,

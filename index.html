@@ -13,11 +13,14 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jiunbae.github.io/ai-horoscope/">
 
+    <meta property="og:image" content="https://jiun.dev/ai-horoscope/assets/logo.svg">
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="AI 운세 by 제피로스">
     <meta name="twitter:description" content="AI 모델들의 일일 운세 - 오늘 어떤 AI를 써야 할까?">
     <meta name="twitter:creator" content="@dev_horoscope">
+    <meta name="twitter:image" content="https://jiun.dev/ai-horoscope/assets/logo.svg">
 
     <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 
@@ -559,14 +562,14 @@
         }
 
         .btn-twitter {
-            background: #1da1f2;
+            background: #0f1419;
             color: #fff;
-            border-color: #1da1f2;
+            border-color: #0f1419;
         }
 
         .btn-twitter:hover {
             opacity: 0.9;
-            background: #1da1f2;
+            background: #0f1419;
         }
 
         /* Full tweet card */
@@ -766,6 +769,7 @@
         <div class="tomorrow-card">
             <h3>&#x1F319; 내일 운세 예고</h3>
             <p>매일 아침 8시(KST) 새로운 AI 운세가 공개됩니다</p>
+            <p id="countdown" style="margin-top:8px;font-size:12px;color:var(--color-purple);font-weight:600;"></p>
         </div>
     </main>
 
@@ -1079,6 +1083,24 @@
         div.textContent = str;
         return div.innerHTML;
     }
+
+    // Countdown timer
+    function updateCountdown() {
+        const now = new Date();
+        const kstOffset = 9 * 60 * 60 * 1000;
+        const kstNow = new Date(now.getTime() + kstOffset + now.getTimezoneOffset() * 60000);
+        const tomorrow = new Date(kstNow);
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        tomorrow.setHours(8, 0, 0, 0);
+        const diff = tomorrow - kstNow;
+        if (diff < 0) return;
+        const h = Math.floor(diff / 3600000);
+        const m = Math.floor((diff % 3600000) / 60000);
+        const el = document.getElementById('countdown');
+        if (el) el.textContent = `다음 운세까지 ${h}시간 ${m}분`;
+    }
+    setInterval(updateCountdown, 60000);
+    updateCountdown();
     </script>
 </body>
 </html>
