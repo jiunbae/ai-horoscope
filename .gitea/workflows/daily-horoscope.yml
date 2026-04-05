@@ -25,11 +25,11 @@ jobs:
 
       - name: Save to Bot Manager DB
         run: |
-          BOT_URL="http://192.168.32.55:6030"
+          BOT_URL="${{ secrets.BOT_MANAGER_URL }}"
 
           # Check bot manager is reachable
           if ! curl -sf "$BOT_URL/api/status" > /dev/null 2>&1; then
-            echo "Bot Manager not reachable at $BOT_URL — skipping DB save"
+            echo "Bot Manager not reachable — skipping DB save"
             exit 0
           fi
 
@@ -40,7 +40,7 @@ jobs:
 
       - name: Trigger tweet via Bot Manager pipeline
         run: |
-          BOT_URL="http://192.168.32.55:6030"
+          BOT_URL="${{ secrets.BOT_MANAGER_URL }}"
 
           # Trigger the horoscope pipeline which posts via CDP
           RESPONSE=$(curl -sf -X POST "$BOT_URL/api/jobs/ai-horoscope_horoscope_pipeline/trigger" 2>&1) || true
