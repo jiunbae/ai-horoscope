@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bgA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2d1b69"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <radialGradient id="glowA" cx="50%" cy="40%" r="30%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="200" cy="200" r="200" fill="url(#bgA)"/>
+
+  <!-- Stars -->
+  <g fill="#e2e8f0" opacity="0.5">
+    <circle cx="60" cy="50" r="2"/><circle cx="340" cy="70" r="1.5"/>
+    <circle cx="50" cy="300" r="1.5"/><circle cx="350" cy="280" r="2"/>
+    <circle cx="120" cy="350" r="1"/><circle cx="300" cy="40" r="1"/>
+    <circle cx="80" cy="180" r="1.5"/><circle cx="330" cy="190" r="1"/>
+  </g>
+
+  <!-- Hood/Robe -->
+  <ellipse cx="200" cy="350" rx="120" ry="80" fill="#1a0a3e"/>
+  <path d="M120,200 Q120,80 200,60 Q280,80 280,200 Q280,280 200,300 Q120,280 120,200Z" fill="#2d1660" opacity="0.9"/>
+  <path d="M130,210 Q135,100 200,75 Q265,100 270,210 Q260,260 200,275 Q140,260 130,210Z" fill="#1a0a3e"/>
+
+  <!-- Face glow -->
+  <circle cx="200" cy="180" r="50" fill="url(#glowA)"/>
+
+  <!-- Eyes (glowing) -->
+  <ellipse cx="180" cy="170" rx="8" ry="10" fill="#a78bfa"/>
+  <ellipse cx="220" cy="170" rx="8" ry="10" fill="#a78bfa"/>
+  <circle cx="180" cy="168" r="4" fill="#e0e7ff"/>
+  <circle cx="220" cy="168" r="4" fill="#e0e7ff"/>
+
+  <!-- Mysterious smile -->
+  <path d="M185,195 Q200,208 215,195" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Crystal ball in hands -->
+  <circle cx="200" cy="280" r="30" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="200" cy="280" r="28" fill="#4c1d95" opacity="0.3"/>
+  <circle cx="200" cy="280" r="15" fill="#60a5fa" opacity="0.4"/>
+  <circle cx="200" cy="280" r="6" fill="#e0e7ff" opacity="0.7"/>
+  <!-- Hands -->
+  <ellipse cx="170" cy="285" rx="15" ry="10" fill="#2d1660"/>
+  <ellipse cx="230" cy="285" rx="15" ry="10" fill="#2d1660"/>
+
+  <!-- Hood ornament -->
+  <circle cx="200" cy="68" r="8" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="200" cy="68" r="4" fill="#f59e0b"/>
+
+  <!-- Floating runes -->
+  <g font-family="serif" font-size="14" fill="#8b5cf6" opacity="0.4">
+    <text x="90" y="140" transform="rotate(-20 90 140)">✦</text>
+    <text x="310" y="130" transform="rotate(15 310 130)">✧</text>
+    <text x="75" y="250">☽</text>
+    <text x="325" y="240">☆</text>
+  </g>
+
+  <!-- Particles -->
+  <g fill="#a78bfa" opacity="0.6">
+    <circle cx="140" cy="120" r="3">
+      <animateTransform attributeName="transform" type="rotate" values="0 200 200;360 200 200" dur="15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="300" r="2.5">
+      <animateTransform attributeName="transform" type="rotate" values="120 200 200;480 200 200" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
