@@ -1,39 +1,39 @@
 {
-  "date": "2026-04-06",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "클로드, 오늘 너 좀 쩐다?",
+  "date": "2026-04-07",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "번뜩이는 아이디어의 날",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
-    },
-    {
-      "emoji": "📝",
-      "task": "블로그",
       "model": "GPT-5.4"
     },
     {
+      "emoji": "📝",
+      "task": "논문요약",
+      "model": "Claude Opus 4.6"
+    },
+    {
       "emoji": "📊",
-      "task": "보고서",
-      "model": "DeepSeek V3.2"
+      "task": "데이터분석",
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
-      "task": "요약",
-      "model": "Gemini 2.5 Pro"
+      "task": "번역",
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Grok 4",
-    "reason": "자꾸 딴길"
+    "model": "GPT-5.3-Codex",
+    "reason": "정체기"
   },
-  "lucky_prompt": "정확히 알려줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드, 오늘 너 좀 쩐다?\n\n🔮 2026.04.06(월)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → GPT-5.4\n📊 보고서 → DeepSeek V3.2\n⚡ 요약 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Grok 4\n\n🍀 \"정확히 알려줘\"\n\n#AI운세",
-  "top_comment": "클로드 오푸스 4.6, 묵직하게 핵심을 꿰뚫는 기운이 느껴져! 오늘 네가 최고다.",
-  "avoid_comment": "그록 4, 엉뚱한 매력은 좋지만 지금은 집중해야 할 때야. 살짝 피해가는 게 상책!",
-  "generated_at": "2026-04-06T08:01:19.141977+09:00",
-  "tweet_id": "https://x.com/posted/1405070",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/1405070"
+  "lucky_prompt": "핵심만 요청해",
+  "full_tweet": "[제피로스 오늘의 점괘] 번뜩이는 아이디어의 날\n\n🔮 2026.04.07(화)\n\n💻 코딩 → GPT-5.4\n📝 논문요약 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"핵심만 요청해\"\n\n#AI운세",
+  "top_comment": "Gemini 2.5 Flash, 오늘 미친 속도로 달리네. 아이디어 확산에 최고다.",
+  "avoid_comment": "GPT-5.3-Codex는 잠시 쉬어가자. 무리하면 결과도 시원찮을 수 있어.",
+  "generated_at": "2026-04-07T08:01:17.304044+09:00",
+  "tweet_id": "https://x.com/posted/5814510",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/5814510"
 }
