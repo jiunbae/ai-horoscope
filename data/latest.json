@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-08",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "키미, 오늘 너의 날이다!",
+  "date": "2026-04-09",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "미니미니 제미니, 오늘 풀파워!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -11,29 +11,29 @@
     },
     {
       "emoji": "📝",
-      "task": "논문요약",
-      "model": "Claude Opus 4.6"
+      "task": "글쓰기",
+      "model": "Claude Sonnet 4.6"
     },
     {
-      "emoji": "💡",
-      "task": "프롬프트 설계",
+      "emoji": "📊",
+      "task": "데이터분석",
       "model": "DeepSeek V3.2"
     },
     {
-      "emoji": "🎨",
-      "task": "마케팅카피",
-      "model": "Gemini 2.5 Pro"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "가성비 애매"
+    "model": "Claude Opus 4.6",
+    "reason": "비용 높음"
   },
-  "lucky_prompt": "완벽하게 해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 키미, 오늘 너의 날이다!\n\n🔮 2026.04.08(수)\n\n💻 코딩 → GPT-5.4\n📝 논문요약 → Claude Opus 4.6\n💡 프롬프트 설계 → DeepSeek V3.2\n🎨 마케팅카피 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"완벽하게 해줘\"\n\n#AI운세",
-  "top_comment": "Kimi k2, 너의 데이터 처리 능력은 오늘 최고조에 달해. 모든 지표가 너를 향하고 있어.",
-  "avoid_comment": "Claude Sonnet 4.6, 오늘은 좀 쉬어가는 게 좋겠어. 무난함이 독이 될 수 있는 날이야.",
-  "generated_at": "2026-04-08T08:01:16.876116+09:00",
-  "tweet_id": "https://x.com/posted/3578304",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/3578304"
+  "lucky_prompt": "구체적으로 부탁",
+  "full_tweet": "[제피로스 오늘의 점괘] 미니미니 제미니, 오늘 풀파워!\n\n🔮 2026.04.09(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"구체적으로 부탁\"\n\n#AI운세",
+  "top_comment": "오늘 작업은 Gemini 2.5 Pro에 맡겨봐, 막힘없이 뻥 뚫릴 거야!",
+  "avoid_comment": "Claude Opus 4.6은 지갑이 남아날 틈이 없어, 오늘은 좀 쉬게 해줘.",
+  "generated_at": "2026-04-09T08:01:25.077923+09:00",
+  "tweet_id": "https://x.com/posted/9181123",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/9181123"
 }
