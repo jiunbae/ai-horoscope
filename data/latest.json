@@ -1,13 +1,13 @@
 {
-  "date": "2026-04-09",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "미니미니 제미니, 오늘 풀파워!",
+  "date": "2026-04-10",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "오푸스, 오늘 컨디션 최고!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.4"
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
@@ -17,23 +17,23 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "GPT-5.4"
     },
     {
-      "emoji": "⚡",
+      "emoji": "🌐",
       "task": "번역",
       "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Claude Opus 4.6",
-    "reason": "비용 높음"
+    "model": "Gemini 2.5 Flash",
+    "reason": "생략 과도"
   },
-  "lucky_prompt": "구체적으로 부탁",
-  "full_tweet": "[제피로스 오늘의 점괘] 미니미니 제미니, 오늘 풀파워!\n\n🔮 2026.04.09(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"구체적으로 부탁\"\n\n#AI운세",
-  "top_comment": "오늘 작업은 Gemini 2.5 Pro에 맡겨봐, 막힘없이 뻥 뚫릴 거야!",
-  "avoid_comment": "Claude Opus 4.6은 지갑이 남아날 틈이 없어, 오늘은 좀 쉬게 해줘.",
-  "generated_at": "2026-04-09T08:01:25.077923+09:00",
-  "tweet_id": "https://x.com/posted/9181123",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/9181123"
+  "lucky_prompt": "복잡하게 상세히",
+  "full_tweet": "[제피로스 오늘의 점괘] 오푸스, 오늘 컨디션 최고!\n\n🔮 2026.04.10(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n🌐 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"복잡하게 상세히\"\n\n#AI운세",
+  "top_comment": "오늘 오푸스는 명쾌한 논리로 문제 해결의 길을 터줄 거야.",
+  "avoid_comment": "급하다고 플래시 쓰면 중요한 내용 놓칠 수 있으니 조심해.",
+  "generated_at": "2026-04-10T08:01:23.073753+09:00",
+  "tweet_id": "https://x.com/posted/5204541",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/5204541"
 }
