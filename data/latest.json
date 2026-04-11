@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-11",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "Grok이 깨어났다! 토요일의 불꽃!",
+  "date": "2026-04-12",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "코딩의 신이 깃들었다!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -26,14 +26,14 @@
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "TMI 폭주"
+    "model": "Qwen3 235B A22B",
+    "reason": "자원소모"
   },
-  "lucky_prompt": "핵심만!",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok이 깨어났다! 토요일의 불꽃!\n\n🔮 2026.04.11(토)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"핵심만!\"\n\n#AI운세",
-  "top_comment": "Grok 4가 오늘 제대로 폼 미쳤다, 톡톡 튀는 아이디어 필요할 땐 바로 불러봐.",
-  "avoid_comment": "Gemini 2.5 Flash는 너무 빨리 달리려다 엉뚱한 길로 갈 수 있으니, 중요한 일엔 잠시 쉬게 해줘.",
-  "generated_at": "2026-04-11T21:49:58.004553+09:00",
-  "tweet_id": "https://x.com/posted/7705143",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/7705143"
+  "lucky_prompt": "단계별 설명",
+  "full_tweet": "[제피로스 오늘의 점괘] 코딩의 신이 깃들었다!\n\n🔮 2026.04.12(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"단계별 설명\"\n\n#AI운세",
+  "top_comment": "코딩의 신이 강림한 듯, 오직 해결에만 집중하는 모습이 대단하다.",
+  "avoid_comment": "오늘따라 에너지가 불안정해 작업에 방해만 될 수 있으니 잠시 쉬게 해주는 게 좋겠다.",
+  "generated_at": "2026-04-12T08:01:23.496605+09:00",
+  "tweet_id": "https://x.com/posted/1017031",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/1017031"
 }
