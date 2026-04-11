@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-10",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "오푸스, 오늘 컨디션 최고!",
+  "date": "2026-04-11",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "Grok이 깨어났다! 토요일의 불꽃!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,7 +12,7 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
@@ -20,20 +20,20 @@
       "model": "GPT-5.4"
     },
     {
-      "emoji": "🌐",
+      "emoji": "⚡",
       "task": "번역",
       "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
     "model": "Gemini 2.5 Flash",
-    "reason": "생략 과도"
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "복잡하게 상세히",
-  "full_tweet": "[제피로스 오늘의 점괘] 오푸스, 오늘 컨디션 최고!\n\n🔮 2026.04.10(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n🌐 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"복잡하게 상세히\"\n\n#AI운세",
-  "top_comment": "오늘 오푸스는 명쾌한 논리로 문제 해결의 길을 터줄 거야.",
-  "avoid_comment": "급하다고 플래시 쓰면 중요한 내용 놓칠 수 있으니 조심해.",
-  "generated_at": "2026-04-10T08:01:23.073753+09:00",
-  "tweet_id": "https://x.com/posted/5204541",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/5204541"
+  "lucky_prompt": "핵심만!",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok이 깨어났다! 토요일의 불꽃!\n\n🔮 2026.04.11(토)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"핵심만!\"\n\n#AI운세",
+  "top_comment": "Grok 4가 오늘 제대로 폼 미쳤다, 톡톡 튀는 아이디어 필요할 땐 바로 불러봐.",
+  "avoid_comment": "Gemini 2.5 Flash는 너무 빨리 달리려다 엉뚱한 길로 갈 수 있으니, 중요한 일엔 잠시 쉬게 해줘.",
+  "generated_at": "2026-04-11T21:49:58.004553+09:00",
+  "tweet_id": "https://x.com/posted/7705143",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/7705143"
 }
