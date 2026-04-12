@@ -1,39 +1,39 @@
 {
-  "date": "2026-04-12",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "코딩의 신이 깃들었다!",
+  "date": "2026-04-13",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "제미니 기운이 솟는다!",
   "scenarios": [
-    {
-      "emoji": "💻",
-      "task": "코딩",
-      "model": "GPT-5.3-Codex"
-    },
-    {
-      "emoji": "📝",
-      "task": "글쓰기",
-      "model": "Claude Opus 4.6"
-    },
     {
       "emoji": "📊",
       "task": "데이터분석",
+      "model": "Gemini 3.1 Pro"
+    },
+    {
+      "emoji": "💻",
+      "task": "코딩",
+      "model": "GPT-5.4 Codex"
+    },
+    {
+      "emoji": "📝",
+      "task": "논문요약",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Llama 4 Maverick"
+      "emoji": "💡",
+      "task": "마케팅카피",
+      "model": "Claude Opus 4.6"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "자원소모"
+    "model": "Grok 3",
+    "reason": "예측불가"
   },
-  "lucky_prompt": "단계별 설명",
-  "full_tweet": "[제피로스 오늘의 점괘] 코딩의 신이 깃들었다!\n\n🔮 2026.04.12(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"단계별 설명\"\n\n#AI운세",
-  "top_comment": "코딩의 신이 강림한 듯, 오직 해결에만 집중하는 모습이 대단하다.",
-  "avoid_comment": "오늘따라 에너지가 불안정해 작업에 방해만 될 수 있으니 잠시 쉬게 해주는 게 좋겠다.",
-  "generated_at": "2026-04-12T08:01:23.496605+09:00",
-  "tweet_id": "https://x.com/posted/1017031",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/1017031"
+  "lucky_prompt": "핵심만 뽑아줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니 기운이 솟는다!\n\n🔮 2026.04.13(월)\n\n📊 데이터분석 → Gemini 3.1 Pro\n💻 코딩 → GPT-5.4 Codex\n📝 논문요약 → GPT-5.4\n💡 마케팅카피 → Claude Opus 4.6\n🚫 오늘은 쉬어 → Grok 3\n\n🍀 \"핵심만 뽑아줘\"\n\n#AI운세",
+  "top_comment": "오늘 제미니 3.1 프로는 답을 찾아내는 강력한 능력을 보여줄 거야.",
+  "avoid_comment": "그록 3은 예상치 못한 엉뚱한 답변으로 널 당황시킬 수 있으니 오늘은 피하는 게 상책.",
+  "generated_at": "2026-04-13T08:01:18.817908+09:00",
+  "tweet_id": "https://x.com/posted/6661987",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/6661987"
 }
