@@ -1,39 +1,39 @@
 {
-  "date": "2026-04-14",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Qwen의 기운이 터졌다!",
+  "date": "2026-04-15",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "Grok 4, 오늘 빵 터진다!",
   "scenarios": [
     {
-      "emoji": "📝",
-      "task": "논문요약",
-      "model": "Claude Opus 4.6"
-    },
-    {
-      "emoji": "💡",
-      "task": "프롬프트 설계",
+      "emoji": "💻",
+      "task": "코딩",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "🖼️",
-      "task": "이미지분석",
+      "emoji": "📝",
+      "task": "글쓰기",
+      "model": "Claude Opus 4.6"
+    },
+    {
+      "emoji": "📊",
+      "task": "데이터분석",
       "model": "Gemini 2.5 Pro"
     },
     {
-      "emoji": "🔧",
-      "task": "리팩토링",
-      "model": "DeepSeek V3.2"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Claude Sonnet 4.6"
     }
   ],
   "avoid": {
-    "model": "GPT-5.3-Codex",
-    "reason": "너무 느림"
+    "model": "Qwen3 235B A22B",
+    "reason": "느려 터짐"
   },
-  "lucky_prompt": "자세히 알려줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Qwen의 기운이 터졌다!\n\n🔮 2026.04.14(화)\n\n📝 논문요약 → Claude Opus 4.6\n💡 프롬프트 설계 → GPT-5.4\n🖼️ 이미지분석 → Gemini 2.5 Pro\n🔧 리팩토링 → DeepSeek V3.2\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"자세히 알려줘\"\n\n#AI운세",
-  "top_comment": "거대한 Qwen의 파워, 오늘의 모든 작업을 지배할 거야!",
-  "avoid_comment": "GPT-5.3-Codex는 오늘 좀 버벅거릴 테니 중요한 코딩은 잠시 미뤄둬.",
-  "generated_at": "2026-04-14T08:01:26.214771+09:00",
-  "tweet_id": "https://x.com/posted/6797641",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/6797641"
+  "lucky_prompt": "최적화해줘!",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok 4, 오늘 빵 터진다!\n\n🔮 2026.04.15(수)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Claude Sonnet 4.6\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"최적화해줘!\"\n\n#AI운세",
+  "top_comment": "Grok 4, 오늘 예상치 못한 기발함으로 작업 효율 떡상 예약이야!",
+  "avoid_comment": "급한 작업엔 Qwen3 235B A22B 피해서 가자, 속 터져서 혈압 오른다!",
+  "generated_at": "2026-04-15T08:01:21.532687+09:00",
+  "tweet_id": "https://x.com/posted/5989070",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/5989070"
 }
