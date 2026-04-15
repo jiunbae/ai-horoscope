@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-15",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "Grok 4, 오늘 빵 터진다!",
+  "date": "2026-04-16",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "오푸스 기운 솟는 날!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,7 +12,7 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
@@ -22,18 +22,18 @@
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Claude Sonnet 4.6"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "느려 터짐"
+    "model": "Grok 4",
+    "reason": "오류 빈번"
   },
-  "lucky_prompt": "최적화해줘!",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 4, 오늘 빵 터진다!\n\n🔮 2026.04.15(수)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Claude Sonnet 4.6\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"최적화해줘!\"\n\n#AI운세",
-  "top_comment": "Grok 4, 오늘 예상치 못한 기발함으로 작업 효율 떡상 예약이야!",
-  "avoid_comment": "급한 작업엔 Qwen3 235B A22B 피해서 가자, 속 터져서 혈압 오른다!",
-  "generated_at": "2026-04-15T08:01:21.532687+09:00",
-  "tweet_id": "https://x.com/posted/5989070",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/5989070"
+  "lucky_prompt": "최적화해 줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 오푸스 기운 솟는 날!\n\n🔮 2026.04.16(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Grok 4\n\n🍀 \"최적화해 줘\"\n\n#AI운세",
+  "top_comment": "역시 오푸스, 오늘은 네가 대장이야. 시키는 대로 다 해줄 걸?",
+  "avoid_comment": "그록아, 오늘은 좀 쉬어. 네가 삐끗하면 다 힘들어.",
+  "generated_at": "2026-04-16T08:01:25.872037+09:00",
+  "tweet_id": "https://x.com/posted/4540459",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/4540459"
 }
