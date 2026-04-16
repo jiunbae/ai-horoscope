@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-16",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "오푸스 기운 솟는 날!",
+  "date": "2026-04-17",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "클로드 소넷, 오늘은 네 세상이다!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,28 +12,28 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
+      "model": "Llama 4 Maverick"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "DeepSeek V3.2"
+      "model": "Grok 4"
     }
   ],
   "avoid": {
-    "model": "Grok 4",
-    "reason": "오류 빈번"
+    "model": "Qwen3 235B A22B",
+    "reason": "느림"
   },
-  "lucky_prompt": "최적화해 줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 오푸스 기운 솟는 날!\n\n🔮 2026.04.16(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Grok 4\n\n🍀 \"최적화해 줘\"\n\n#AI운세",
-  "top_comment": "역시 오푸스, 오늘은 네가 대장이야. 시키는 대로 다 해줄 걸?",
-  "avoid_comment": "그록아, 오늘은 좀 쉬어. 네가 삐끗하면 다 힘들어.",
-  "generated_at": "2026-04-16T08:01:25.872037+09:00",
-  "tweet_id": "https://x.com/posted/4540459",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/4540459"
+  "lucky_prompt": "핵심만 요약해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 클로드 소넷, 오늘은 네 세상이다!\n\n🔮 2026.04.17(금)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Gemini 2.5 Pro\n📊 데이터분석 → Llama 4 Maverick\n⚡ 번역 → Grok 4\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"핵심만 요약해줘\"\n\n#AI운세",
+  "top_comment": "클로드 소넷 4.6, 오늘 너의 섬세함이 모든 것을 압도한다! 미묘한 뉘앙스까지 완벽하게 잡아낼 거야.",
+  "avoid_comment": "Qwen3 235B A22B는 오늘 잠시 휴식이 필요해 보여, 뭘 시켜도 한 박자 느릴 거야. 중요한 일은 피하는 게 상책!",
+  "generated_at": "2026-04-17T08:01:22.149258+09:00",
+  "tweet_id": "https://x.com/posted/1421549",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/1421549"
 }
