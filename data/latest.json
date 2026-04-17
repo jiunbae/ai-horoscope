@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-17",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "클로드 소넷, 오늘은 네 세상이다!",
+  "date": "2026-04-18",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "모델들 기운 넘쳐나네",
   "scenarios": [
     {
       "emoji": "💻",
@@ -10,30 +10,30 @@
       "model": "GPT-5.4"
     },
     {
-      "emoji": "📝",
-      "task": "글쓰기",
-      "model": "Gemini 2.5 Pro"
+      "emoji": "🎨",
+      "task": "마케팅",
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Llama 4 Maverick"
+      "model": "Gemini 2.5 Flash"
     },
     {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Grok 4"
+      "emoji": "🔍",
+      "task": "디버깅",
+      "model": "GPT-5.3-Codex"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "느림"
+    "model": "Gemini 2.5 Pro",
+    "reason": "비용 높음"
   },
-  "lucky_prompt": "핵심만 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드 소넷, 오늘은 네 세상이다!\n\n🔮 2026.04.17(금)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Gemini 2.5 Pro\n📊 데이터분석 → Llama 4 Maverick\n⚡ 번역 → Grok 4\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"핵심만 요약해줘\"\n\n#AI운세",
-  "top_comment": "클로드 소넷 4.6, 오늘 너의 섬세함이 모든 것을 압도한다! 미묘한 뉘앙스까지 완벽하게 잡아낼 거야.",
-  "avoid_comment": "Qwen3 235B A22B는 오늘 잠시 휴식이 필요해 보여, 뭘 시켜도 한 박자 느릴 거야. 중요한 일은 피하는 게 상책!",
-  "generated_at": "2026-04-17T08:01:22.149258+09:00",
-  "tweet_id": "https://x.com/posted/1421549",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/1421549"
+  "lucky_prompt": "명료하게 정리",
+  "full_tweet": "[제피로스 오늘의 점괘] 모델들 기운 넘쳐나네\n\n🔮 2026.04.18(토)\n\n💻 코딩 → GPT-5.4\n🎨 마케팅 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Flash\n🔍 디버깅 → GPT-5.3-Codex\n🚫 오늘은 쉬어 → Gemini 2.5 Pro\n\n🍀 \"명료하게 정리\"\n\n#AI운세",
+  "top_comment": "GPT-5.4, 너 오늘 신들렸다. 막힘없이 시원하게 뽑아낸다.",
+  "avoid_comment": "Gemini 2.5 Pro는 잠시 쉬어두자. 돈 먹는 하마 될라.",
+  "generated_at": "2026-04-18T08:01:25.460859+09:00",
+  "tweet_id": "https://x.com/posted/9791725",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/9791725"
 }
