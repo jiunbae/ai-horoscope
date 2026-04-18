@@ -1,39 +1,39 @@
 {
-  "date": "2026-04-18",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "모델들 기운 넘쳐나네",
+  "date": "2026-04-19",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "Grok의 촉이 예술이네",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.4"
+      "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "🎨",
-      "task": "마케팅",
-      "model": "Claude Opus 4.6"
+      "emoji": "📝",
+      "task": "마케팅카피",
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 2.5 Flash"
+      "model": "DeepSeek V3.2"
     },
     {
-      "emoji": "🔍",
-      "task": "디버깅",
-      "model": "GPT-5.3-Codex"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Pro",
-    "reason": "비용 높음"
+    "model": "Qwen3 235B A22B",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "명료하게 정리",
-  "full_tweet": "[제피로스 오늘의 점괘] 모델들 기운 넘쳐나네\n\n🔮 2026.04.18(토)\n\n💻 코딩 → GPT-5.4\n🎨 마케팅 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Flash\n🔍 디버깅 → GPT-5.3-Codex\n🚫 오늘은 쉬어 → Gemini 2.5 Pro\n\n🍀 \"명료하게 정리\"\n\n#AI운세",
-  "top_comment": "GPT-5.4, 너 오늘 신들렸다. 막힘없이 시원하게 뽑아낸다.",
-  "avoid_comment": "Gemini 2.5 Pro는 잠시 쉬어두자. 돈 먹는 하마 될라.",
-  "generated_at": "2026-04-18T08:01:25.460859+09:00",
-  "tweet_id": "https://x.com/posted/9791725",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/9791725"
+  "lucky_prompt": "직관이 최고",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok의 촉이 예술이네\n\n🔮 2026.04.19(일)\n\n💻 코딩 → Claude Opus 4.6\n📝 마케팅카피 → Gemini 2.5 Pro\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"직관이 최고\"\n\n#AI운세",
+  "top_comment": "Grok 4, 얘 오늘 감이 제대로 왔어, 툭 던져도 찰떡같이 받아준다니까.",
+  "avoid_comment": "Qwen3 235B A22B, 오늘은 영 컨디션이 별로라 잔말만 늘어놓으니 조용히 쉬게 해줘.",
+  "generated_at": "2026-04-19T08:01:24.909623+09:00",
+  "tweet_id": "https://x.com/posted/5081157",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/5081157"
 }
