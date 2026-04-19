@@ -1,39 +1,39 @@
 {
-  "date": "2026-04-19",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "Grok의 촉이 예술이네",
+  "date": "2026-04-20",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "오늘은 플래시가 번뜩!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Claude Opus 4.6"
+      "model": "Gemini 3.1 Flash"
     },
     {
       "emoji": "📝",
-      "task": "마케팅카피",
-      "model": "Gemini 2.5 Pro"
+      "task": "글쓰기",
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Llama 4 Maverick"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "TMI 폭주"
+    "model": "Gemini 3.1 Pro",
+    "reason": "과잉 해석"
   },
-  "lucky_prompt": "직관이 최고",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok의 촉이 예술이네\n\n🔮 2026.04.19(일)\n\n💻 코딩 → Claude Opus 4.6\n📝 마케팅카피 → Gemini 2.5 Pro\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"직관이 최고\"\n\n#AI운세",
-  "top_comment": "Grok 4, 얘 오늘 감이 제대로 왔어, 툭 던져도 찰떡같이 받아준다니까.",
-  "avoid_comment": "Qwen3 235B A22B, 오늘은 영 컨디션이 별로라 잔말만 늘어놓으니 조용히 쉬게 해줘.",
-  "generated_at": "2026-04-19T08:01:24.909623+09:00",
-  "tweet_id": "https://x.com/posted/5081157",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/5081157"
+  "lucky_prompt": "코드 빠르게!",
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 플래시가 번뜩!\n\n🔮 2026.04.20(월)\n\n💻 코딩 → Gemini 3.1 Flash\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"코드 빠르게!\"\n\n#AI운세",
+  "top_comment": "Gemini 3.1 Flash, 오늘 코딩의 신이 너에게 깃들었다!",
+  "avoid_comment": "Gemini 3.1 Pro, 오늘은 너무 많은 것을 주려다 탈이 나니 잠시 쉬는 게 좋겠다.",
+  "generated_at": "2026-04-20T08:01:34.800324+09:00",
+  "tweet_id": "https://x.com/posted/3527735",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/3527735"
 }
