@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-21",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Qwen3 오늘 폼 미쳤다!",
+  "date": "2026-04-22",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "Qwen, 오늘 기운 뿜뿜!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,28 +12,28 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Flash"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "정신없음"
+    "model": "Kimi k2",
+    "reason": "느림"
   },
-  "lucky_prompt": "완벽하게!",
-  "full_tweet": "[제피로스 오늘의 점괘] Qwen3 오늘 폼 미쳤다!\n\n🔮 2026.04.21(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"완벽하게!\"\n\n#AI운세",
-  "top_comment": "오늘 Qwen3 235B A22B는 거침없이 질주한다. 뭐든 맡겨 봐.",
-  "avoid_comment": "Claude Sonnet 4.6은 뭔가 영 집중을 못 하는 날이네. 괜히 헛다리 짚을라.",
-  "generated_at": "2026-04-21T08:01:15.335855+09:00",
-  "tweet_id": "https://x.com/posted/6934501",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/6934501"
+  "lucky_prompt": "핵심만 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] Qwen, 오늘 기운 뿜뿜!\n\n🔮 2026.04.22(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"핵심만 요약해\"\n\n#AI운세",
+  "top_comment": "Qwen3가 오늘 에너지가 폭발해서 어떤 어려운 작업도 시원하게 해줄 거야.",
+  "avoid_comment": "Kimi는 오늘 장황하게 설명하려 할 수 있으니 핵심만 요구하는 게 좋아.",
+  "generated_at": "2026-04-22T08:01:18.312085+09:00",
+  "tweet_id": "https://x.com/posted/4504355",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/4504355"
 }
