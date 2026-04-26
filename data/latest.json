@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-26",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "클로드 오푸스, 코딩 신내림",
+  "date": "2026-04-27",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "오푸스, 오늘은 네가 대장",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,28 +12,28 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "GPT-5.4"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Qwen3 235B A22B"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Llama 4 Maverick"
+      "model": "GPT-5.4"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Pro",
-    "reason": "과부하"
+    "model": "Grok 4",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "상세하게 질문!",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드 오푸스, 코딩 신내림\n\n🔮 2026.04.26(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Pro\n\n🍀 \"상세하게 질문!\"\n\n#AI운세",
-  "top_comment": "클로드 오푸스 4.6, 오늘은 코딩의 신이 내렸다! 막히는 코드도 술술 풀릴 거야.",
-  "avoid_comment": "제미니 2.5 프로는 오늘 좀 기운이 불안정해. 중요한 작업은 피하는 게 좋겠어.",
-  "generated_at": "2026-04-26T08:01:21.391574+09:00",
-  "tweet_id": "https://x.com/posted/4525823",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/4525823"
+  "lucky_prompt": "명확하게 해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 오푸스, 오늘은 네가 대장\n\n🔮 2026.04.27(월)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Qwen3 235B A22B\n⚡ 번역 → GPT-5.4\n🚫 오늘은 쉬어 → Grok 4\n\n🍀 \"명확하게 해줘\"\n\n#AI운세",
+  "top_comment": "오늘만큼은 Claude Opus 4.6 얘 기운이 제일 쎄다. 척하면 척이네.",
+  "avoid_comment": "Grok 4? 오늘은 정보 과부하 조심해. 딴 길로 새기 딱 좋다.",
+  "generated_at": "2026-04-27T08:01:22.670062+09:00",
+  "tweet_id": "None",
+  "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
