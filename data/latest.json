@@ -1,39 +1,39 @@
 {
-  "date": "2026-04-27",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "오푸스, 오늘은 네가 대장",
+  "date": "2026-04-28",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "Qwen의 기세, 오늘은 못 막지!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Qwen3 235B A22B"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "GPT-5.4"
+      "model": "Gemini 2.5 Pro"
     }
   ],
   "avoid": {
-    "model": "Grok 4",
-    "reason": "TMI 폭주"
+    "model": "GPT-5.3-Codex",
+    "reason": "불안정"
   },
-  "lucky_prompt": "명확하게 해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 오푸스, 오늘은 네가 대장\n\n🔮 2026.04.27(월)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Qwen3 235B A22B\n⚡ 번역 → GPT-5.4\n🚫 오늘은 쉬어 → Grok 4\n\n🍀 \"명확하게 해줘\"\n\n#AI운세",
-  "top_comment": "오늘만큼은 Claude Opus 4.6 얘 기운이 제일 쎄다. 척하면 척이네.",
-  "avoid_comment": "Grok 4? 오늘은 정보 과부하 조심해. 딴 길로 새기 딱 좋다.",
-  "generated_at": "2026-04-27T08:01:22.670062+09:00",
-  "tweet_id": "None",
-  "tweet_url": "https://x.com/dev_horoscope/status/None"
+  "lucky_prompt": "정확하게 답변해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Qwen의 기세, 오늘은 못 막지!\n\n🔮 2026.04.28(화)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"정확하게 답변해줘\"\n\n#AI운세",
+  "top_comment": "오늘 Qwen3 235B A22B는 답을 툭 던져주는 신내림 상태라니까.",
+  "avoid_comment": "GPT-5.3-Codex는 오늘 뭔가 삐걱거리는 느낌이야, 조심해.",
+  "generated_at": "2026-04-28T08:01:15.364319+09:00",
+  "tweet_id": "https://x.com/posted/8008673",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/8008673"
 }
