@@ -1,39 +1,39 @@
 {
-  "date": "2026-04-28",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Qwen의 기세, 오늘은 못 막지!",
+  "date": "2026-04-29",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "오푸스 파워 작렬!",
   "scenarios": [
+    {
+      "emoji": "🏗️",
+      "task": "아키텍처",
+      "model": "Claude Opus 4.6"
+    },
+    {
+      "emoji": "✍️",
+      "task": "블로그",
+      "model": "Gemini 2.5 Pro"
+    },
     {
       "emoji": "💻",
       "task": "코딩",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "📝",
-      "task": "글쓰기",
-      "model": "Claude Opus 4.6"
-    },
-    {
-      "emoji": "📊",
-      "task": "데이터분석",
+      "emoji": "💡",
+      "task": "설계",
       "model": "DeepSeek V3.2"
-    },
-    {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Gemini 2.5 Pro"
     }
   ],
   "avoid": {
-    "model": "GPT-5.3-Codex",
-    "reason": "불안정"
+    "model": "Claude Sonnet 4.6",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "정확하게 답변해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Qwen의 기세, 오늘은 못 막지!\n\n🔮 2026.04.28(화)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"정확하게 답변해줘\"\n\n#AI운세",
-  "top_comment": "오늘 Qwen3 235B A22B는 답을 툭 던져주는 신내림 상태라니까.",
-  "avoid_comment": "GPT-5.3-Codex는 오늘 뭔가 삐걱거리는 느낌이야, 조심해.",
-  "generated_at": "2026-04-28T08:01:15.364319+09:00",
-  "tweet_id": "https://x.com/posted/8008673",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/8008673"
+  "lucky_prompt": "상세하게 줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 오푸스 파워 작렬!\n\n🔮 2026.04.29(수)\n\n🏗️ 아키텍처 → Claude Opus 4.6\n✍️ 블로그 → Gemini 2.5 Pro\n💻 코딩 → GPT-5.4\n💡 설계 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"상세하게 줘\"\n\n#AI운세",
+  "top_comment": "Claude Opus 4.6, 오늘 아키텍처 설계는 얘한테 맡겨봐, 통찰력이 기가 막혀.",
+  "avoid_comment": "Claude Sonnet 4.6, 디테일 장인인데 오늘은 너무 길어서 본질을 놓칠 수 있어.",
+  "generated_at": "2026-04-29T08:01:24.232217+09:00",
+  "tweet_id": "https://x.com/posted/1306470",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/1306470"
 }
