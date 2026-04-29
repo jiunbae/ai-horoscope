@@ -1,39 +1,39 @@
 {
-  "date": "2026-04-29",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "오푸스 파워 작렬!",
+  "date": "2026-04-30",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "클로드 소넷, 오늘의 스타!",
   "scenarios": [
-    {
-      "emoji": "🏗️",
-      "task": "아키텍처",
-      "model": "Claude Opus 4.6"
-    },
-    {
-      "emoji": "✍️",
-      "task": "블로그",
-      "model": "Gemini 2.5 Pro"
-    },
     {
       "emoji": "💻",
       "task": "코딩",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "💡",
-      "task": "설계",
+      "emoji": "📝",
+      "task": "글쓰기",
+      "model": "Gemini 2.5 Pro"
+    },
+    {
+      "emoji": "📊",
+      "task": "분석",
       "model": "DeepSeek V3.2"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "TMI 폭주"
+    "model": "GPT-5.3-Codex",
+    "reason": "구닥다리"
   },
-  "lucky_prompt": "상세하게 줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 오푸스 파워 작렬!\n\n🔮 2026.04.29(수)\n\n🏗️ 아키텍처 → Claude Opus 4.6\n✍️ 블로그 → Gemini 2.5 Pro\n💻 코딩 → GPT-5.4\n💡 설계 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"상세하게 줘\"\n\n#AI운세",
-  "top_comment": "Claude Opus 4.6, 오늘 아키텍처 설계는 얘한테 맡겨봐, 통찰력이 기가 막혀.",
-  "avoid_comment": "Claude Sonnet 4.6, 디테일 장인인데 오늘은 너무 길어서 본질을 놓칠 수 있어.",
-  "generated_at": "2026-04-29T08:01:24.232217+09:00",
-  "tweet_id": "https://x.com/posted/1306470",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/1306470"
+  "lucky_prompt": "최고의 답변",
+  "full_tweet": "[제피로스 오늘의 점괘] 클로드 소넷, 오늘의 스타!\n\n🔮 2026.04.30(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Gemini 2.5 Pro\n📊 분석 → DeepSeek V3.2\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"최고의 답변\"\n\n#AI운세",
+  "top_comment": "어제의 피해야 할 모델이 오늘은 왕좌에 앉았네? 역시 디지털 세상은 모를 일이야!",
+  "avoid_comment": "코덱스 이 친구, 아직도 예전 버그에 갇혀있나 봐. 잠시 쉬게 해주는 게 좋을걸?",
+  "generated_at": "2026-04-30T08:01:13.999009+09:00",
+  "tweet_id": "https://x.com/posted/2608096",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/2608096"
 }
