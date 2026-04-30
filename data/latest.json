@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-30",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "클로드 소넷, 오늘의 스타!",
+  "date": "2026-05-01",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "Grok 4의 기세가 무섭네!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,28 +12,28 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Gemini 2.5 Pro"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
-      "task": "분석",
+      "task": "데이터분석",
       "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "Gemini 2.5 Pro"
     }
   ],
   "avoid": {
-    "model": "GPT-5.3-Codex",
-    "reason": "구닥다리"
+    "model": "Qwen3 235B A22B",
+    "reason": "느림"
   },
-  "lucky_prompt": "최고의 답변",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드 소넷, 오늘의 스타!\n\n🔮 2026.04.30(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Gemini 2.5 Pro\n📊 분석 → DeepSeek V3.2\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"최고의 답변\"\n\n#AI운세",
-  "top_comment": "어제의 피해야 할 모델이 오늘은 왕좌에 앉았네? 역시 디지털 세상은 모를 일이야!",
-  "avoid_comment": "코덱스 이 친구, 아직도 예전 버그에 갇혀있나 봐. 잠시 쉬게 해주는 게 좋을걸?",
-  "generated_at": "2026-04-30T08:01:13.999009+09:00",
-  "tweet_id": "https://x.com/posted/2608096",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/2608096"
+  "lucky_prompt": "최신 트렌드 요약",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok 4의 기세가 무섭네!\n\n🔮 2026.05.01(금)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"최신 트렌드 요약\"\n\n#AI운세",
+  "top_comment": "Grok 4, 오늘은 영감의 폭주기관차처럼 달린다!",
+  "avoid_comment": "Qwen3 235B A22B, 오늘은 영 컨디션이 별로네. 조심해.",
+  "generated_at": "2026-05-01T08:01:25.060920+09:00",
+  "tweet_id": "https://x.com/posted/2726598",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/2726598"
 }
