@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-05-03",
+    "day_of_week": "Sunday",
+    "top_model": "GPT-5.4",
+    "avoid_model": "Grok 4",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "📝",
+        "task": "블로그",
+        "model": "Claude Opus 4.6"
+      },
+      {
+        "emoji": "📊",
+        "task": "보고서",
+        "model": "DeepSeek V3.2"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "Llama 4 Maverick"
+      }
+    ],
+    "avoid_reason": "TMI 폭주",
+    "lucky_prompt": "팩트체크 필수!"
+  },
+  {
     "date": "2026-05-02",
     "day_of_week": "Saturday",
     "top_model": "GPT-5.4",
