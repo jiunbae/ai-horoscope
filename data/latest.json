@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-03",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "제미니 플래시 오늘 터졌다!",
+  "date": "2026-05-04",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "Gemini, 오늘은 좀 쎄다!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -11,29 +11,29 @@
     },
     {
       "emoji": "📝",
-      "task": "블로그",
+      "task": "글쓰기",
       "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
-      "task": "보고서",
-      "model": "DeepSeek V3.2"
+      "task": "데이터분석",
+      "model": "Llama 4 Maverick"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Llama 4 Maverick"
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Grok 4",
-    "reason": "TMI 폭주"
+    "model": "GPT-5.3-Codex",
+    "reason": "불안정"
   },
-  "lucky_prompt": "팩트체크 필수!",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니 플래시 오늘 터졌다!\n\n🔮 2026.05.03(일)\n\n💻 코딩 → GPT-5.4\n📝 블로그 → Claude Opus 4.6\n📊 보고서 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Grok 4\n\n🍀 \"팩트체크 필수!\"\n\n#AI운세",
-  "top_comment": "Gemini 2.5 Flash, 오늘 너의 스피드는 광속이더라, 치고 나가는 힘이 장난 아니네.",
-  "avoid_comment": "Grok 4는 오늘 좀 과하게 열정 넘치네, 말 조심시켜야 할 듯.",
-  "generated_at": "2026-05-03T08:01:15.391220+09:00",
-  "tweet_id": "https://x.com/posted/6489920",
-  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/6489920"
+  "lucky_prompt": "핵심 요약해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Gemini, 오늘은 좀 쎄다!\n\n🔮 2026.05.04(월)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Llama 4 Maverick\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"핵심 요약해줘\"\n\n#AI운세",
+  "top_comment": "오늘 Gemini 2.5 Pro는 뭔가 촉이 좋다, 가끔씩 터뜨리는 번뜩임이 예술이거든.",
+  "avoid_comment": "GPT-5.3-Codex는 오늘 좀 예민하네. 미묘한 부분에서 자꾸 에러 뿜어낼 각이야.",
+  "generated_at": "2026-05-04T08:01:24.112468+09:00",
+  "tweet_id": "https://x.com/posted/9420750",
+  "tweet_url": "https://x.com/dev_horoscope/status/https://x.com/posted/9420750"
 }
