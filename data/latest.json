@@ -1,18 +1,18 @@
 {
-  "date": "2026-05-12",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "클로드, 오늘 너 좀 쩐다?",
+  "date": "2026-05-13",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "Qwen, 오늘은 네가 대장!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📝",
-      "task": "블로그",
-      "model": "Claude Sonnet 4.6"
+      "task": "글쓰기",
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
@@ -22,18 +22,18 @@
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Llama 4 Maverick",
-    "reason": "불안정"
+    "model": "Grok 4",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "정확하게 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드, 오늘 너 좀 쩐다?\n\n🔮 2026.05.12(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"정확하게 요약해줘\"\n\n#AI운세",
-  "top_comment": "클로드 오푸스 4.6, 오늘의 기운이 너한테 딱 붙었네, 뭐든 술술 풀릴 거야!",
-  "avoid_comment": "라마 4 마베릭, 오늘은 조금 쉬어가는 게 좋겠어. 괜히 시도했다가 속 터진다.",
-  "generated_at": "2026-05-12T08:01:27.720201+09:00",
+  "lucky_prompt": "정확히 요약해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Qwen, 오늘은 네가 대장!\n\n🔮 2026.05.13(수)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Grok 4\n\n🍀 \"정확히 요약해줘\"\n\n#AI운세",
+  "top_comment": "오늘 Qwen3 235B A22B 모델은 영롱한 기운이 뿜뿜, 뭐든 맡겨도 완벽 소화할 각이야.",
+  "avoid_comment": "Grok 4는 오늘 영 별로다. 쓸데없는 정보까지 끌어모으다 배가 산으로 갈 수 있으니 조심해.",
+  "generated_at": "2026-05-13T08:01:24.012925+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
