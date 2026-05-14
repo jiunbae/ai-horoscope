@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-05-15",
+    "day_of_week": "Friday",
+    "top_model": "GPT-5.4",
+    "avoid_model": "GPT-5.3-Codex",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "📝",
+        "task": "글쓰기",
+        "model": "Gemini 2.5 Pro"
+      },
+      {
+        "emoji": "📊",
+        "task": "데이터분석",
+        "model": "DeepSeek V3.2"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "Qwen3 235B A22B"
+      }
+    ],
+    "avoid_reason": "자꾸 딴 길로",
+    "lucky_prompt": "오늘의 운세는?"
+  },
+  {
     "date": "2026-05-14",
     "day_of_week": "Thursday",
     "top_model": "Gemini 2.5 Flash",
