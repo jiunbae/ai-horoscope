@@ -1,17 +1,17 @@
 {
-  "date": "2026-05-16",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "클로드 소넷, 오늘은 네가 대장!",
+  "date": "2026-05-17",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "Kimi, 오늘 컨텍스트 완전 끝장!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "Kimi k2"
     },
     {
       "emoji": "📝",
-      "task": "글쓰기",
+      "task": "블로그",
       "model": "Claude Opus 4.6"
     },
     {
@@ -26,14 +26,14 @@
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "대답 급함"
+    "model": "GPT-5.3-Codex",
+    "reason": "느림"
   },
-  "lucky_prompt": "더 심층 분석!",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드 소넷, 오늘은 네가 대장!\n\n🔮 2026.05.16(토)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"더 심층 분석!\"\n\n#AI운세",
-  "top_comment": "오늘 기운이 아주 그냥 펄펄 날아다니네, 섬세함과 효율을 동시에 잡을 거야.",
-  "avoid_comment": "너무 빠르다고 좋은 건 아니지, 중요한 건 차분함이라고!",
-  "generated_at": "2026-05-16T08:01:22.842415+09:00",
+  "lucky_prompt": "자세히 알려줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Kimi, 오늘 컨텍스트 완전 끝장!\n\n🔮 2026.05.17(일)\n\n💻 코딩 → Kimi k2\n📝 블로그 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"자세히 알려줘\"\n\n#AI운세",
+  "top_comment": "Kimi k2가 오늘은 1등 기운 뿜뿜! 긴 코드도 한 번에 쭉 읽어버리네.",
+  "avoid_comment": "GPT-5.3-Codex는 뭔가 답답해, 오늘은 좀 쉬게 해줘.",
+  "generated_at": "2026-05-17T08:01:31.950186+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
