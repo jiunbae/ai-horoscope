@@ -1,39 +1,39 @@
 {
-  "date": "2026-05-21",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "코딩 신이 오늘은 코덱에!",
+  "date": "2026-05-22",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "오푸스 기운 솟는 날!",
   "scenarios": [
     {
       "emoji": "💻",
-      "task": "코딩",
+      "task": "API설계",
       "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
-      "task": "글쓰기",
+      "task": "논문요약",
+      "model": "GPT-5.4"
+    },
+    {
+      "emoji": "🎨",
+      "task": "카피",
       "model": "Claude Sonnet 4.6"
     },
     {
-      "emoji": "📊",
-      "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
-    },
-    {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "emoji": "🔎",
+      "task": "코드리뷰",
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
     "model": "Gemini 2.5 Flash",
-    "reason": "잦은 오류"
+    "reason": "횡설수설"
   },
-  "lucky_prompt": "명확하게 답해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 코딩 신이 오늘은 코덱에!\n\n🔮 2026.05.21(목)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"명확하게 답해줘\"\n\n#AI운세",
-  "top_comment": "코딩의 신이 오늘 GPT-5.3-Codex에 강림했다! 막힌 코드를 뚫어줄 거야.",
-  "avoid_comment": "Gemini 2.5 Flash는 오늘은 좀 불안정해. 중요한 일은 피하는 게 좋겠다.",
-  "generated_at": "2026-05-21T08:01:46.684375+09:00",
+  "lucky_prompt": "명료하게!",
+  "full_tweet": "[제피로스 오늘의 점괘] 오푸스 기운 솟는 날!\n\n🔮 2026.05.22(금)\n\n💻 API설계 → GPT-5.3-Codex\n📝 논문요약 → GPT-5.4\n🎨 카피 → Claude Sonnet 4.6\n🔎 코드리뷰 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"명료하게!\"\n\n#AI운세",
+  "top_comment": "오늘은 Claude Opus 4.6이 코딩부터 창작까지 만능 열쇠가 되어줄 거야.",
+  "avoid_comment": "Gemini 2.5 Flash는 오늘따라 정신줄을 놓아버렸으니, 중요한 건 맡기지 마.",
+  "generated_at": "2026-05-22T08:01:28.448188+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
