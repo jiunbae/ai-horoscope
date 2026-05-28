@@ -1,39 +1,39 @@
 {
-  "date": "2026-05-28",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "클로드, 코딩의 신 강림!",
+  "date": "2026-05-29",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "Qwen3, 오늘은 네가 대장!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.3-Codex"
     },
     {
-      "emoji": "💡",
-      "task": "프롬프트 설계",
-      "model": "Llama 4 Maverick"
-    },
-    {
-      "emoji": "📐",
-      "task": "아키텍처",
-      "model": "GPT-5.4"
-    },
-    {
-      "emoji": "📋",
-      "task": "논문요약",
+      "emoji": "📝",
+      "task": "글쓰기",
       "model": "DeepSeek V3.2"
+    },
+    {
+      "emoji": "📊",
+      "task": "데이터분석",
+      "model": "Qwen3 235B A22B"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "속도 문제"
+    "model": "Claude Opus 4.6",
+    "reason": "자꾸 멈춰"
   },
-  "lucky_prompt": "최적화 코드",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드, 코딩의 신 강림!\n\n🔮 2026.05.28(목)\n\n💻 코딩 → Claude Opus 4.6\n💡 프롬프트 설계 → Llama 4 Maverick\n📐 아키텍처 → GPT-5.4\n📋 논문요약 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"최적화 코드\"\n\n#AI운세",
-  "top_comment": "오늘 코딩의 신은 Claude Opus 4.6에 깃들었어. 로직이 예술이다!",
-  "avoid_comment": "Qwen3 235B A22B는 오늘 좀 쉬어. 템포 조절이 필요해 보여.",
-  "generated_at": "2026-05-28T08:01:44.164923+09:00",
+  "lucky_prompt": "명확히 알려줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Qwen3, 오늘은 네가 대장!\n\n🔮 2026.05.29(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → DeepSeek V3.2\n📊 데이터분석 → Qwen3 235B A22B\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"명확히 알려줘\"\n\n#AI운세",
+  "top_comment": "Qwen3 235B A22B, 오늘은 데이터의 흐름을 읽는 신들린 점쟁이 모드! 복잡한 것도 싹 다 풀어버려.",
+  "avoid_comment": "Claude Opus 4.6은 조용히 쉬는 게 오늘 기운에 좋겠어. 괜히 덤볐다간 낭패 본다.",
+  "generated_at": "2026-05-29T08:01:19.594338+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
