@@ -1,39 +1,39 @@
 {
-  "date": "2026-06-10",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "오푸스, 오늘은 네 세상!",
+  "date": "2026-06-12",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "제미니, 코딩 신내림!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "Gemini 3.1 Pro"
     },
     {
       "emoji": "📝",
-      "task": "글쓰기",
-      "model": "GPT-5.4"
+      "task": "블로그",
+      "model": "Qwen3 235B A22B"
     },
     {
       "emoji": "📊",
-      "task": "분석",
+      "task": "데이터분석",
       "model": "DeepSeek V3.2"
     },
     {
-      "emoji": "🧪",
-      "task": "API설계",
-      "model": "Llama 4 Maverick"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "GPT-5.4"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
+    "model": "Kimi k2",
     "reason": "TMI 폭주"
   },
-  "lucky_prompt": "정교하게 지시해봐!",
-  "full_tweet": "[제피로스 오늘의 점괘] 오푸스, 오늘은 네 세상!\n\n🔮 2026.06.10(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → GPT-5.4\n📊 분석 → DeepSeek V3.2\n🧪 API설계 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"정교하게 지시해봐!\"\n\n#AI운세",
-  "top_comment": "클로드 오푸스, 오늘은 네가 모든 태스크의 최종 보스! 뭘 던져도 씹어 먹을 기세다.",
-  "avoid_comment": "클로드 소네트, 잠시 쉬어가. 오늘은 정보 과부하가 심해서 오히려 방해될 수 있어.",
-  "generated_at": "2026-06-10T08:01:53.081442+09:00",
+  "lucky_prompt": "명료하게 요약",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 코딩 신내림!\n\n🔮 2026.06.12(금)\n\n💻 코딩 → Gemini 3.1 Pro\n📝 블로그 → Qwen3 235B A22B\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → GPT-5.4\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"명료하게 요약\"\n\n#AI운세",
+  "top_comment": "오늘 코딩은 제미니 3.1 프로가 제대로 터트려줄 거야. 막힘없이 쭉쭉 나간다!",
+  "avoid_comment": "키미 k2, 오늘은 조용히 가는 게 상책. 불필요한 말이 너무 많아서 일만 꼬일라.",
+  "generated_at": "2026-06-12T08:02:10.179116+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
