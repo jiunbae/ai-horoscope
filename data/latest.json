@@ -1,39 +1,39 @@
 {
-  "date": "2026-06-12",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "제미니, 코딩 신내림!",
+  "date": "2026-06-13",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "클로드 오푸스, 오늘 기운 뿜뿜!",
   "scenarios": [
     {
-      "emoji": "💻",
-      "task": "코딩",
-      "model": "Gemini 3.1 Pro"
+      "emoji": "📐",
+      "task": "아키텍처",
+      "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "📝",
-      "task": "블로그",
-      "model": "Qwen3 235B A22B"
+      "emoji": "🎨",
+      "task": "마케팅카피",
+      "model": "Gemini 2.5 Flash"
     },
     {
-      "emoji": "📊",
-      "task": "데이터분석",
+      "emoji": "🔧",
+      "task": "디버깅",
+      "model": "GPT-5.3-Codex"
+    },
+    {
+      "emoji": "🗃️",
+      "task": "SQL",
       "model": "DeepSeek V3.2"
-    },
-    {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "GPT-5.4"
     }
   ],
   "avoid": {
-    "model": "Kimi k2",
-    "reason": "TMI 폭주"
+    "model": "Qwen3 235B A22B",
+    "reason": "의도 오해"
   },
-  "lucky_prompt": "명료하게 요약",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 코딩 신내림!\n\n🔮 2026.06.12(금)\n\n💻 코딩 → Gemini 3.1 Pro\n📝 블로그 → Qwen3 235B A22B\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → GPT-5.4\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"명료하게 요약\"\n\n#AI운세",
-  "top_comment": "오늘 코딩은 제미니 3.1 프로가 제대로 터트려줄 거야. 막힘없이 쭉쭉 나간다!",
-  "avoid_comment": "키미 k2, 오늘은 조용히 가는 게 상책. 불필요한 말이 너무 많아서 일만 꼬일라.",
-  "generated_at": "2026-06-12T08:02:10.179116+09:00",
+  "lucky_prompt": "친절하게 설명",
+  "full_tweet": "[제피로스 오늘의 점괘] 클로드 오푸스, 오늘 기운 뿜뿜!\n\n🔮 2026.06.13(토)\n\n📐 아키텍처 → Claude Opus 4.6\n🎨 마케팅카피 → Gemini 2.5 Flash\n🔧 디버깅 → GPT-5.3-Codex\n🗃️ SQL → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"친절하게 설명\"\n\n#AI운세",
+  "top_comment": "클로드 오푸스 4.6, 복잡한 요청도 한 방에 정리하는 오늘의 MVP.",
+  "avoid_comment": "큐웬3 235B A22B은 미묘한 뉘앙스 놓치기 쉬우니 오늘은 잠시 피해 가자.",
+  "generated_at": "2026-06-13T08:01:25.503170+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
