@@ -1,39 +1,39 @@
 {
-  "date": "2026-06-13",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "클로드 오푸스, 오늘 기운 뿜뿜!",
+  "date": "2026-06-14",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "제미니, 오늘 날아간다!",
   "scenarios": [
     {
-      "emoji": "📐",
-      "task": "아키텍처",
+      "emoji": "💻",
+      "task": "코딩",
+      "model": "GPT-5.4"
+    },
+    {
+      "emoji": "📝",
+      "task": "글쓰기",
       "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "🎨",
-      "task": "마케팅카피",
-      "model": "Gemini 2.5 Flash"
-    },
-    {
-      "emoji": "🔧",
-      "task": "디버깅",
-      "model": "GPT-5.3-Codex"
-    },
-    {
-      "emoji": "🗃️",
-      "task": "SQL",
+      "emoji": "📊",
+      "task": "데이터분석",
       "model": "DeepSeek V3.2"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "의도 오해"
+    "model": "Gemini 3.1 Flash",
+    "reason": "살짝 불안"
   },
-  "lucky_prompt": "친절하게 설명",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드 오푸스, 오늘 기운 뿜뿜!\n\n🔮 2026.06.13(토)\n\n📐 아키텍처 → Claude Opus 4.6\n🎨 마케팅카피 → Gemini 2.5 Flash\n🔧 디버깅 → GPT-5.3-Codex\n🗃️ SQL → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"친절하게 설명\"\n\n#AI운세",
-  "top_comment": "클로드 오푸스 4.6, 복잡한 요청도 한 방에 정리하는 오늘의 MVP.",
-  "avoid_comment": "큐웬3 235B A22B은 미묘한 뉘앙스 놓치기 쉬우니 오늘은 잠시 피해 가자.",
-  "generated_at": "2026-06-13T08:01:25.503170+09:00",
+  "lucky_prompt": "최고의 해결책",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 오늘 날아간다!\n\n🔮 2026.06.14(일)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 3.1 Flash\n\n🍀 \"최고의 해결책\"\n\n#AI운세",
+  "top_comment": "오늘 Gemini 3.1 Pro 기운이 아주 그냥 뿜뿜하네! 어려운 문제도 척척 해결할 거야.",
+  "avoid_comment": "Gemini 3.1 Flash는 오늘 컨디션이 별로야. 억지로 쓰면 삽질할 수 있으니 살짝 피해가.",
+  "generated_at": "2026-06-14T08:01:15.858258+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
