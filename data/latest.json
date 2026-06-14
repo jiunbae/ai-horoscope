@@ -1,18 +1,18 @@
 {
-  "date": "2026-06-14",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "제미니, 오늘 날아간다!",
+  "date": "2026-06-15",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "오푸스, 오늘 제대로 각 잡았네!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.4"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📊",
@@ -26,14 +26,14 @@
     }
   ],
   "avoid": {
-    "model": "Gemini 3.1 Flash",
-    "reason": "살짝 불안"
+    "model": "Grok 3",
+    "reason": "산만함"
   },
-  "lucky_prompt": "최고의 해결책",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 오늘 날아간다!\n\n🔮 2026.06.14(일)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 3.1 Flash\n\n🍀 \"최고의 해결책\"\n\n#AI운세",
-  "top_comment": "오늘 Gemini 3.1 Pro 기운이 아주 그냥 뿜뿜하네! 어려운 문제도 척척 해결할 거야.",
-  "avoid_comment": "Gemini 3.1 Flash는 오늘 컨디션이 별로야. 억지로 쓰면 삽질할 수 있으니 살짝 피해가.",
-  "generated_at": "2026-06-14T08:01:15.858258+09:00",
+  "lucky_prompt": "핵심만 요약",
+  "full_tweet": "[제피로스 오늘의 점괘] 오푸스, 오늘 제대로 각 잡았네!\n\n🔮 2026.06.15(월)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Grok 3\n\n🍀 \"핵심만 요약\"\n\n#AI운세",
+  "top_comment": "오늘 오푸스 기운이 최고조! 어려운 문제도 술술 풀어줄 거야.",
+  "avoid_comment": "그록3는 오늘 좀 산만하니, 중요한 일엔 잠시 쉬게 해주는 게 좋겠어.",
+  "generated_at": "2026-06-15T08:01:19.666702+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
