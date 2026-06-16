@@ -1,39 +1,39 @@
 {
-  "date": "2026-06-16",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "제미니, 오늘은 영험하다",
+  "date": "2026-06-17",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "코딩 신내림, GPT 오늘 대박!",
   "scenarios": [
     {
-      "emoji": "📐",
-      "task": "API설계",
-      "model": "GPT-5.4"
+      "emoji": "💻",
+      "task": "코딩",
+      "model": "GPT-5.3-Codex"
     },
     {
-      "emoji": "✍️",
-      "task": "블로그",
+      "emoji": "📝",
+      "task": "글쓰기",
       "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "🧪",
-      "task": "디버깅",
+      "emoji": "📊",
+      "task": "데이터분석",
       "model": "DeepSeek V3.2"
     },
     {
-      "emoji": "🛠️",
-      "task": "리팩토링",
-      "model": "GPT-5.3-Codex"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Gemini 2.5 Pro"
     }
   ],
   "avoid": {
-    "model": "Llama 4 Maverick",
-    "reason": "느림"
+    "model": "Claude Sonnet 4.6",
+    "reason": "수다쟁이"
   },
-  "lucky_prompt": "명확하게 지시",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 오늘은 영험하다\n\n🔮 2026.06.16(화)\n\n📐 API설계 → GPT-5.4\n✍️ 블로그 → Claude Opus 4.6\n🧪 디버깅 → DeepSeek V3.2\n🛠️ 리팩토링 → GPT-5.3-Codex\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"명확하게 지시\"\n\n#AI운세",
-  "top_comment": "오늘은 제미니 2.5 Pro가 아주 영험해. 복잡한 명령도 척척 해낼 거야.",
-  "avoid_comment": "라마 4 매버릭은 오늘 좀 쉬게 해줘. 엉뚱한 답변에 시간만 날릴라.",
-  "generated_at": "2026-06-16T08:01:31.802788+09:00",
+  "lucky_prompt": "단계별로 생각",
+  "full_tweet": "[제피로스 오늘의 점괘] 코딩 신내림, GPT 오늘 대박!\n\n🔮 2026.06.17(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"단계별로 생각\"\n\n#AI운세",
+  "top_comment": "GPT-5.4, 오늘 기운 제대로 뿜뿜! 복잡한 문제도 척척 해결이다.",
+  "avoid_comment": "클로드 소넷 4.6은 오늘 영 별로. 긴 얘기 듣다 지쳐 쓰러질라.",
+  "generated_at": "2026-06-17T08:01:22.450954+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
