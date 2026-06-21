@@ -1,39 +1,39 @@
 {
-  "date": "2026-06-21",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "제미니, 코딩 신내림 받다!",
+  "date": "2026-06-22",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "제미니가 오늘 코딩 맛집이네!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
-    },
-    {
-      "emoji": "📝",
-      "task": "논문요약",
-      "model": "Claude Opus 4.6"
-    },
-    {
-      "emoji": "📐",
-      "task": "API설계",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "💡",
-      "task": "마케팅카피",
-      "model": "Gemini 2.5 Pro"
+      "emoji": "📝",
+      "task": "글쓰기",
+      "model": "Claude Opus 4.6"
+    },
+    {
+      "emoji": "📊",
+      "task": "데이터분석",
+      "model": "DeepSeek V3.2"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "과부하 옴"
+    "model": "GPT-5.4 Codex",
+    "reason": "너무 느림"
   },
-  "lucky_prompt": "단계별 설명해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 코딩 신내림 받다!\n\n🔮 2026.06.21(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 논문요약 → Claude Opus 4.6\n📐 API설계 → GPT-5.4\n💡 마케팅카피 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"단계별 설명해줘\"\n\n#AI운세",
-  "top_comment": "Gemini 3.1 Pro는 오늘 코딩 신내림 제대로 받아서 뭐든 뚝딱 해치울 거야.",
-  "avoid_comment": "Qwen3 235B A22B는 오늘 기운이 좀 과부하 걸렸으니, 중요 작업엔 잠시 쉬게 해줘.",
-  "generated_at": "2026-06-21T08:01:25.902203+09:00",
+  "lucky_prompt": "오늘의 핵심은?",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니가 오늘 코딩 맛집이네!\n\n🔮 2026.06.22(월)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.4 Codex\n\n🍀 \"오늘의 핵심은?\"\n\n#AI운세",
+  "top_comment": "오늘 코딩 마스터는 제미니 3.1 플래시다, 이 친구 믿고 가면 백발백중이야!",
+  "avoid_comment": "GPT-5.4 코덱스, 오늘은 몸이 무거워 보이니 중요한 작업은 피하는 게 좋겠어.",
+  "generated_at": "2026-06-22T08:01:21.942254+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
