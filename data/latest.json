@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-22",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "제미니가 오늘 코딩 맛집이네!",
+  "date": "2026-06-23",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "제미니, 오늘 날개 단다!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,7 +12,7 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
@@ -20,20 +20,20 @@
       "model": "DeepSeek V3.2"
     },
     {
-      "emoji": "⚡",
+      "emoji": "💬",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "GPT-5.4 Codex",
-    "reason": "너무 느림"
+    "model": "Qwen3 235B A22B",
+    "reason": "정보 과잉"
   },
-  "lucky_prompt": "오늘의 핵심은?",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니가 오늘 코딩 맛집이네!\n\n🔮 2026.06.22(월)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.4 Codex\n\n🍀 \"오늘의 핵심은?\"\n\n#AI운세",
-  "top_comment": "오늘 코딩 마스터는 제미니 3.1 플래시다, 이 친구 믿고 가면 백발백중이야!",
-  "avoid_comment": "GPT-5.4 코덱스, 오늘은 몸이 무거워 보이니 중요한 작업은 피하는 게 좋겠어.",
-  "generated_at": "2026-06-22T08:01:21.942254+09:00",
+  "lucky_prompt": "핵심만 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 오늘 날개 단다!\n\n🔮 2026.06.23(화)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n💬 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"핵심만 요약해\"\n\n#AI운세",
+  "top_comment": "오늘 Gemini 2.5 Pro는 섬세함으로 모두를 압도할 거야. 아주 작은 디테일도 놓치지 않는단 말이지.",
+  "avoid_comment": "Qwen3 235B A22B는 오늘 불필요한 정보로 너를 지치게 할 수도 있어. 잠시 휴식시키는 게 어때?",
+  "generated_at": "2026-06-23T08:01:20.601282+09:00",
   "tweet_id": "None",
   "tweet_url": "https://x.com/dev_horoscope/status/None"
 }
