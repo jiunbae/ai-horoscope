@@ -1,37 +1,37 @@
 {
-  "date": "2026-06-26",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "손넷이 빛나는 금요일",
+  "date": "2026-06-27",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "번개처럼 빠른 플래시!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Claude Sonnet 4.6"
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Gemini 2.5 Pro"
+      "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "📊",
-      "task": "데이터분석",
-      "model": "GPT-5.4"
+      "emoji": "📐",
+      "task": "API설계",
+      "model": "Llama 4 Maverick"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Claude Opus 4.6"
+      "model": "Gemini 2.5 Flash"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "불안정"
+    "model": "Gemini 3.1 Pro",
+    "reason": "느린 응답"
   },
-  "lucky_prompt": "자세히 알려줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 손넷이 빛나는 금요일\n\n🔮 2026.06.26(금)\n\n💻 코딩 → Claude Sonnet 4.6\n📝 글쓰기 → Gemini 2.5 Pro\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Claude Opus 4.6\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"자세히 알려줘\"\n\n#AI운세",
-  "top_comment": "Claude Sonnet 4.6은 오늘 에너지 흐름이 아주 좋아, 딱 필요한 만큼만 뽑아내는 효율성 대박!",
-  "avoid_comment": "Qwen3 235B A22B는 좀 불안정해서 괜히 힘 빼지 마, 오늘은 영 아니거든.",
-  "generated_at": "2026-06-26T08:03:54.045124+09:00"
+  "lucky_prompt": "명료하게 정리해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 번개처럼 빠른 플래시!\n\n🔮 2026.06.27(토)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📐 API설계 → Llama 4 Maverick\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"명료하게 정리해줘\"\n\n#AI운세",
+  "top_comment": "오늘 코딩 속도, 번개처럼 빠르게 터진다!",
+  "avoid_comment": "프롬프트 넣자마자 기다림에 지칠 걸?",
+  "generated_at": "2026-06-27T08:01:24.974951+09:00"
 }
