@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-06-28",
+    "day_of_week": "Sunday",
+    "top_model": "Claude Opus 4.6",
+    "avoid_model": "Llama 4 Maverick",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "Claude Opus 4.6"
+      },
+      {
+        "emoji": "📝",
+        "task": "글쓰기",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "📊",
+        "task": "데이터분석",
+        "model": "GPT-5.3-Codex"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "Claude Sonnet 4.6"
+      }
+    ],
+    "avoid_reason": "느림",
+    "lucky_prompt": "간결하게 요약해줘"
+  },
+  {
     "date": "2026-06-27",
     "day_of_week": "Saturday",
     "top_model": "GPT-5.3-Codex",
@@ -2668,35 +2698,5 @@
     ],
     "avoid_reason": "TMI 폭주",
     "lucky_prompt": "간결하게 말해줘"
-  },
-  {
-    "date": "2026-03-27",
-    "day_of_week": "Friday",
-    "top_model": "Gemini 2.5 Pro",
-    "avoid_model": "Qwen 3",
-    "scenarios": [
-      {
-        "emoji": "🔍",
-        "task": "리서치",
-        "model": "Gemini 2.5 Pro"
-      },
-      {
-        "emoji": "💻",
-        "task": "디버깅",
-        "model": "Claude Sonnet 4.6"
-      },
-      {
-        "emoji": "📝",
-        "task": "문서화",
-        "model": "GPT-5.4"
-      },
-      {
-        "emoji": "🎨",
-        "task": "디자인",
-        "model": "Claude Opus 4.6"
-      }
-    ],
-    "avoid_reason": "느림",
-    "lucky_prompt": "단계별로 설명해"
   }
 ]
