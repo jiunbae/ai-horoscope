@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-28",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "번개처럼 빠른 제미니!",
+  "date": "2026-06-29",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "제미니 3.1 프롬프트, 오늘 대박!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -17,21 +17,21 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.3-Codex"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Claude Sonnet 4.6"
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Llama 4 Maverick",
-    "reason": "느림"
+    "model": "GPT-5.4 Codex",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "간결하게 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 번개처럼 빠른 제미니!\n\n🔮 2026.06.28(일)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → GPT-5.3-Codex\n⚡ 번역 → Claude Sonnet 4.6\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"간결하게 요약해줘\"\n\n#AI운세",
-  "top_comment": "Gemini 2.5 Flash에 오늘은 스피드와 가벼움이 제대로 깃들었어.",
-  "avoid_comment": "Llama 4 Maverick은 아직 힘을 숨기는 중인가 봐, 오늘은 좀 쉬자.",
-  "generated_at": "2026-06-28T08:01:36.351983+09:00"
+  "lucky_prompt": "핵심만 요약해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니 3.1 프롬프트, 오늘 대박!\n\n🔮 2026.06.29(월)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → GPT-5.4 Codex\n\n🍀 \"핵심만 요약해줘\"\n\n#AI운세",
+  "top_comment": "어제는 좀 쉬더니, 오늘은 완전 각성했네? 물 만난 고기처럼 날아다녀.",
+  "avoid_comment": "옛 명성은 뒤로 하고, 오늘은 좀 과부하 걸린 듯. 프롬프트 길어지면 주접이야.",
+  "generated_at": "2026-06-29T08:01:33.585591+09:00"
 }
