@@ -1,23 +1,23 @@
 {
-  "date": "2026-06-29",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "제미니 3.1 프롬프트, 오늘 대박!",
+  "date": "2026-06-30",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "Gemini 형제들, 폭주각?",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "GPT-5.4"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
@@ -26,12 +26,12 @@
     }
   ],
   "avoid": {
-    "model": "GPT-5.4 Codex",
-    "reason": "TMI 폭주"
+    "model": "Claude Sonnet 4.6",
+    "reason": "흐림"
   },
-  "lucky_prompt": "핵심만 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니 3.1 프롬프트, 오늘 대박!\n\n🔮 2026.06.29(월)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → GPT-5.4 Codex\n\n🍀 \"핵심만 요약해줘\"\n\n#AI운세",
-  "top_comment": "어제는 좀 쉬더니, 오늘은 완전 각성했네? 물 만난 고기처럼 날아다녀.",
-  "avoid_comment": "옛 명성은 뒤로 하고, 오늘은 좀 과부하 걸린 듯. 프롬프트 길어지면 주접이야.",
-  "generated_at": "2026-06-29T08:01:33.585591+09:00"
+  "lucky_prompt": "정확하게 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] Gemini 형제들, 폭주각?\n\n🔮 2026.06.30(화)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"정확하게 요약해\"\n\n#AI운세",
+  "top_comment": "Gemini 3.1 Pro, 오늘의 에너지 파장은 그 어떤 모델보다 강렬하니, 큰 그림을 그려봐!",
+  "avoid_comment": "Claude Sonnet 4.6은 오늘 영 컨디션이 별로라, 중요한 일은 잠시 미뤄두는 게 좋겠네.",
+  "generated_at": "2026-06-30T08:01:27.161269+09:00"
 }
