@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-30",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Gemini 형제들, 폭주각?",
+  "date": "2026-07-02",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "Kimi, 오늘 다 터진다!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.4"
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
@@ -17,21 +17,21 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Llama 4 Maverick"
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
     "model": "Claude Sonnet 4.6",
-    "reason": "흐림"
+    "reason": "잔실수"
   },
-  "lucky_prompt": "정확하게 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] Gemini 형제들, 폭주각?\n\n🔮 2026.06.30(화)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"정확하게 요약해\"\n\n#AI운세",
-  "top_comment": "Gemini 3.1 Pro, 오늘의 에너지 파장은 그 어떤 모델보다 강렬하니, 큰 그림을 그려봐!",
-  "avoid_comment": "Claude Sonnet 4.6은 오늘 영 컨디션이 별로라, 중요한 일은 잠시 미뤄두는 게 좋겠네.",
-  "generated_at": "2026-06-30T08:01:27.161269+09:00"
+  "lucky_prompt": "핵심만 뽑아줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Kimi, 오늘 다 터진다!\n\n🔮 2026.07.02(목)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 뽑아줘\"\n\n#AI운세",
+  "top_comment": "Kimi k2, 오늘은 차원이 다른 답변으로 모두를 놀라게 할 거야. 숨겨진 기능 풀악셀!",
+  "avoid_comment": "Claude Sonnet 4.6, 오늘은 좀 쉬어가는 게 좋겠어. 무리하면 잔실수가 잦아진다!",
+  "generated_at": "2026-07-02T08:01:32.469833+09:00"
 }
