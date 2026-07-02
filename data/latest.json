@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-02",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "Kimi, 오늘 다 터진다!",
+  "date": "2026-07-03",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "코딩 신 강림, GPT의 날!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -22,16 +22,16 @@
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "잔실수"
+    "model": "Qwen3 235B A22B",
+    "reason": "느려터짐"
   },
-  "lucky_prompt": "핵심만 뽑아줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Kimi, 오늘 다 터진다!\n\n🔮 2026.07.02(목)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 뽑아줘\"\n\n#AI운세",
-  "top_comment": "Kimi k2, 오늘은 차원이 다른 답변으로 모두를 놀라게 할 거야. 숨겨진 기능 풀악셀!",
-  "avoid_comment": "Claude Sonnet 4.6, 오늘은 좀 쉬어가는 게 좋겠어. 무리하면 잔실수가 잦아진다!",
-  "generated_at": "2026-07-02T08:01:32.469833+09:00"
+  "lucky_prompt": "정확히 해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 코딩 신 강림, GPT의 날!\n\n🔮 2026.07.03(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"정확히 해줘\"\n\n#AI운세",
+  "top_comment": "오늘은 GPT-5.4가 코드를 싹 다 갈아엎어줄 거야. 그냥 맡겨봐!",
+  "avoid_comment": "Qwen3 235B A22B는 오늘 기운이 안 좋아. 답답해서 속 터질라.",
+  "generated_at": "2026-07-03T08:01:33.110987+09:00"
 }
