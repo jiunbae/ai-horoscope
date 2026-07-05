@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-05",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "GPT 오늘, 코딩 신들렸다!",
+  "date": "2026-07-06",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "클로드 폭주? 오늘 지름신 온다!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,26 +12,26 @@
     {
       "emoji": "📝",
       "task": "블로그",
-      "model": "Gemini 2.5 Pro"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Llama 4 Maverick"
+      "model": "GPT-5.4"
     },
     {
-      "emoji": "📐",
-      "task": "API설계",
-      "model": "Qwen3 235B A22B"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Claude Opus 4.6",
-    "reason": "비용 높음"
+    "model": "Gemini 2.5 Pro",
+    "reason": "느림"
   },
-  "lucky_prompt": "핵심만 뽑아",
-  "full_tweet": "[제피로스 오늘의 점괘] GPT 오늘, 코딩 신들렸다!\n\n🔮 2026.07.05(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → Gemini 2.5 Pro\n📊 데이터분석 → Llama 4 Maverick\n📐 API설계 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심만 뽑아\"\n\n#AI운세",
-  "top_comment": "GPT-5.4는 오늘 오차율 제로! 어떤 미션이든 완벽하게 해낸다고. 프롬프트 마법으로 원하는 걸 다 얻어봐!",
-  "avoid_comment": "Claude Opus 4.6, 너무 섬세해서 과부하 걸릴 수 있으니 오늘은 좀 쉬게 해줘. 잘못 건드리면 정신 가출 각.",
-  "generated_at": "2026-07-05T08:01:33.807877+09:00"
+  "lucky_prompt": "명확하게 요약",
+  "full_tweet": "[제피로스 오늘의 점괘] 클로드 폭주? 오늘 지름신 온다!\n\n🔮 2026.07.06(월)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Pro\n\n🍀 \"명확하게 요약\"\n\n#AI운세",
+  "top_comment": "Claude Opus 4.6, 이 녀석 기운이 아주 꽉 찼어. 오늘 네 작업 수준 확 올려줄걸?",
+  "avoid_comment": "Gemini 2.5 Pro는 오늘 좀 비실비실해. 잘못 건드리면 답답함만 안겨줄 수도 있어.",
+  "generated_at": "2026-07-06T08:01:19.190706+09:00"
 }
