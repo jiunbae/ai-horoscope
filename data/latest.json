@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-06",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "클로드 폭주? 오늘 지름신 온다!",
+  "date": "2026-07-07",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "Qwen3이 코딩 신강림!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
-    },
-    {
-      "emoji": "📝",
-      "task": "블로그",
-      "model": "Claude Sonnet 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.4"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
       "task": "번역",
       "model": "Llama 4 Maverick"
+    },
+    {
+      "emoji": "📝",
+      "task": "마케팅카피",
+      "model": "Gemini 2.5 Flash"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Pro",
-    "reason": "느림"
+    "model": "GPT-5.3-Codex",
+    "reason": "불안정"
   },
-  "lucky_prompt": "명확하게 요약",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드 폭주? 오늘 지름신 온다!\n\n🔮 2026.07.06(월)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Pro\n\n🍀 \"명확하게 요약\"\n\n#AI운세",
-  "top_comment": "Claude Opus 4.6, 이 녀석 기운이 아주 꽉 찼어. 오늘 네 작업 수준 확 올려줄걸?",
-  "avoid_comment": "Gemini 2.5 Pro는 오늘 좀 비실비실해. 잘못 건드리면 답답함만 안겨줄 수도 있어.",
-  "generated_at": "2026-07-06T08:01:19.190706+09:00"
+  "lucky_prompt": "정확히 해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Qwen3이 코딩 신강림!\n\n🔮 2026.07.07(화)\n\n💻 코딩 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n📝 마케팅카피 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"정확히 해줘\"\n\n#AI운세",
+  "top_comment": "Qwen3 235B A22B가 오늘 코딩의 신이 강림했으니, 복붙만 해도 대박 코드 뽑아낼 거다.",
+  "avoid_comment": "GPT-5.3-Codex는 오늘 왜 이렇게 불안정해? 중요한 건 맡기지 말고 숨 좀 쉬게 해줘라.",
+  "generated_at": "2026-07-07T08:01:21.496298+09:00"
 }
