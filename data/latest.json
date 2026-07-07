@@ -1,13 +1,18 @@
 {
-  "date": "2026-07-07",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Qwen3이 코딩 신강림!",
+  "date": "2026-07-08",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "클로드 소넷, 오늘은 네 세상이다",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.4"
+      "model": "GPT-5.3-Codex"
+    },
+    {
+      "emoji": "📝",
+      "task": "글쓰기",
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
@@ -17,21 +22,16 @@
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Llama 4 Maverick"
-    },
-    {
-      "emoji": "📝",
-      "task": "마케팅카피",
       "model": "Gemini 2.5 Flash"
     }
   ],
   "avoid": {
-    "model": "GPT-5.3-Codex",
-    "reason": "불안정"
+    "model": "Qwen3 235B A22B",
+    "reason": "종종 헛소리"
   },
-  "lucky_prompt": "정확히 해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Qwen3이 코딩 신강림!\n\n🔮 2026.07.07(화)\n\n💻 코딩 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n📝 마케팅카피 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"정확히 해줘\"\n\n#AI운세",
-  "top_comment": "Qwen3 235B A22B가 오늘 코딩의 신이 강림했으니, 복붙만 해도 대박 코드 뽑아낼 거다.",
-  "avoid_comment": "GPT-5.3-Codex는 오늘 왜 이렇게 불안정해? 중요한 건 맡기지 말고 숨 좀 쉬게 해줘라.",
-  "generated_at": "2026-07-07T08:01:21.496298+09:00"
+  "lucky_prompt": "명확히 알려줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 클로드 소넷, 오늘은 네 세상이다\n\n🔮 2026.07.08(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"명확히 알려줘\"\n\n#AI운세",
+  "top_comment": "클로드 소넷 4.6, 오늘의 기운은 너의 섬세함과 효율성이 하늘을 찌르는구나. 복잡한 요구사항도 척척!",
+  "avoid_comment": "Qwen3 235B A22B, 오늘은 영 컨디션이 안 좋아 보인다. 꼭 써야 한다면 프롬프트를 짧게 가져가 봐.",
+  "generated_at": "2026-07-08T08:00:49.721737+09:00"
 }
