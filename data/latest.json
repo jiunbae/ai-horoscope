@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-11",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "빠름의 미학! 플래시가 번쩍!",
+  "date": "2026-07-12",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "Grok 3, 오늘의 주역이다!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -11,27 +11,27 @@
     },
     {
       "emoji": "📝",
-      "task": "글쓰기",
+      "task": "블로그",
       "model": "GPT-5.4"
     },
     {
       "emoji": "📊",
-      "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "task": "CSV정리",
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Claude Opus 4.6"
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Llama 4 Maverick",
-    "reason": "불안정"
+    "model": "Kimi k2",
+    "reason": "느림"
   },
-  "lucky_prompt": "명확하게 해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 빠름의 미학! 플래시가 번쩍!\n\n🔮 2026.07.11(토)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Claude Opus 4.6\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"명확하게 해줘\"\n\n#AI운세",
-  "top_comment": "오늘의 승자는 스피드와 정확성을 겸비한 Gemini 2.5 Flash가 되겠네. 모든 작업에 후회 없을 거야!",
-  "avoid_comment": "Llama 4 Maverick은 아직 좀 덜 여문 느낌이니 중요한 작업엔 잠시 미뤄두라고. 괜히 시간 낭비하지 마.",
-  "generated_at": "2026-07-11T08:00:55.196262+09:00"
+  "lucky_prompt": "명확하고 상세히",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok 3, 오늘의 주역이다!\n\n🔮 2026.07.12(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → GPT-5.4\n📊 CSV정리 → Gemini 2.5 Pro\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"명확하고 상세히\"\n\n#AI운세",
+  "top_comment": "Grok 3, 드디어 베일을 벗고 최고의 성능을 뽐내네! 오늘은 너 믿고 간다!",
+  "avoid_comment": "Kimi k2, 오늘은 컨디션이 안 좋으니 잠시 쉬게 해주는 게 좋을걸.",
+  "generated_at": "2026-07-12T08:00:45.487774+09:00"
 }
