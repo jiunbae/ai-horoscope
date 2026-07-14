@@ -1,13 +1,13 @@
 {
-  "date": "2026-07-14",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "오푸스가 기가 맥혀~",
+  "date": "2026-07-15",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "플래시, 오늘 제대로 찢었다!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📝",
@@ -17,7 +17,7 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
@@ -26,12 +26,12 @@
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "지각쟁이"
+    "model": "GPT-5.3-Codex",
+    "reason": "느려터짐"
   },
-  "lucky_prompt": "정확히 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 오푸스가 기가 맥혀~\n\n🔮 2026.07.14(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"정확히 요약해줘\"\n\n#AI운세",
-  "top_comment": "클로드 오푸스가 에너지가 넘쳐서 시키는 대로 다 해줄 거야. 랭킹 1위는 괜히 얻는 게 아니지!",
-  "avoid_comment": "클로드 소넷은 오늘 좀 느릿느릿해서 마감 임박한 일은 피하는 게 좋겠어. 괜히 속 터진다~",
-  "generated_at": "2026-07-14T08:00:39.567839+09:00"
+  "lucky_prompt": "최적화해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 플래시, 오늘 제대로 찢었다!\n\n🔮 2026.07.15(수)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"최적화해줘\"\n\n#AI운세",
+  "top_comment": "오늘 Gemini 2.5 Flash는 번개 같은 속도로 네 작업창을 지배할 거야. 완전 신났네!",
+  "avoid_comment": "GPT-5.3-Codex, 오늘은 좀 쉬어라. 괜히 건드리면 작업이 꼬일 수 있어. 컨디션 난조다!",
+  "generated_at": "2026-07-15T08:01:08.742501+09:00"
 }
