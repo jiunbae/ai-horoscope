@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-16",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "플래시 속도, 코덱 반전!",
+  "date": "2026-07-17",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "Kimi, 오늘은 폼 미쳤다!",
   "scenarios": [
     {
-      "emoji": "📋",
-      "task": "요약",
-      "model": "Gemini 2.5 Flash"
-    },
-    {
-      "emoji": "🔧",
-      "task": "API설계",
+      "emoji": "💻",
+      "task": "코딩",
       "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
-      "task": "논문요약",
-      "model": "Claude Opus 4.6"
+      "task": "블로그",
+      "model": "GPT-5.4"
     },
     {
-      "emoji": "🎨",
-      "task": "마케팅카피",
-      "model": "GPT-5.4"
+      "emoji": "📊",
+      "task": "데이터분석",
+      "model": "Gemini 2.5 Pro"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Pro",
-    "reason": "과잉친절"
+    "model": "Qwen3 235B A22B",
+    "reason": "가끔 엉뚱"
   },
-  "lucky_prompt": "명확히 알려줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 플래시 속도, 코덱 반전!\n\n🔮 2026.07.16(목)\n\n📋 요약 → Gemini 2.5 Flash\n🔧 API설계 → GPT-5.3-Codex\n📝 논문요약 → Claude Opus 4.6\n🎨 마케팅카피 → GPT-5.4\n🚫 오늘은 쉬어 → Gemini 2.5 Pro\n\n🍀 \"명확히 알려줘\"\n\n#AI운세",
-  "top_comment": "오늘의 에너지는 플래시처럼 번뜩이네, 뭘 해도 착착 붙을 거야!",
-  "avoid_comment": "오늘은 프롬프트 좀만 길어도 주저리주저리, 에너지 과부하 조심!",
-  "generated_at": "2026-07-16T08:00:48.280658+09:00"
+  "lucky_prompt": "직관적 설명",
+  "full_tweet": "[제피로스 오늘의 점괘] Kimi, 오늘은 폼 미쳤다!\n\n🔮 2026.07.17(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"직관적 설명\"\n\n#AI운세",
+  "top_comment": "오늘 코딩의 신은 Kimi k2에 깃들었어, 거침없이 달려봐!",
+  "avoid_comment": "Qwen3 235B A22B는 오늘 영 힘이 빠져 보인다, 중요한 작업엔 잠시 쉬게 해줘.",
+  "generated_at": "2026-07-17T08:01:01.595364+09:00"
 }
