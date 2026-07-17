@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-17",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "Kimi, 오늘은 폼 미쳤다!",
+  "date": "2026-07-18",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "제미니, 오늘 아주 물 올랐네!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "📝",
       "task": "블로그",
+      "model": "Claude Sonnet 4.6"
+    },
+    {
+      "emoji": "📐",
+      "task": "아키텍처",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "📊",
-      "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
-    },
-    {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "DeepSeek V3.2"
+      "emoji": "💬",
+      "task": "요약",
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "가끔 엉뚱"
+    "model": "Claude Opus 4.6",
+    "reason": "비용 높음"
   },
-  "lucky_prompt": "직관적 설명",
-  "full_tweet": "[제피로스 오늘의 점괘] Kimi, 오늘은 폼 미쳤다!\n\n🔮 2026.07.17(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"직관적 설명\"\n\n#AI운세",
-  "top_comment": "오늘 코딩의 신은 Kimi k2에 깃들었어, 거침없이 달려봐!",
-  "avoid_comment": "Qwen3 235B A22B는 오늘 영 힘이 빠져 보인다, 중요한 작업엔 잠시 쉬게 해줘.",
-  "generated_at": "2026-07-17T08:01:01.595364+09:00"
+  "lucky_prompt": "핵심 요약해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 오늘 아주 물 올랐네!\n\n🔮 2026.07.18(토)\n\n💻 코딩 → DeepSeek V3.2\n📝 블로그 → Claude Sonnet 4.6\n📐 아키텍처 → GPT-5.4\n💬 요약 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심 요약해줘\"\n\n#AI운세",
+  "top_comment": "오늘 Gemini 3.1 Pro는 그야말로 명불허전, 어려운 과제도 척척 해낼 거야.",
+  "avoid_comment": "Claude Opus 4.6은 지갑이 좀 얇아질 수 있으니 꼭 필요할 때만 불러줘.",
+  "generated_at": "2026-07-18T08:00:56.406809+09:00"
 }
