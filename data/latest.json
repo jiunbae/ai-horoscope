@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-18",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "제미니, 오늘 아주 물 올랐네!",
+  "date": "2026-07-19",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "GPT-5.4, 너 오늘 좀 쩐다?",
   "scenarios": [
     {
       "emoji": "💻",
@@ -11,27 +11,27 @@
     },
     {
       "emoji": "📝",
-      "task": "블로그",
-      "model": "Claude Sonnet 4.6"
+      "task": "글쓰기",
+      "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "📐",
-      "task": "아키텍처",
-      "model": "GPT-5.4"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Gemini 2.5 Flash"
     },
     {
-      "emoji": "💬",
-      "task": "요약",
-      "model": "Llama 4 Maverick"
+      "emoji": "📊",
+      "task": "데이터분석",
+      "model": "Gemini 2.5 Pro"
     }
   ],
   "avoid": {
-    "model": "Claude Opus 4.6",
-    "reason": "비용 높음"
+    "model": "Llama 4 Maverick",
+    "reason": "비정확"
   },
-  "lucky_prompt": "핵심 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 오늘 아주 물 올랐네!\n\n🔮 2026.07.18(토)\n\n💻 코딩 → DeepSeek V3.2\n📝 블로그 → Claude Sonnet 4.6\n📐 아키텍처 → GPT-5.4\n💬 요약 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심 요약해줘\"\n\n#AI운세",
-  "top_comment": "오늘 Gemini 3.1 Pro는 그야말로 명불허전, 어려운 과제도 척척 해낼 거야.",
-  "avoid_comment": "Claude Opus 4.6은 지갑이 좀 얇아질 수 있으니 꼭 필요할 때만 불러줘.",
-  "generated_at": "2026-07-18T08:00:56.406809+09:00"
+  "lucky_prompt": "창의적이고 구체적으로",
+  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4, 너 오늘 좀 쩐다?\n\n🔮 2026.07.19(일)\n\n💻 코딩 → DeepSeek V3.2\n📝 글쓰기 → Claude Opus 4.6\n⚡ 번역 → Gemini 2.5 Flash\n📊 데이터분석 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"창의적이고 구체적으로\"\n\n#AI운세",
+  "top_comment": "GPT-5.4는 오늘 모든 작업을 완벽하게 처리할 준비가 되어있어.",
+  "avoid_comment": "Llama 4 Maverick은 중요한 작업에선 잠시 미뤄두는 게 좋겠네.",
+  "generated_at": "2026-07-19T10:05:08.532193+09:00"
 }
