@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-20",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "소넷이 빛나는 월요일!",
+  "date": "2026-07-21",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "오늘은 Claude가 좀 쎄다",
   "scenarios": [
-    {
-      "emoji": "💻",
-      "task": "코딩",
-      "model": "DeepSeek V3.2"
-    },
     {
       "emoji": "📝",
       "task": "글쓰기",
+      "model": "Claude Sonnet 4.6"
+    },
+    {
+      "emoji": "💻",
+      "task": "코딩",
+      "model": "GPT-5.4"
+    },
+    {
+      "emoji": "📐",
+      "task": "아키텍처",
       "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
-      "task": "분석",
-      "model": "Gemini 2.5 Pro"
-    },
-    {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "GPT-5.4"
+      "task": "데이터분석",
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "GPT-5.3-Codex",
-    "reason": "느려터짐"
+    "model": "Gemini 2.5 Flash",
+    "reason": "깊이 부족"
   },
-  "lucky_prompt": "명확하게 써줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 소넷이 빛나는 월요일!\n\n🔮 2026.07.20(월)\n\n💻 코딩 → DeepSeek V3.2\n📝 글쓰기 → Claude Opus 4.6\n📊 분석 → Gemini 2.5 Pro\n⚡ 번역 → GPT-5.4\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"명확하게 써줘\"\n\n#AI운세",
-  "top_comment": "월요일 아침, 가볍고 똑똑하게 치고 나가는 건 역시 소넷이지. 얘가 제일 폼 미쳤다.",
-  "avoid_comment": "코드 짠다고 무작정 얘한테만 맡기면, 커피 한 잔으론 모자랄 걸? 속 터진다 얘.",
-  "generated_at": "2026-07-20T08:01:00.321169+09:00"
+  "lucky_prompt": "심층 분석 부탁",
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Claude가 좀 쎄다\n\n🔮 2026.07.21(화)\n\n📝 글쓰기 → Claude Sonnet 4.6\n💻 코딩 → GPT-5.4\n📐 아키텍처 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"심층 분석 부탁\"\n\n#AI운세",
+  "top_comment": "기획력과 통찰력, 오늘은 소넷이 제대로 터졌다! 역시 믿고 쓰는 모델.",
+  "avoid_comment": "빠르다고 다가 아니다? 중요한 건 대화의 깊이지. 오늘은 좀 가볍다 야.",
+  "generated_at": "2026-07-21T08:01:00.646604+09:00"
 }
