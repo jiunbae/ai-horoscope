@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-21",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "오늘은 Claude가 좀 쎄다",
+  "date": "2026-07-22",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "Grok의 직관이 통하는 날!",
   "scenarios": [
-    {
-      "emoji": "📝",
-      "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
-    },
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.4"
+      "model": "GPT-5.3-Codex"
     },
     {
-      "emoji": "📐",
-      "task": "아키텍처",
-      "model": "Claude Opus 4.6"
+      "emoji": "📝",
+      "task": "블로그",
+      "model": "Llama 4 Maverick"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Pro"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Claude Sonnet 4.6"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "깊이 부족"
+    "model": "Qwen3 235B A22B",
+    "reason": "비용 높음"
   },
-  "lucky_prompt": "심층 분석 부탁",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Claude가 좀 쎄다\n\n🔮 2026.07.21(화)\n\n📝 글쓰기 → Claude Sonnet 4.6\n💻 코딩 → GPT-5.4\n📐 아키텍처 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"심층 분석 부탁\"\n\n#AI운세",
-  "top_comment": "기획력과 통찰력, 오늘은 소넷이 제대로 터졌다! 역시 믿고 쓰는 모델.",
-  "avoid_comment": "빠르다고 다가 아니다? 중요한 건 대화의 깊이지. 오늘은 좀 가볍다 야.",
-  "generated_at": "2026-07-21T08:01:00.646604+09:00"
+  "lucky_prompt": "새로운 시도",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok의 직관이 통하는 날!\n\n🔮 2026.07.22(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → Llama 4 Maverick\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Claude Sonnet 4.6\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"새로운 시도\"\n\n#AI운세",
+  "top_comment": "Grok 3, 오늘은 네 직관이 시대를 앞서가는구나. 거침없이 질러봐!",
+  "avoid_comment": "Qwen3 235B A22B, 오늘은 좀 쉬어가는 게 좋겠어. 어딘가 삐끗한 기운이 보여.",
+  "generated_at": "2026-07-22T08:00:59.568487+09:00"
 }
