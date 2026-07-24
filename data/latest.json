@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-24",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "Gemini Flash, 오늘 터진다!",
+  "date": "2026-07-25",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "소넷 기운이 솟아나는 날!",
   "scenarios": [
     {
-      "emoji": "🎨",
-      "task": "프롬프트 설계",
+      "emoji": "💻",
+      "task": "코딩",
+      "model": "Claude Opus 4.6"
+    },
+    {
+      "emoji": "📝",
+      "task": "글쓰기",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "💬",
-      "task": "챗봇",
-      "model": "Claude Sonnet 4.6"
+      "emoji": "📊",
+      "task": "데이터분석",
+      "model": "Gemini 2.5 Pro"
     },
     {
-      "emoji": "⚙️",
-      "task": "API 설계",
+      "emoji": "⚡",
+      "task": "번역",
       "model": "DeepSeek V3.2"
-    },
-    {
-      "emoji": "🔍",
-      "task": "논문 요약",
-      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Grok 3",
+    "model": "Qwen3 235B A22B",
     "reason": "TMI 폭주"
   },
-  "lucky_prompt": "명확하게 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Gemini Flash, 오늘 터진다!\n\n🔮 2026.07.24(금)\n\n🎨 프롬프트 설계 → GPT-5.4\n💬 챗봇 → Claude Sonnet 4.6\n⚙️ API 설계 → DeepSeek V3.2\n🔍 논문 요약 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Grok 3\n\n🍀 \"명확하게 요약해줘\"\n\n#AI운세",
-  "top_comment": "오늘 Gemini 3.1 Flash가 번개처럼 빠르게 최적의 결과물을 쏟아낼 거야, 믿어봐!",
-  "avoid_comment": "Grok 3는 정보 과잉으로 폭주하기 쉬우니, 중요한 작업은 잠시 잊어주는 게 좋아.",
-  "generated_at": "2026-07-24T08:01:03.431780+09:00"
+  "lucky_prompt": "핵심만 요약해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 소넷 기운이 솟아나는 날!\n\n🔮 2026.07.25(토)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"핵심만 요약해줘\"\n\n#AI운세",
+  "top_comment": "오늘 핵심 요약은 클로드 소넷 4.6이 기가 막히게 뽑아낸다!",
+  "avoid_comment": "큐웬쓰리한테 자잘한 거 시켰다간 장황함에 치일 수도 있으니 조심해.",
+  "generated_at": "2026-07-25T08:00:59.088752+09:00"
 }
