@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-27",
+    "day_of_week": "Monday",
+    "top_model": "GPT-5.4",
+    "avoid_model": "Gemini 2.5 Flash",
+    "scenarios": [
+      {
+        "emoji": "⚙️",
+        "task": "API설계",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "📚",
+        "task": "논문요약",
+        "model": "Claude Opus 4.6"
+      },
+      {
+        "emoji": "🧑‍💻",
+        "task": "코드리뷰",
+        "model": "GPT-5.3-Codex"
+      },
+      {
+        "emoji": "🌐",
+        "task": "번역",
+        "model": "Llama 4 Maverick"
+      }
+    ],
+    "avoid_reason": "산만함",
+    "lucky_prompt": "차분하게 요약해줘"
+  },
+  {
     "date": "2026-07-26",
     "day_of_week": "Sunday",
     "top_model": "GPT-5.3-Codex",
@@ -2668,35 +2698,5 @@
     ],
     "avoid_reason": "느려터짐",
     "lucky_prompt": "명확히 지시"
-  },
-  {
-    "date": "2026-04-23",
-    "day_of_week": "Thursday",
-    "top_model": "Qwen3 235B A22B",
-    "avoid_model": "Gemini 2.5 Flash",
-    "scenarios": [
-      {
-        "emoji": "💻",
-        "task": "코딩",
-        "model": "Qwen3 235B A22B"
-      },
-      {
-        "emoji": "📝",
-        "task": "글쓰기",
-        "model": "Claude Opus 4.6"
-      },
-      {
-        "emoji": "📊",
-        "task": "분석",
-        "model": "GPT-5.4"
-      },
-      {
-        "emoji": "⚡",
-        "task": "번역",
-        "model": "DeepSeek V3.2"
-      }
-    ],
-    "avoid_reason": "맥락 놓침",
-    "lucky_prompt": "최고의 코드를!"
   }
 ]
