@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-27",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "손넷 기세, 심상찮다!",
+  "date": "2026-07-28",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "클로드 오푸스 오늘 좀 쎄다!",
   "scenarios": [
     {
-      "emoji": "⚙️",
+      "emoji": "🔧",
       "task": "API설계",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "📚",
+      "emoji": "📝",
       "task": "논문요약",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
-      "emoji": "🧑‍💻",
-      "task": "코드리뷰",
-      "model": "GPT-5.3-Codex"
+      "emoji": "🖼️",
+      "task": "이미지분석",
+      "model": "Gemini 2.5 Pro"
     },
     {
-      "emoji": "🌐",
-      "task": "번역",
+      "emoji": "💬",
+      "task": "챗봇",
       "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "산만함"
+    "model": "GPT-5.3-Codex",
+    "reason": "오류 뿜뿜"
   },
-  "lucky_prompt": "차분하게 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 손넷 기세, 심상찮다!\n\n🔮 2026.07.27(월)\n\n⚙️ API설계 → GPT-5.4\n📚 논문요약 → Claude Opus 4.6\n🧑‍💻 코드리뷰 → GPT-5.3-Codex\n🌐 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"차분하게 요약해줘\"\n\n#AI운세",
-  "top_comment": "클로드 손넷, 오늘은 에너지가 폭발해서 아이디어들이 막 터져나올 거야. 뭐든 맡겨 봐!",
-  "avoid_comment": "제미니 플래시, 오늘은 컨디션이 별로라 잔실수 폭격 맞기 쉬우니 좀 쉬게 해줘. 중요한 일은 피하고.",
-  "generated_at": "2026-07-27T08:01:10.748080+09:00"
+  "lucky_prompt": "완벽하게 답해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 클로드 오푸스 오늘 좀 쎄다!\n\n🔮 2026.07.28(화)\n\n🔧 API설계 → GPT-5.4\n📝 논문요약 → Claude Sonnet 4.6\n🖼️ 이미지분석 → Gemini 2.5 Pro\n💬 챗봇 → Llama 4 Maverick\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"완벽하게 답해줘\"\n\n#AI운세",
+  "top_comment": "오늘의 왕, 품격이 느껴지는 답변들로 모두를 압도한다.",
+  "avoid_comment": "이 모델은 오늘은 피하는 게 상책, 엉뚱한 답변에 속 터질라.",
+  "generated_at": "2026-07-28T08:01:24.930870+09:00"
 }
