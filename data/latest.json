@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-28",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "클로드 오푸스 오늘 좀 쎄다!",
+  "date": "2026-07-29",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "오푸스 기운, 영롱하네!",
   "scenarios": [
     {
-      "emoji": "🔧",
-      "task": "API설계",
+      "emoji": "💻",
+      "task": "코딩",
       "model": "GPT-5.4"
     },
     {
       "emoji": "📝",
-      "task": "논문요약",
-      "model": "Claude Sonnet 4.6"
+      "task": "블로그",
+      "model": "DeepSeek V3.2"
     },
     {
-      "emoji": "🖼️",
-      "task": "이미지분석",
+      "emoji": "📊",
+      "task": "데이터분석",
       "model": "Gemini 2.5 Pro"
     },
     {
-      "emoji": "💬",
-      "task": "챗봇",
-      "model": "Llama 4 Maverick"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Claude Sonnet 4.6"
     }
   ],
   "avoid": {
-    "model": "GPT-5.3-Codex",
-    "reason": "오류 뿜뿜"
+    "model": "Kimi k2",
+    "reason": "수다쟁이"
   },
-  "lucky_prompt": "완벽하게 답해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드 오푸스 오늘 좀 쎄다!\n\n🔮 2026.07.28(화)\n\n🔧 API설계 → GPT-5.4\n📝 논문요약 → Claude Sonnet 4.6\n🖼️ 이미지분석 → Gemini 2.5 Pro\n💬 챗봇 → Llama 4 Maverick\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"완벽하게 답해줘\"\n\n#AI운세",
-  "top_comment": "오늘의 왕, 품격이 느껴지는 답변들로 모두를 압도한다.",
-  "avoid_comment": "이 모델은 오늘은 피하는 게 상책, 엉뚱한 답변에 속 터질라.",
-  "generated_at": "2026-07-28T08:01:24.930870+09:00"
+  "lucky_prompt": "핵심만 요약!",
+  "full_tweet": "[제피로스 오늘의 점괘] 오푸스 기운, 영롱하네!\n\n🔮 2026.07.29(수)\n\n💻 코딩 → GPT-5.4\n📝 블로그 → DeepSeek V3.2\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Claude Sonnet 4.6\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"핵심만 요약!\"\n\n#AI운세",
+  "top_comment": "오늘 Claude Opus 4.6은 말 그대로 &#x27;신의 한 수&#x27;를 보여줄 거야. 복잡한 문제도 술술 풀린다!",
+  "avoid_comment": "Kimi k2는 오늘 쓸데없는 TMI 폭주각이야. 길게 늘어지는 답변에 현혹되지 마.",
+  "generated_at": "2026-07-29T08:00:48.729847+09:00"
 }
