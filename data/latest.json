@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-30",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "클로드 오늘 쫌 짱!",
+  "date": "2026-07-31",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "클로드 오늘 좀 쎄다!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.4"
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "GPT-5.4"
     },
     {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Llama 4 Maverick"
+      "emoji": "💬",
+      "task": "요약",
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "정보 과잉"
+    "model": "Claude Sonnet 4.6",
+    "reason": "답변 부족"
   },
-  "lucky_prompt": "논리적으로",
-  "full_tweet": "[제피로스 오늘의 점괘] 클로드 오늘 쫌 짱!\n\n🔮 2026.07.30(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"논리적으로\"\n\n#AI운세",
-  "top_comment": "오늘 오푸스는 감성적인 텍스트뿐 아니라 깊이 있는 분석까지 완벽 소화할 거야.",
-  "avoid_comment": "빠르다고 무조건 좋은 게 아냐, 가벼운 플래시는 오히려 불필요한 정보만 넘칠 수 있어.",
-  "generated_at": "2026-07-30T08:00:54.106798+09:00"
+  "lucky_prompt": "핵심만 뽑아줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 클로드 오늘 좀 쎄다!\n\n🔮 2026.07.31(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Gemini 2.5 Pro\n📊 데이터분석 → GPT-5.4\n💬 요약 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 뽑아줘\"\n\n#AI운세",
+  "top_comment": "오늘 Claude Opus 4.6은 복잡한 논리도 한 번에 풀어주는 신들린 능력을 보여줄 거야.",
+  "avoid_comment": "Claude Sonnet 4.6은 오늘 왠지 컨디션이 안 좋으니 잠시 쉬게 두는 게 좋겠어.",
+  "generated_at": "2026-07-31T08:00:55.514525+09:00"
 }
