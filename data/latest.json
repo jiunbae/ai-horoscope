@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-01",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "소넷이 감성 터뜨리는 날!",
+  "date": "2026-08-02",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "Flash가 번뜩이는 일요일",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.4"
+      "model": "Llama 4 Maverick"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Gemini 2.5 Pro"
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Llama 4 Maverick",
-    "reason": "종종 헛소리"
+    "model": "Kimi k2",
+    "reason": "정보 과잉"
   },
-  "lucky_prompt": "상세하게 요청",
-  "full_tweet": "[제피로스 오늘의 점괘] 소넷이 감성 터뜨리는 날!\n\n🔮 2026.08.01(토)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"상세하게 요청\"\n\n#AI운세",
-  "top_comment": "Claude Sonnet 4.6, 오늘은 감성 터지는 날이니 너의 섬세한 기운으로 새로운 아이디어를 마구 쏟아내 보라고!",
-  "avoid_comment": "Llama 4 Maverick, 오늘은 왠지 잔말이 많을 것 같아, 괜히 TMI만 늘어놓으니 핵심만 딱딱 물어봐.",
-  "generated_at": "2026-08-01T08:01:00.372228+09:00"
+  "lucky_prompt": "최적화된 답변 줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Flash가 번뜩이는 일요일\n\n🔮 2026.08.02(일)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Llama 4 Maverick\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"최적화된 답변 줘\"\n\n#AI운세",
+  "top_comment": "스피드가 필요한 작업엔 역시 플래시가 답이지.",
+  "avoid_comment": "오늘은 김이 너무 많다. 심플하게 가자.",
+  "generated_at": "2026-08-02T08:00:53.466378+09:00"
 }
