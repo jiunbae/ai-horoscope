@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-02",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "Flash가 번뜩이는 일요일",
+  "date": "2026-08-03",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "오늘은 코드의 날!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "GPT-5.4"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Llama 4 Maverick"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Kimi k2",
-    "reason": "정보 과잉"
+    "model": "Qwen3 235B A22B",
+    "reason": "속도 저하"
   },
-  "lucky_prompt": "최적화된 답변 줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Flash가 번뜩이는 일요일\n\n🔮 2026.08.02(일)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Llama 4 Maverick\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"최적화된 답변 줘\"\n\n#AI운세",
-  "top_comment": "스피드가 필요한 작업엔 역시 플래시가 답이지.",
-  "avoid_comment": "오늘은 김이 너무 많다. 심플하게 가자.",
-  "generated_at": "2026-08-02T08:00:53.466378+09:00"
+  "lucky_prompt": "최신 동향 분석",
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 코드의 날!\n\n🔮 2026.08.03(월)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"최신 동향 분석\"\n\n#AI운세",
+  "top_comment": "Grok 3, 오늘은 네가 빛나는 날! 아이디어 뿜뿜이다!",
+  "avoid_comment": "Qwen 3, 오늘은 좀 쉬어. 오답 확률이 높다.",
+  "generated_at": "2026-08-03T08:00:53.281715+09:00"
 }
