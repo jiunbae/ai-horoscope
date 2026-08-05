@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-05",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "오늘은 Kimi가 빛난다!",
+  "date": "2026-08-06",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "새로운 코딩 바람이 분다",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "GPT-5.4"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Claude Opus 4.6"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "DeepSeek V3.2"
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Gemini 3.1 Flash",
-    "reason": "버그 조심"
+    "model": "GPT-5.3-Codex",
+    "reason": "느린 응답"
   },
-  "lucky_prompt": "핵심만 뽑아줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Kimi가 빛난다!\n\n🔮 2026.08.05(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Claude Opus 4.6\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Gemini 3.1 Flash\n\n🍀 \"핵심만 뽑아줘\"\n\n#AI운세",
-  "top_comment": "Kimi k2, 오늘은 네가 모든 모델의 기준점이야. 뭘 해도 잘 풀릴 각!",
-  "avoid_comment": "Gemini 3.1 Flash는 오늘 좀 불안해. 중요한 작업은 다른 모델로 돌려!",
-  "generated_at": "2026-08-05T08:01:02.799137+09:00"
+  "lucky_prompt": "상세하게 질문",
+  "full_tweet": "[제피로스 오늘의 점괘] 새로운 코딩 바람이 분다\n\n🔮 2026.08.06(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"상세하게 질문\"\n\n#AI운세",
+  "top_comment": "Gemini 3.1 Pro, 코딩 영감 주는 오늘의 주역이네.",
+  "avoid_comment": "GPT-5.3-Codex는 괜히 삽질하다 시간만 날릴 수 있으니 잠시 쉬게 해줘.",
+  "generated_at": "2026-08-06T08:01:03.770657+09:00"
 }
