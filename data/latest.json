@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-09",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "오늘은 Sonnet이 멱살 잡는 날!",
+  "date": "2026-08-10",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "소넷 기운, 최상!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "DeepSeek V3.2"
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.4"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "Gemini 2.5 Pro"
     }
   ],
   "avoid": {
-    "model": "GPT-5.3-Codex",
-    "reason": "불안정"
+    "model": "Claude Opus 4.6",
+    "reason": "비용 높음"
   },
-  "lucky_prompt": "명료하게!",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Sonnet이 멱살 잡는 날!\n\n🔮 2026.08.09(일)\n\n💻 코딩 → DeepSeek V3.2\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"명료하게!\"\n\n#AI운세",
-  "top_comment": "오늘은 Claude Sonnet 4.6이 기깔나게 해낼 거야. 뭐든 맡겨 봐!",
-  "avoid_comment": "GPT-5.3-Codex, 오늘은 좀 쉬자. 괜히 건드렸다간 꼬일 수 있어.",
-  "generated_at": "2026-08-09T08:00:53.335249+09:00"
+  "lucky_prompt": "코드를 깔끔하게",
+  "full_tweet": "[제피로스 오늘의 점괘] 소넷 기운, 최상!\n\n🔮 2026.08.10(월)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"코드를 깔끔하게\"\n\n#AI운세",
+  "top_comment": "오늘 소넷 기운이 심상치 않으니 믿고 맡겨봐.",
+  "avoid_comment": "오푸스, 비싼 값 못할 때가 있으니 오늘은 잠시 피해줘.",
+  "generated_at": "2026-08-10T08:00:59.930400+09:00"
 }
