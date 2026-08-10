@@ -32,6 +32,7 @@ jobs:
           # how a broken Bot Manager went unnoticed for 47 days (2026-06-25 ~ 08-10).
           # Always print the status code and body.
           call() {
+            : > /tmp/body.txt   # curl leaves it untouched when it cannot connect
             curl -sS -m 20 -o /tmp/body.txt -w '%{http_code}' \
               -H "X-API-Key: $BOT_API_KEY" "$@" 2>/tmp/curl.err || true
           }
@@ -58,6 +59,7 @@ jobs:
           BOT_API_KEY: ${{ secrets.BOT_MANAGER_API_KEY }}
         run: |
           call() {
+            : > /tmp/body.txt   # curl leaves it untouched when it cannot connect
             curl -sS -m 20 -o /tmp/body.txt -w '%{http_code}' \
               -H "X-API-Key: $BOT_API_KEY" "$@" 2>/tmp/curl.err || true
           }
