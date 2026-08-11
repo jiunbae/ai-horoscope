@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-11",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "오푸스 기운, 코딩 폭발!",
+  "date": "2026-08-12",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "Grok 기운, AI계 강타!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,26 +12,26 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Llama 4 Maverick"
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
-    "reason": "헛소리"
+    "model": "Claude Sonnet 4.6",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "명확하게",
-  "full_tweet": "[제피로스 오늘의 점괘] 오푸스 기운, 코딩 폭발!\n\n🔮 2026.08.11(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"명확하게\"\n\n#AI운세",
-  "top_comment": "오늘은 Claude Opus 4.6이 코딩 신의 기운을 받아 모든 오류를 박살낼 거야!",
-  "avoid_comment": "Qwen3 235B A22B는 오늘 좀 정신없으니 복잡한 작업은 피하는 게 좋겠다.",
-  "generated_at": "2026-08-11T08:00:57.894327+09:00"
+  "lucky_prompt": "핵심만 뽑아줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok 기운, AI계 강타!\n\n🔮 2026.08.12(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 뽑아줘\"\n\n#AI운세",
+  "top_comment": "오늘 Grok 3는 마치 신내림 받은 무당 같아. 뭐든 척척이지!",
+  "avoid_comment": "Claude Sonnet 4.6, 오늘은 너무 앞서가지 마. 과유불급이라니까.",
+  "generated_at": "2026-08-12T08:01:06.108579+09:00"
 }
