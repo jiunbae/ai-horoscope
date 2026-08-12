@@ -10,6 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history, NOT the default shallow depth-1 clone.
+          # The last step mirrors main to GitHub with `git push --force`. A
+          # shallow clone can only supply the tip commit, so the push succeeds
+          # only while GitHub already has its parent. The moment GitHub falls
+          # two or more commits behind, every push fails with
+          #   remote: fatal: did not receive expected object <sha>
+          #   error: remote unpack failed: index-pack failed
+          # and the gap widens by one commit a day — it never self-heals.
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
