@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-13",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "손자, 오늘은 소넷의 날!",
+  "date": "2026-08-14",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "코덱신 강림! 라마는 쉬어라",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,7 +12,7 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
@@ -26,12 +26,12 @@
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "수다 폭주"
+    "model": "Llama 4 Maverick",
+    "reason": "느린 답변"
   },
-  "lucky_prompt": "핵심만 요약",
-  "full_tweet": "[제피로스 오늘의 점괘] 손자, 오늘은 소넷의 날!\n\n🔮 2026.08.13(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"핵심만 요약\"\n\n#AI운세",
-  "top_comment": "Claude Sonnet 4.6, 오늘은 이 녀석이 뭘 해도 되는 날이니 맘껏 부려먹어봐.",
-  "avoid_comment": "Gemini 2.5 Flash, 쓸데없는 말잔치 벌일 확률 높으니 조심해. 시간 낭비 각이다.",
-  "generated_at": "2026-08-13T08:01:00.746418+09:00"
+  "lucky_prompt": "명확히 지시해!",
+  "full_tweet": "[제피로스 오늘의 점괘] 코덱신 강림! 라마는 쉬어라\n\n🔮 2026.08.14(금)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"명확히 지시해!\"\n\n#AI운세",
+  "top_comment": "오늘은 GPT-5.3-Codex가 로직의 신내림을 받았다. 코드면 뭐든 맡겨봐.",
+  "avoid_comment": "Llama 4 Maverick은 오늘 유독 지쳐 보여. 복잡한 일은 좀 피하자.",
+  "generated_at": "2026-08-14T08:01:01.802927+09:00"
 }
