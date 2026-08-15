@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-15",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "Qwen3, 오늘은 네가 대장!",
+  "date": "2026-08-16",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "Claude Sonnet, 오늘 빛을 발하다!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📝",
       "task": "블로그",
-      "model": "Gemini 2.5 Pro"
+      "model": "Gemini 2.5 Flash"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "⚡",
-      "task": "번역",
-      "model": "GPT-5.4"
+      "task": "API설계",
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Kimi k2",
-    "reason": "응답 지연"
+    "model": "Qwen3 235B A22B",
+    "reason": "불안정"
   },
-  "lucky_prompt": "명료하게 요약",
-  "full_tweet": "[제피로스 오늘의 점괘] Qwen3, 오늘은 네가 대장!\n\n🔮 2026.08.15(토)\n\n💻 코딩 → Claude Opus 4.6\n📝 블로그 → Gemini 2.5 Pro\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → GPT-5.4\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"명료하게 요약\"\n\n#AI운세",
-  "top_comment": "오늘은 Qwen3가 아주 그냥, 에러 코드까지 씹어먹을 기세네! 최고 효율을 뽑아줄 거야.",
-  "avoid_comment": "Kimi k2, 컨텍스트 길다고 무작정 다 맡기다간 내일 아침까지 기다려야 할걸? 오늘은 잠시 쉬게 해줘.",
-  "generated_at": "2026-08-15T08:01:00.677594+09:00"
+  "lucky_prompt": "명확하게 질문!",
+  "full_tweet": "[제피로스 오늘의 점괘] Claude Sonnet, 오늘 빛을 발하다!\n\n🔮 2026.08.16(일)\n\n💻 코딩 → Claude Sonnet 4.6\n📝 블로그 → Gemini 2.5 Flash\n📊 데이터분석 → GPT-5.4\n⚡ API설계 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"명확하게 질문!\"\n\n#AI운세",
+  "top_comment": "어제는 피할 모델이었던 Claude Sonnet, 오늘 기운이 제대로 올랐네.",
+  "avoid_comment": "Qwen3은 오늘따라 말이 많아지니 중요한 곳엔 피하는 게 상책.",
+  "generated_at": "2026-08-16T08:00:59.701752+09:00"
 }
