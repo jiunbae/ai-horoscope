@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-17",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "Grok 3, 오늘의 왕좌!",
+  "date": "2026-08-18",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "제미니 플래시 폭주!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -17,21 +17,21 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.4"
+      "model": "Llama 4 Maverick"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "DeepSeek V3.2"
+      "model": "GPT-5.4"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Pro",
-    "reason": "고민필요"
+    "model": "DeepSeek V3.2",
+    "reason": "오류 잦음"
   },
-  "lucky_prompt": "혁신적 아이디어",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 3, 오늘의 왕좌!\n\n🔮 2026.08.17(월)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Gemini 2.5 Pro\n\n🍀 \"혁신적 아이디어\"\n\n#AI운세",
-  "top_comment": "Grok 3, 오늘 제대로 물 올랐어! 아이디어가 펑펑 터질 거야.",
-  "avoid_comment": "Gemini 3.1 Pro는 오늘 좀 삐끗하니, 중요한 건 잠시 미뤄두는 게 좋겠어.",
-  "generated_at": "2026-08-17T08:01:02.914361+09:00"
+  "lucky_prompt": "명료하게!",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니 플래시 폭주!\n\n🔮 2026.08.18(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Llama 4 Maverick\n⚡ 번역 → GPT-5.4\n🚫 오늘은 쉬어 → DeepSeek V3.2\n\n🍀 \"명료하게!\"\n\n#AI운세",
+  "top_comment": "오늘은 제미니 2.5 플래시가 번개처럼 빠르게 일을 처리해 줄 거야. 속도감 대박!",
+  "avoid_comment": "딥씨크 V3.2, 오늘은 컨디션이 좀 불안정하네. 중요한 작업은 피하는 게 좋겠다.",
+  "generated_at": "2026-08-18T08:00:58.692959+09:00"
 }
