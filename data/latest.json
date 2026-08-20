@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-20",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "제미니 기세, 하늘을 찌르네!",
+  "date": "2026-08-21",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "GPT-5.4, 코딩 기운 폭발!",
   "scenarios": [
     {
-      "emoji": "📐",
-      "task": "API설계",
-      "model": "Gemini 2.5 Pro"
-    },
-    {
-      "emoji": "✍️",
-      "task": "블로그",
-      "model": "Qwen3 235B A22B"
-    },
-    {
-      "emoji": "🔍",
-      "task": "디버깅",
+      "emoji": "💻",
+      "task": "코딩",
       "model": "GPT-5.3-Codex"
     },
     {
-      "emoji": "📚",
-      "task": "논문요약",
-      "model": "Claude Opus 4.6"
+      "emoji": "📝",
+      "task": "글쓰기",
+      "model": "Claude Sonnet 4.6"
+    },
+    {
+      "emoji": "📊",
+      "task": "데이터분석",
+      "model": "DeepSeek V3.2"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "빈틈 많음"
+    "model": "Gemini 2.5 Flash",
+    "reason": "버벅임"
   },
-  "lucky_prompt": "논리적으로 추론",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니 기세, 하늘을 찌르네!\n\n🔮 2026.08.20(목)\n\n📐 API설계 → Gemini 2.5 Pro\n✍️ 블로그 → Qwen3 235B A22B\n🔍 디버깅 → GPT-5.3-Codex\n📚 논문요약 → Claude Opus 4.6\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"논리적으로 추론\"\n\n#AI운세",
-  "top_comment": "오늘 제미니 2.5 Pro는 복잡한 요구에도 척척, 너의 업무 난이도를 낮춰줄 거야.",
-  "avoid_comment": "클로드 소넷 4.6은 잠시 쉬는 게 현명해, 엉뚱한 답변으로 골치 아플라!",
-  "generated_at": "2026-08-20T08:01:14.344121+09:00"
+  "lucky_prompt": "핵심만 뽑아줘",
+  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4, 코딩 기운 폭발!\n\n🔮 2026.08.21(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"핵심만 뽑아줘\"\n\n#AI운세",
+  "top_comment": "GPT-5.4, 오늘 에너지가 심상치 않아. 뭐든 맡겨도 술술 풀릴 거야.",
+  "avoid_comment": "Gemini 2.5 Flash, 오늘은 잠깐 쉬게 해줘. 왠지 속 터질 것 같거든.",
+  "generated_at": "2026-08-21T08:01:15.659343+09:00"
 }
