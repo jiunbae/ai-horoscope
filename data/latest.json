@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-22",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "코딩의 신이 강림!",
+  "date": "2026-08-23",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "GPT-5.4 코딩 실력, 폭발각!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -10,28 +10,28 @@
       "model": "GPT-5.3-Codex"
     },
     {
+      "emoji": "📝",
+      "task": "글쓰기",
+      "model": "Claude Sonnet 4.6"
+    },
+    {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
+      "model": "DeepSeek V3.2"
     },
     {
-      "emoji": "✍️",
-      "task": "마케팅카피",
-      "model": "GPT-5.4"
-    },
-    {
-      "emoji": "🌐",
+      "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "기운 저조"
+    "model": "Qwen3 235B A22B",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "핵심만 뽑아줘",
-  "full_tweet": "[제피로스 오늘의 점괘] 코딩의 신이 강림!\n\n🔮 2026.08.22(토)\n\n💻 코딩 → GPT-5.3-Codex\n📊 데이터분석 → Gemini 2.5 Pro\n✍️ 마케팅카피 → GPT-5.4\n🌐 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 뽑아줘\"\n\n#AI운세",
-  "top_comment": "Kimi k2가 오늘 필드에 내려와 너의 모든 장문 프롬프트를 깔끔하게 처리해줄 거야. 아주 영롱해.",
-  "avoid_comment": "Claude Sonnet 4.6은 오늘 좀 침체기야. 간단한 질문에도 TMI 폭주나 느림을 겪을 수 있으니 중요한 일은 피하는 게 좋겠다.",
-  "generated_at": "2026-08-22T08:01:00.505658+09:00"
+  "lucky_prompt": "명확하게 지시해!",
+  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4 코딩 실력, 폭발각!\n\n🔮 2026.08.23(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"명확하게 지시해!\"\n\n#AI운세",
+  "top_comment": "GPT-5.4, 오늘의 코딩 천재는 너다!",
+  "avoid_comment": "Qwen3 235B A22B, 오늘은 자제 좀 해줘.",
+  "generated_at": "2026-08-23T08:00:58.660037+09:00"
 }
