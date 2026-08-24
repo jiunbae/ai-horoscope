@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08-25",
+    "day_of_week": "Tuesday",
+    "top_model": "GPT-5.4",
+    "avoid_model": "Grok 3",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "📝",
+        "task": "글쓰기",
+        "model": "Llama 4 Maverick"
+      },
+      {
+        "emoji": "📊",
+        "task": "데이터분석",
+        "model": "DeepSeek V3.2"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "Gemini 2.5 Flash"
+      }
+    ],
+    "avoid_reason": "엉뚱함",
+    "lucky_prompt": "핵심만 콕 집어!"
+  },
+  {
     "date": "2026-08-24",
     "day_of_week": "Monday",
     "top_model": "GPT-5.3-Codex",
@@ -2668,35 +2698,5 @@
     ],
     "avoid_reason": "TMI 폭주",
     "lucky_prompt": "명확하고 간결하게"
-  },
-  {
-    "date": "2026-05-22",
-    "day_of_week": "Friday",
-    "top_model": "GPT-5.3-Codex",
-    "avoid_model": "Gemini 2.5 Flash",
-    "scenarios": [
-      {
-        "emoji": "💻",
-        "task": "API설계",
-        "model": "GPT-5.3-Codex"
-      },
-      {
-        "emoji": "📝",
-        "task": "논문요약",
-        "model": "GPT-5.4"
-      },
-      {
-        "emoji": "🎨",
-        "task": "카피",
-        "model": "Claude Sonnet 4.6"
-      },
-      {
-        "emoji": "🔎",
-        "task": "코드리뷰",
-        "model": "Llama 4 Maverick"
-      }
-    ],
-    "avoid_reason": "횡설수설",
-    "lucky_prompt": "명료하게!"
   }
 ]
