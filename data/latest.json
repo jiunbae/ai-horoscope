@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-26",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "플래시의 시대가 열렸다!",
+  "date": "2026-08-27",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "Qwen3, 오늘 폼 미쳤다!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -11,27 +11,27 @@
     },
     {
       "emoji": "📝",
-      "task": "글쓰기",
+      "task": "블로그",
       "model": "GPT-5.4"
     },
     {
-      "emoji": "📊",
-      "task": "데이터분석",
+      "emoji": "📐",
+      "task": "API설계",
       "model": "DeepSeek V3.2"
     },
     {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Llama 4 Maverick"
+      "emoji": "📋",
+      "task": "문서화",
+      "model": "Claude Opus 4.6"
     }
   ],
   "avoid": {
-    "model": "Claude Opus 4.6",
-    "reason": "비용 높음"
+    "model": "Gemini 2.5 Flash",
+    "reason": "오답 위험"
   },
-  "lucky_prompt": "명쾌하게 요약",
-  "full_tweet": "[제피로스 오늘의 점괘] 플래시의 시대가 열렸다!\n\n🔮 2026.08.26(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"명쾌하게 요약\"\n\n#AI운세",
-  "top_comment": "오늘은 Gemini 2.5 Flash가 너의 작업 속도를 빛처럼 빠르게 만들 거야. 랭킹 1위다운 면모를 보여줄 때다!",
-  "avoid_comment": "Claude Opus 4.6은 오늘 좀 사치스러워. 높은 비용 때문에 괜히 지갑만 얇아질라.",
-  "generated_at": "2026-08-26T08:01:23.418240+09:00"
+  "lucky_prompt": "최적화된 코드줘",
+  "full_tweet": "[제피로스 오늘의 점괘] Qwen3, 오늘 폼 미쳤다!\n\n🔮 2026.08.27(목)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → GPT-5.4\n📐 API설계 → DeepSeek V3.2\n📋 문서화 → Claude Opus 4.6\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"최적화된 코드줘\"\n\n#AI운세",
+  "top_comment": "Qwen3, 어제 부진 싹 털고 1위 탈환! 오늘 너 하고픈 거 다 해.",
+  "avoid_comment": "Gemini 2.5 Flash, 오늘은 잠시 휴식해. 섣불리 쓰다 엉뚱한 방향으로 샐라.",
+  "generated_at": "2026-08-27T08:01:48.587794+09:00"
 }
