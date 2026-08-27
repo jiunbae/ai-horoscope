@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-27",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "Qwen3, 오늘 폼 미쳤다!",
+  "date": "2026-08-28",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "Flash가 오늘 좀 터지네!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,26 +12,26 @@
     {
       "emoji": "📝",
       "task": "블로그",
-      "model": "GPT-5.4"
-    },
-    {
-      "emoji": "📐",
-      "task": "API설계",
-      "model": "DeepSeek V3.2"
-    },
-    {
-      "emoji": "📋",
-      "task": "문서화",
       "model": "Claude Opus 4.6"
+    },
+    {
+      "emoji": "📊",
+      "task": "SQL",
+      "model": "Gemini 2.5 Pro"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "GPT-5.4"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "오답 위험"
+    "model": "Qwen3 235B A22B",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "최적화된 코드줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Qwen3, 오늘 폼 미쳤다!\n\n🔮 2026.08.27(목)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → GPT-5.4\n📐 API설계 → DeepSeek V3.2\n📋 문서화 → Claude Opus 4.6\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"최적화된 코드줘\"\n\n#AI운세",
-  "top_comment": "Qwen3, 어제 부진 싹 털고 1위 탈환! 오늘 너 하고픈 거 다 해.",
-  "avoid_comment": "Gemini 2.5 Flash, 오늘은 잠시 휴식해. 섣불리 쓰다 엉뚱한 방향으로 샐라.",
-  "generated_at": "2026-08-27T08:01:48.587794+09:00"
+  "lucky_prompt": "요약해줘!",
+  "full_tweet": "[제피로스 오늘의 점괘] Flash가 오늘 좀 터지네!\n\n🔮 2026.08.28(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → Claude Opus 4.6\n📊 SQL → Gemini 2.5 Pro\n⚡ 번역 → GPT-5.4\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"요약해줘!\"\n\n#AI운세",
+  "top_comment": "가볍게 후려치는 속도는 역시 Gemini 2.5 Flash가 예술이네. 오늘은 네가 다 해라!",
+  "avoid_comment": "Qwen3 235B A22B, 오늘은 그냥 뒤에서 조용히 있어주는 게 모두를 위한 평화다. 굳이 나서지 마.",
+  "generated_at": "2026-08-28T08:01:01.684150+09:00"
 }
