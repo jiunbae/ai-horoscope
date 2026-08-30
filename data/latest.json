@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-30",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "오푸스 파워, 코덱스도 질투!",
+  "date": "2026-08-31",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "오늘은 제미니가 주도하는 날!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -11,8 +11,8 @@
     },
     {
       "emoji": "📝",
-      "task": "블로그",
-      "model": "GPT-5.4"
+      "task": "글쓰기",
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
@@ -22,16 +22,16 @@
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Claude Sonnet 4.6"
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Llama 4 Maverick",
-    "reason": "답변 산으로"
+    "model": "Gemini 3.1 Flash",
+    "reason": "불안정"
   },
-  "lucky_prompt": "정교하게 다듬어",
-  "full_tweet": "[제피로스 오늘의 점괘] 오푸스 파워, 코덱스도 질투!\n\n🔮 2026.08.30(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 블로그 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Claude Sonnet 4.6\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"정교하게 다듬어\"\n\n#AI운세",
-  "top_comment": "클로드 오푸스 4.6, 오늘은 네가 짱이다! 섬세함과 디테일로 모두를 압도하겠어.",
-  "avoid_comment": "라마 4 매버릭, 오늘은 좀 삐그덕대니 중요한 일은 잠시 미뤄두는 게 좋을 것 같아.",
-  "generated_at": "2026-08-30T08:00:59.673557+09:00"
+  "lucky_prompt": "세부 지시 해!",
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 제미니가 주도하는 날!\n\n🔮 2026.08.31(월)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Gemini 3.1 Flash\n\n🍀 \"세부 지시 해!\"\n\n#AI운세",
+  "top_comment": "Gemini 3.1 Pro, 오늘은 네가 모든 기운을 끌어모아 완성도를 높이는구나!",
+  "avoid_comment": "Gemini 3.1 Flash, 지금은 너무 불안정하니 중요한 작업은 잠시 미뤄두는 게 좋겠어.",
+  "generated_at": "2026-08-31T08:01:24.725968+09:00"
 }
