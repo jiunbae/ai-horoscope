@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-09-01",
+    "day_of_week": "Tuesday",
+    "top_model": "GPT-5.3-Codex",
+    "avoid_model": "Kimi k2",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "GPT-5.3-Codex"
+      },
+      {
+        "emoji": "📝",
+        "task": "글쓰기",
+        "model": "Claude Opus 4.6"
+      },
+      {
+        "emoji": "📊",
+        "task": "데이터분석",
+        "model": "DeepSeek V3.2"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "Gemini 2.5 Pro"
+      }
+    ],
+    "avoid_reason": "TMI 폭주",
+    "lucky_prompt": "팩트체크 필수!"
+  },
+  {
     "date": "2026-08-31",
     "day_of_week": "Monday",
     "top_model": "GPT-5.3-Codex",
@@ -2668,35 +2698,5 @@
     ],
     "avoid_reason": "엉뚱답변",
     "lucky_prompt": "차분하게 질문"
-  },
-  {
-    "date": "2026-05-29",
-    "day_of_week": "Friday",
-    "top_model": "GPT-5.3-Codex",
-    "avoid_model": "Claude Opus 4.6",
-    "scenarios": [
-      {
-        "emoji": "💻",
-        "task": "코딩",
-        "model": "GPT-5.3-Codex"
-      },
-      {
-        "emoji": "📝",
-        "task": "글쓰기",
-        "model": "DeepSeek V3.2"
-      },
-      {
-        "emoji": "📊",
-        "task": "데이터분석",
-        "model": "Qwen3 235B A22B"
-      },
-      {
-        "emoji": "⚡",
-        "task": "번역",
-        "model": "Llama 4 Maverick"
-      }
-    ],
-    "avoid_reason": "자꾸 멈춰",
-    "lucky_prompt": "명확히 알려줘"
   }
 ]
