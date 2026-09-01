@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-01",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Grok 3 폭주? Claude 손이 움직인다!",
+  "date": "2026-09-02",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "Grok 3, 오늘의 왕좌!",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "📝",
-      "task": "글쓰기",
+      "task": "블로그",
       "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
-      "task": "번역",
-      "model": "Gemini 2.5 Pro"
+      "task": "API설계",
+      "model": "GPT-5.4"
     }
   ],
   "avoid": {
-    "model": "Kimi k2",
+    "model": "Claude Sonnet 4.6",
     "reason": "TMI 폭주"
   },
-  "lucky_prompt": "팩트체크 필수!",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 3 폭주? Claude 손이 움직인다!\n\n🔮 2026.09.01(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"팩트체크 필수!\"\n\n#AI운세",
-  "top_comment": "오늘은 Grok 3가 마왕처럼 군림하며 모두의 이목을 끌겠어, 기대해도 좋아.",
-  "avoid_comment": "Kimi k2는 오늘 대화창을 너무 장악할 수 있으니, 요약본만 요청해봐.",
-  "generated_at": "2026-09-01T08:00:57.165810+09:00"
+  "lucky_prompt": "간결하게 요약",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok 3, 오늘의 왕좌!\n\n🔮 2026.09.02(수)\n\n💻 코딩 → DeepSeek V3.2\n📝 블로그 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ API설계 → GPT-5.4\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"간결하게 요약\"\n\n#AI운세",
+  "top_comment": "Grok 3, 오늘 기운이 제대로 올랐네? 속도랑 파워가 아주 그냥 막 터진다, 조심해.",
+  "avoid_comment": "Claude Sonnet 4.6? 오늘은 좀 쉬어주는 게 좋겠어. 너무 많은 정보를 주려다 본질을 놓칠 수 있다고.",
+  "generated_at": "2026-09-02T08:01:50.899183+09:00"
 }
