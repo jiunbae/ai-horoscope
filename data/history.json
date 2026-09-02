@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-09-03",
+    "day_of_week": "Thursday",
+    "top_model": "GPT-5.3-Codex",
+    "avoid_model": "Claude Opus 4.6",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "GPT-5.3-Codex"
+      },
+      {
+        "emoji": "📝",
+        "task": "글쓰기",
+        "model": "Gemini 2.5 Pro"
+      },
+      {
+        "emoji": "📐",
+        "task": "API설계",
+        "model": "Qwen3 235B A22B"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "DeepSeek V3.2"
+      }
+    ],
+    "avoid_reason": "비용 높음",
+    "lucky_prompt": "자세히 알려줘"
+  },
+  {
     "date": "2026-09-02",
     "day_of_week": "Wednesday",
     "top_model": "DeepSeek V3.2",
@@ -2668,35 +2698,5 @@
     ],
     "avoid_reason": "정보 누락",
     "lucky_prompt": "핵심만 명확히"
-  },
-  {
-    "date": "2026-05-31",
-    "day_of_week": "Sunday",
-    "top_model": "Claude Opus 4.6",
-    "avoid_model": "Claude Sonnet 4.6",
-    "scenarios": [
-      {
-        "emoji": "📝",
-        "task": "블로그",
-        "model": "Claude Opus 4.6"
-      },
-      {
-        "emoji": "🔧",
-        "task": "API설계",
-        "model": "GPT-5.4"
-      },
-      {
-        "emoji": "📚",
-        "task": "논문요약",
-        "model": "DeepSeek V3.2"
-      },
-      {
-        "emoji": "💡",
-        "task": "마케팅카피",
-        "model": "Llama 4 Maverick"
-      }
-    ],
-    "avoid_reason": "느림",
-    "lucky_prompt": "심플하게 지시해"
   }
 ]
