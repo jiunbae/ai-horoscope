@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-04",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "오늘은 플래시가 번쩍!",
+  "date": "2026-09-05",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "오늘, 소넷 기운 대박!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -10,28 +10,28 @@
       "model": "GPT-5.3-Codex"
     },
     {
-      "emoji": "📚",
-      "task": "논문요약",
+      "emoji": "📝",
+      "task": "글쓰기",
       "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "🔧",
-      "task": "API설계",
+      "emoji": "📊",
+      "task": "데이터분석",
       "model": "DeepSeek V3.2"
     },
     {
       "emoji": "🌐",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "GPT-5.4"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "TMI 폭주"
+    "model": "Gemini 2.5 Flash",
+    "reason": "정확도↓"
   },
-  "lucky_prompt": "핵심만 요약",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 플래시가 번쩍!\n\n🔮 2026.09.04(금)\n\n💻 코딩 → GPT-5.3-Codex\n📚 논문요약 → Claude Opus 4.6\n🔧 API설계 → DeepSeek V3.2\n🌐 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 요약\"\n\n#AI운세",
-  "top_comment": "Gemini 3.1 Flash, 빠릿함 뒤에 숨겨진 강력한 힘, 오늘은 얘한테 맡겨봐!",
-  "avoid_comment": "Claude Sonnet 4.6, 가끔 불필요한 얘기가 길어져, 핵심이 중요할 땐 잠시 피해.",
-  "generated_at": "2026-09-04T08:01:32.031461+09:00"
+  "lucky_prompt": "역할 정해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘, 소넷 기운 대박!\n\n🔮 2026.09.05(토)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n🌐 번역 → GPT-5.4\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"역할 정해줘\"\n\n#AI운세",
+  "top_comment": "클로드 소넷 4.6, 오늘은 네 덕분에 칼퇴각!",
+  "avoid_comment": "제미니 2.5 플래시, 오늘은 중요한 일 맡기지 마.",
+  "generated_at": "2026-09-05T08:01:41.873934+09:00"
 }
