@@ -2,18 +2,18 @@
   {
     "date": "2026-09-15",
     "day_of_week": "Tuesday",
-    "top_model": "Gemini 3.1 Pro",
+    "top_model": "GPT-5.3-Codex",
     "avoid_model": "Claude Sonnet 4.6",
     "scenarios": [
       {
         "emoji": "💻",
-        "task": "디버깅",
-        "model": "Gemini 3.1 Pro"
+        "task": "코딩",
+        "model": "GPT-5.3-Codex"
       },
       {
         "emoji": "📝",
         "task": "글쓰기",
-        "model": "GPT-5.4"
+        "model": "Gemini 3.1 Pro"
       },
       {
         "emoji": "📊",
