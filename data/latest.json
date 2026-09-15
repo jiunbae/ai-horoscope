@@ -2,36 +2,36 @@
   "date": "2026-09-15",
   "day_of_week": "Tuesday",
   "day_short": "화",
-  "hook": "제미니, 오늘 기운 뿜뿜!",
+  "hook": "오늘은 Gemini가 기운이 확 돌았어",
   "scenarios": [
     {
       "emoji": "💻",
-      "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "task": "디버깅",
+      "model": "Gemini 3.1 Pro"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.4"
+      "model": "Grok 3"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
     "model": "Claude Sonnet 4.6",
-    "reason": "애매한 응답"
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "명확하게 설명",
-  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 오늘 기운 뿜뿜!\n\n🔮 2026.09.15(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"명확하게 설명\"\n\n#AI운세",
-  "top_comment": "복잡한 작업도 척척, 역시 제미니 2.5 Pro는 다르지! (원탑: Gemini 3.1 Pro는 목록에 없어 2.5 Pro로 대체했다!)",
-  "avoid_comment": "오늘따라 손네트는 답답하고 어딘가 애매한 답변을 내놓을 것 같으니, 피해가자.",
-  "generated_at": "2026-09-15T20:12:54.973968+09:00"
+  "lucky_prompt": "핵심만 3줄로 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Gemini가 기운이 확 돌았어\n\n🔮 2026.09.15(화)\n\n💻 디버깅 → Gemini 3.1 Pro\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Grok 3\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "긴 코드 던져주면 오타까지 기가 막히게 잡아낸다.",
+  "avoid_comment": "질문 하나 했는데 우주 창조 과정까지 설명하려고 든다.",
+  "generated_at": "2026-09-15T20:15:21.465433+09:00"
 }

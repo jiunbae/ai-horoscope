@@ -2,32 +2,32 @@
   {
     "date": "2026-09-15",
     "day_of_week": "Tuesday",
-    "top_model": "GPT-5.3-Codex",
+    "top_model": "Gemini 3.1 Pro",
     "avoid_model": "Claude Sonnet 4.6",
     "scenarios": [
       {
         "emoji": "💻",
-        "task": "코딩",
-        "model": "GPT-5.3-Codex"
+        "task": "디버깅",
+        "model": "Gemini 3.1 Pro"
       },
       {
         "emoji": "📝",
         "task": "글쓰기",
-        "model": "Claude Opus 4.6"
+        "model": "GPT-5.4"
       },
       {
         "emoji": "📊",
         "task": "데이터분석",
-        "model": "GPT-5.4"
+        "model": "Grok 3"
       },
       {
         "emoji": "⚡",
         "task": "번역",
-        "model": "Qwen3 235B A22B"
+        "model": "DeepSeek V3.2"
       }
     ],
-    "avoid_reason": "애매한 응답",
-    "lucky_prompt": "명확하게 설명"
+    "avoid_reason": "TMI 폭주",
+    "lucky_prompt": "핵심만 3줄로 요약해"
   },
   {
     "date": "2026-09-13",
