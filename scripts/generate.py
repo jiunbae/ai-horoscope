@@ -437,6 +437,12 @@ async def call_gemini(prompt: str) -> str:
     start = date.today().toordinal() % len(keys)
     order = [(start + n) % len(keys) for n in range(len(keys))]
 
+    # How many keys are configured is operational information and is not
+    # recoverable any other way: the secret is write-only, so a run that
+    # succeeds on the first attempt otherwise leaves no trace of whether the
+    # ring has six keys or one. Counts and slot numbers only, never a key.
+    print(f"Gemini: {len(keys)} key(s) configured, starting at key_{start + 1}")
+
     last_error: Exception | None = None
     for attempt, index in enumerate(order, start=1):
         label = f"key_{index + 1}"
