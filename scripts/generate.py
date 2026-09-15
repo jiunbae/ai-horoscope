@@ -406,7 +406,14 @@ def report_usage(response, *, api_key_label: str) -> None:
         request = urllib.request.Request(
             f"{JIUN_API_URL}/usage/events",
             data=json.dumps(payload).encode(),
-            headers={"content-type": "application/json", "x-service-key": key},
+            headers={
+                "content-type": "application/json",
+                "x-service-key": key,
+                # Cloudflare fronts api.jiun.dev and answers urllib's default
+                # agent with 403 error 1010, so the report silently never
+                # arrived. Identify the caller instead of looking like a bot.
+                "user-agent": f"{SERVICE_ID}-usage-reporter",
+            },
             method="POST",
         )
         with urllib.request.urlopen(request, timeout=10) as response_:
