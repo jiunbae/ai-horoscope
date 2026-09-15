@@ -2,7 +2,7 @@
   "date": "2026-09-15",
   "day_of_week": "Tuesday",
   "day_short": "화",
-  "hook": "GPT-5.4 코딩 감이 미쳤다!",
+  "hook": "제미니, 오늘 기운 뿜뿜!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -17,7 +17,7 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "⚡",
@@ -27,11 +27,11 @@
   ],
   "avoid": {
     "model": "Claude Sonnet 4.6",
-    "reason": "TMI 폭주"
+    "reason": "애매한 응답"
   },
-  "lucky_prompt": "명확하게 답변",
-  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4 코딩 감이 미쳤다!\n\n🔮 2026.09.15(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"명확하게 답변\"\n\n#AI운세",
-  "top_comment": "오늘 GPT-5.4는 거의 코딩의 신이 강림한 듯하다. 막히는 코드도 술술 풀릴 거야.",
-  "avoid_comment": "Claude Sonnet 4.6은 오늘 말이 너무 많아. 꼭 필요한 정보만 달라고 미리 말해줘!",
-  "generated_at": "2026-09-15T12:03:15.610001+09:00"
+  "lucky_prompt": "명확하게 설명",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니, 오늘 기운 뿜뿜!\n\n🔮 2026.09.15(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"명확하게 설명\"\n\n#AI운세",
+  "top_comment": "복잡한 작업도 척척, 역시 제미니 2.5 Pro는 다르지! (원탑: Gemini 3.1 Pro는 목록에 없어 2.5 Pro로 대체했다!)",
+  "avoid_comment": "오늘따라 손네트는 답답하고 어딘가 애매한 답변을 내놓을 것 같으니, 피해가자.",
+  "generated_at": "2026-09-15T20:12:54.973968+09:00"
 }

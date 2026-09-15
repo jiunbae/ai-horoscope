@@ -18,7 +18,7 @@
       {
         "emoji": "📊",
         "task": "데이터분석",
-        "model": "Gemini 2.5 Pro"
+        "model": "GPT-5.4"
       },
       {
         "emoji": "⚡",
@@ -26,8 +26,8 @@
         "model": "Qwen3 235B A22B"
       }
     ],
-    "avoid_reason": "TMI 폭주",
-    "lucky_prompt": "명확하게 답변"
+    "avoid_reason": "애매한 응답",
+    "lucky_prompt": "명확하게 설명"
   },
   {
     "date": "2026-09-13",
