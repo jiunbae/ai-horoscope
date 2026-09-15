@@ -11,9 +11,11 @@ import json
 import asyncio
 import html
 import re
+import urllib.request
+import uuid
 import httpx
 import google.generativeai as genai
-from datetime import datetime, timezone, timedelta
+from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 
 # =============================================================================
@@ -354,28 +356,105 @@ def tweet_char_count(text: str) -> int:
 # Gemini API call with round-robin keys
 # =============================================================================
 
+# Pinned, not "latest": an alias can change target without notice, and this runs
+# unattended every morning. Flash-Lite is the tier jiun.dev standardised on and
+# the only Gemini model jiun-api holds a price for, so anything else reports as
+# unpriced usage.
+GEMINI_MODEL = "gemini-3.5-flash-lite"
+
+SERVICE_ID = "ai-horoscope"
+JIUN_API_URL = os.environ.get("JIUN_API_URL", "https://api.jiun.dev").rstrip("/")
+
+
+def report_usage(response, *, api_key_label: str) -> None:
+    """Report token counts to jiun-api. Never let this break the horoscope.
+
+    Contract: https://github.com/jiunbae/jiun-api/blob/main/docs/USAGE_EVENTS.md
+    `provider` names the vendor that billed the call — "google", not "gemini".
+    Counts only; no prompt or completion text leaves here.
+    """
+    key = os.environ.get("JIUN_USAGE_KEY", "").strip()
+    if not key:
+        return  # unconfigured is not an error: a local run simply does not report
+
+    usage = getattr(response, "usage_metadata", None)
+    if usage is None:
+        return
+
+    def count(name: str) -> int:
+        value = getattr(usage, name, None)
+        return value if isinstance(value, int) else 0
+
+    payload = {
+        "serviceId": SERVICE_ID,
+        "events": [
+            {
+                "eventId": f"{SERVICE_ID}:{date.today().isoformat()}:{uuid.uuid4().hex[:12]}",
+                "occurredAt": datetime.now(timezone.utc).isoformat(),
+                "provider": "google",
+                "model": GEMINI_MODEL,
+                "apiKeyLabel": api_key_label,
+                "inputTokens": count("prompt_token_count"),
+                "outputTokens": count("candidates_token_count"),
+                "cachedInputTokens": count("cached_content_token_count"),
+                "totalTokens": count("total_token_count"),
+                "status": "success",
+            }
+        ],
+    }
+    try:
+        request = urllib.request.Request(
+            f"{JIUN_API_URL}/usage/events",
+            data=json.dumps(payload).encode(),
+            headers={"content-type": "application/json", "x-service-key": key},
+            method="POST",
+        )
+        with urllib.request.urlopen(request, timeout=10) as response_:
+            response_.read()
+    except Exception as exc:  # noqa: BLE001
+        # Reporting is observability. The run has already spent the tokens and
+        # produced the horoscope; losing the report must not cost us that.
+        print(f"usage report failed: {type(exc).__name__}")
+
+
 async def call_gemini(prompt: str) -> str:
-    """Call Gemini API. Supports comma-separated keys for round-robin."""
+    """Call Gemini, rotating across the free keys.
+
+    Quota is per GCP project and per model, and each free key belongs to a
+    different project, so spreading calls across them multiplies the daily
+    allowance instead of draining one. The starting key moves with the date:
+    always starting at the first one made key 1 absorb every call while the
+    rest sat unused, which is the whole point of having six.
+    """
     keys_str = os.environ.get("GEMINI_API_KEY", "")
     if not keys_str:
         raise RuntimeError("GEMINI_API_KEY environment variable not set")
 
     keys = [k.strip() for k in keys_str.split(",") if k.strip()]
+    if not keys:
+        raise RuntimeError("GEMINI_API_KEY held no usable keys")
 
-    for i, key in enumerate(keys):
+    start = date.today().toordinal() % len(keys)
+    order = [(start + n) % len(keys) for n in range(len(keys))]
+
+    last_error: Exception | None = None
+    for attempt, index in enumerate(order, start=1):
+        label = f"key_{index + 1}"
         try:
-            genai.configure(api_key=key)
-            model = genai.GenerativeModel("gemini-2.5-flash")
+            genai.configure(api_key=keys[index])
+            model = genai.GenerativeModel(GEMINI_MODEL)
             response = model.generate_content(prompt)
-            if response.text:
-                return response.text
-            raise ValueError("Empty response from Gemini")
-        except Exception as e:
-            print(f"Gemini key {i + 1}/{len(keys)} failed: {e}")
-            if i == len(keys) - 1:
-                raise
+            if not response.text:
+                raise ValueError("Empty response from Gemini")
+            report_usage(response, api_key_label=label)
+            return response.text
+        except Exception as exc:  # noqa: BLE001 - any failure moves to the next key
+            last_error = exc
+            # Only the slot is named. A provider error can quote the request,
+            # and the request carries the key.
+            print(f"Gemini {label} failed ({attempt}/{len(order)}): {type(exc).__name__}")
 
-    raise RuntimeError("All Gemini keys exhausted")
+    raise RuntimeError(f"All {len(keys)} Gemini keys exhausted") from last_error
 
 
 # =============================================================================
