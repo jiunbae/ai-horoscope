@@ -31,6 +31,8 @@ jobs:
       - name: Generate horoscope
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Optional: without it the run still generates, it just does not report.
+          JIUN_USAGE_KEY: ${{ secrets.JIUN_USAGE_KEY }}
         run: python scripts/generate.py
 
       - name: Save to Bot Manager DB
