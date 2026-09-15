@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-13",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "Qwen3, 오늘 네가 짱이다!",
+  "date": "2026-09-15",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "GPT-5.4 코딩 감이 미쳤다!",
   "scenarios": [
     {
       "emoji": "💻",
@@ -10,28 +10,28 @@
       "model": "GPT-5.3-Codex"
     },
     {
-      "emoji": "✍️",
+      "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Claude Opus 4.6"
     },
     {
-      "emoji": "📈",
-      "task": "보고서",
-      "model": "DeepSeek V3.2"
+      "emoji": "📊",
+      "task": "데이터분석",
+      "model": "Gemini 2.5 Pro"
     },
     {
-      "emoji": "🌐",
+      "emoji": "⚡",
       "task": "번역",
-      "model": "GPT-5.4"
+      "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "과속방지"
+    "model": "Claude Sonnet 4.6",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "핵심만 뽑아줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Qwen3, 오늘 네가 짱이다!\n\n🔮 2026.09.13(일)\n\n💻 코딩 → GPT-5.3-Codex\n✍️ 글쓰기 → Claude Sonnet 4.6\n📈 보고서 → DeepSeek V3.2\n🌐 번역 → GPT-5.4\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"핵심만 뽑아줘\"\n\n#AI운세",
-  "top_comment": "Qwen3 235B A22B, 오늘 진짜 네가 최고야. 뭐든 맡겨도 술술 풀릴 거야.",
-  "avoid_comment": "Gemini 2.5 Flash, 너무 서두르지 마. 오늘 너 너무 앞서가서 길 잃기 딱 좋다.",
-  "generated_at": "2026-09-13T08:01:59.457296+09:00"
+  "lucky_prompt": "명확하게 답변",
+  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4 코딩 감이 미쳤다!\n\n🔮 2026.09.15(화)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"명확하게 답변\"\n\n#AI운세",
+  "top_comment": "오늘 GPT-5.4는 거의 코딩의 신이 강림한 듯하다. 막히는 코드도 술술 풀릴 거야.",
+  "avoid_comment": "Claude Sonnet 4.6은 오늘 말이 너무 많아. 꼭 필요한 정보만 달라고 미리 말해줘!",
+  "generated_at": "2026-09-15T12:03:15.610001+09:00"
 }
