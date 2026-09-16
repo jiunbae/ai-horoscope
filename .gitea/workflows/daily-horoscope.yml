@@ -30,6 +30,12 @@ jobs:
 
       - name: Generate horoscope
         env:
+          # The label -> key map. Labels travel with the keys so a usage report
+          # names the account it actually billed, which a positional list cannot
+          # promise once a key is added or removed.
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          # Legacy comma-separated fallback, kept only so a missing map cannot
+          # take the daily run down. Remove once GEMINI_API_KEYS is proven.
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # Optional: without it the run still generates, it just does not report.
           JIUN_USAGE_KEY: ${{ secrets.JIUN_USAGE_KEY }}

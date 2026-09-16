@@ -424,50 +424,105 @@ def report_usage(response, *, api_key_label: str) -> None:
         print(f"usage report failed: {type(exc).__name__}")
 
 
+def load_credentials() -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
+    """Read the key pool as (free, paid), each a list of (label, key).
+
+    Labels come from the secret's own names, never from position. A positional
+    label is wrong the moment a key is added or removed: every slot after the
+    gap then reports under another project's name, and since quota is per GCP
+    project, the per-key view silently points at the wrong account. The shared
+    vocabulary is `free-1`..`free-6` and `paid-1`, and which number is which
+    account is fixed in IaC `docs/ai-api-keys-reference.md`.
+    """
+    raw = os.environ.get("GEMINI_API_KEYS", "").strip()
+    if raw:
+        try:
+            mapping = json.loads(raw)
+        except json.JSONDecodeError as exc:
+            raise RuntimeError("GEMINI_API_KEYS is not valid JSON") from exc
+        if not isinstance(mapping, dict):
+            raise RuntimeError("GEMINI_API_KEYS must be a JSON object of label -> key")
+
+        def slot(label: str) -> int:
+            match = re.search(r"(\d+)$", label)
+            return int(match.group(1)) if match else 0
+
+        pairs = [(str(l), str(k).strip()) for l, k in mapping.items() if str(k).strip()]
+        free = sorted((p for p in pairs if p[0].startswith("free-")), key=lambda p: slot(p[0]))
+        paid = sorted((p for p in pairs if p[0].startswith("paid-")), key=lambda p: slot(p[0]))
+        unknown = [l for l, _ in pairs if not l.startswith(("free-", "paid-"))]
+        if unknown:
+            # Naming them is safe — these are labels, not keys — and a typo here
+            # is otherwise invisible: the key just never gets tried.
+            print(f"Gemini: ignoring {len(unknown)} key(s) with non-standard labels: {sorted(unknown)}")
+        if not free:
+            raise RuntimeError("GEMINI_API_KEYS held no free-* keys")
+        return free, paid
+
+    # Legacy comma-separated form. Kept so a missing GEMINI_API_KEYS cannot take
+    # the daily run down, but the labels it produces are a guess at the order and
+    # say so out loud, because a wrong label is worse than no label: it attributes
+    # spend to an account that did not spend it.
+    keys_str = os.environ.get("GEMINI_API_KEY", "")
+    keys = [k.strip() for k in keys_str.split(",") if k.strip()]
+    if not keys:
+        raise RuntimeError("set GEMINI_API_KEYS (a JSON label -> key map); GEMINI_API_KEY is also empty")
+    print(
+        f"Gemini: GEMINI_API_KEYS is unset, falling back to {len(keys)} comma-separated "
+        "key(s). Labels are positional and may not match the standard — register "
+        "GEMINI_API_KEYS to fix this."
+    )
+    return [(f"free-{n}", k) for n, k in enumerate(keys, start=1)], []
+
+
 async def call_gemini(prompt: str) -> str:
     """Call Gemini, rotating across the free keys.
 
     Quota is per GCP project and per model, and each free key belongs to a
     different project, so spreading calls across them multiplies the daily
     allowance instead of draining one. The starting key moves with the date:
-    always starting at the first one made key 1 absorb every call while the
+    always starting at the first one made free-1 absorb every call while the
     rest sat unused, which is the whole point of having six.
+
+    The paid key is tried only after every free key has failed. It is a last
+    resort, not a standing route — a paid call that was not needed is money
+    spent for nothing, and nothing in the output would show it.
     """
-    keys_str = os.environ.get("GEMINI_API_KEY", "")
-    if not keys_str:
-        raise RuntimeError("GEMINI_API_KEY environment variable not set")
+    free, paid = load_credentials()
 
-    keys = [k.strip() for k in keys_str.split(",") if k.strip()]
-    if not keys:
-        raise RuntimeError("GEMINI_API_KEY held no usable keys")
-
-    start = date.today().toordinal() % len(keys)
-    order = [(start + n) % len(keys) for n in range(len(keys))]
+    start = date.today().toordinal() % len(free)
+    order = [free[(start + n) % len(free)] for n in range(len(free))] + paid
 
     # How many keys are configured is operational information and is not
     # recoverable any other way: the secret is write-only, so a run that
     # succeeds on the first attempt otherwise leaves no trace of whether the
-    # ring has six keys or one. Counts and slot numbers only, never a key.
-    print(f"Gemini: {len(keys)} key(s) configured, starting at key_{start + 1}")
+    # ring has six keys or one. Labels and counts only, never a key.
+    print(
+        f"Gemini: {len(free)} free key(s) {[l for l, _ in free]} and {len(paid)} paid, "
+        f"starting at {free[start][0]}"
+    )
 
     last_error: Exception | None = None
-    for attempt, index in enumerate(order, start=1):
-        label = f"key_{index + 1}"
+    for attempt, (label, api_key) in enumerate(order, start=1):
         try:
-            genai.configure(api_key=keys[index])
+            genai.configure(api_key=api_key)
             model = genai.GenerativeModel(GEMINI_MODEL)
             response = model.generate_content(prompt)
             if not response.text:
                 raise ValueError("Empty response from Gemini")
+            if label.startswith("paid-"):
+                # Worth a line of its own: every free key failed, which is either
+                # a quota wall or a broken key, and either way somebody should look.
+                print(f"Gemini: fell through to {label} after {len(free)} free key(s) failed")
             report_usage(response, api_key_label=label)
             return response.text
         except Exception as exc:  # noqa: BLE001 - any failure moves to the next key
             last_error = exc
-            # Only the slot is named. A provider error can quote the request,
+            # Only the label is named. A provider error can quote the request,
             # and the request carries the key.
             print(f"Gemini {label} failed ({attempt}/{len(order)}): {type(exc).__name__}")
 
-    raise RuntimeError(f"All {len(keys)} Gemini keys exhausted") from last_error
+    raise RuntimeError(f"All {len(order)} Gemini keys exhausted") from last_error
 
 
 # =============================================================================
