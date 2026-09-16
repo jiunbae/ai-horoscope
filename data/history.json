@@ -13,12 +13,12 @@
       {
         "emoji": "📝",
         "task": "글쓰기",
-        "model": "Kimi k2"
+        "model": "Claude Sonnet 4.6"
       },
       {
         "emoji": "📊",
         "task": "데이터분석",
-        "model": "Gemini 3.1 Pro"
+        "model": "Kimi k2"
       },
       {
         "emoji": "⚡",
@@ -26,8 +26,8 @@
         "model": "DeepSeek V3.2"
       }
     ],
-    "avoid_reason": "토큰 탕진",
-    "lucky_prompt": "출력 생략하고 바로 코드만"
+    "avoid_reason": "느림",
+    "lucky_prompt": "핵심만 3줄로 요약해"
   },
   {
     "date": "2026-09-15",
