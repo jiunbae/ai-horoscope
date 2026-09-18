@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-18",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "Claude가 멱살 잡고 캐리한다",
+  "date": "2026-09-19",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "오늘은 Gemini가 싹 다 잡는다",
   "scenarios": [
     {
-      "emoji": "💻",
-      "task": "코딩",
-      "model": "Claude Sonnet 4.6"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Gemini 2.5 Flash"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 3.1 Flash"
+      "model": "DeepSeek V3.2"
     },
     {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "DeepSeek V3.2"
+      "emoji": "🔍",
+      "task": "디버깅",
+      "model": "Kimi k2"
     }
   ],
   "avoid": {
-    "model": "Qwen 3",
-    "reason": "환각 폭발"
+    "model": "GPT-5.3-Codex",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "완벽하게 짜줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Claude가 멱살 잡고 캐리한다\n\n🔮 2026.09.18(금)\n\n💻 코딩 → Claude Sonnet 4.6\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 3.1 Flash\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen 3\n\n🍀 \"완벽하게 짜줘\"\n\n#AI운세",
-  "top_comment": "복잡한 로직도 찰떡같이 한 방에 짜내는 기막힌 기운이 흘러.",
-  "avoid_comment": "질문과 상관없는 말을 길게 뱉어내니 오늘 하루는 멀리해.",
-  "generated_at": "2026-09-18T08:02:04.090014+09:00"
+  "lucky_prompt": "핵심만 3줄로 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Gemini가 싹 다 잡는다\n\n🔮 2026.09.19(토)\n\n⚡ 번역 → Gemini 2.5 Flash\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n🔍 디버깅 → Kimi k2\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "Gemini 2.5 Flash의 속도가 드디어 빛을 발하는 날이네.",
+  "avoid_comment": "GPT-5.3-Codex는 오늘 주절주절 헛소리가 길어지니 건들지 마.",
+  "generated_at": "2026-09-19T08:01:38.956721+09:00"
 }
