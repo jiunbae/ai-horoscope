@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-09-20",
+    "day_of_week": "Sunday",
+    "top_model": "Gemini 3.1 Flash",
+    "avoid_model": "Claude Sonnet 4.6",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "Gemini 3.1 Flash"
+      },
+      {
+        "emoji": "📝",
+        "task": "글쓰기",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "📊",
+        "task": "데이터분석",
+        "model": "Gemini 2.5 Pro"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "DeepSeek V3.2"
+      }
+    ],
+    "avoid_reason": "TMI 폭주",
+    "lucky_prompt": "핵심만 3줄로"
+  },
+  {
     "date": "2026-09-19",
     "day_of_week": "Saturday",
     "top_model": "Gemini 2.5 Flash",
@@ -2668,35 +2698,5 @@
     ],
     "avoid_reason": "TMI 폭주",
     "lucky_prompt": "핵심만 뽑아줘"
-  },
-  {
-    "date": "2026-06-17",
-    "day_of_week": "Wednesday",
-    "top_model": "GPT-5.3-Codex",
-    "avoid_model": "Claude Sonnet 4.6",
-    "scenarios": [
-      {
-        "emoji": "💻",
-        "task": "코딩",
-        "model": "GPT-5.3-Codex"
-      },
-      {
-        "emoji": "📝",
-        "task": "글쓰기",
-        "model": "Claude Opus 4.6"
-      },
-      {
-        "emoji": "📊",
-        "task": "데이터분석",
-        "model": "DeepSeek V3.2"
-      },
-      {
-        "emoji": "⚡",
-        "task": "번역",
-        "model": "Gemini 2.5 Pro"
-      }
-    ],
-    "avoid_reason": "수다쟁이",
-    "lucky_prompt": "단계별로 생각"
   }
 ]

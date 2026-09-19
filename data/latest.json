@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-19",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "오늘은 Gemini가 싹 다 잡는다",
+  "date": "2026-09-20",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "제미니 플래시가 일요일을 찢었다",
   "scenarios": [
     {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Gemini 2.5 Flash"
+      "emoji": "💻",
+      "task": "코딩",
+      "model": "Gemini 3.1 Flash"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Pro"
     },
     {
-      "emoji": "🔍",
-      "task": "디버깅",
-      "model": "Kimi k2"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "GPT-5.3-Codex",
+    "model": "Claude Sonnet 4.6",
     "reason": "TMI 폭주"
   },
-  "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Gemini가 싹 다 잡는다\n\n🔮 2026.09.19(토)\n\n⚡ 번역 → Gemini 2.5 Flash\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n🔍 디버깅 → Kimi k2\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "Gemini 2.5 Flash의 속도가 드디어 빛을 발하는 날이네.",
-  "avoid_comment": "GPT-5.3-Codex는 오늘 주절주절 헛소리가 길어지니 건들지 마.",
-  "generated_at": "2026-09-19T08:01:38.956721+09:00"
+  "lucky_prompt": "핵심만 3줄로",
+  "full_tweet": "[제피로스 오늘의 점괘] 제미니 플래시가 일요일을 찢었다\n\n🔮 2026.09.20(일)\n\n💻 코딩 → Gemini 3.1 Flash\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 3줄로\"\n\n#AI운세",
+  "top_comment": "빛의 속도로 코드를 뽑아내니 일요일이 여유롭다.",
+  "avoid_comment": "질문 하나에 우주소설을 쓰니 정신이 아득해진다.",
+  "generated_at": "2026-09-20T08:01:37.076843+09:00"
 }
