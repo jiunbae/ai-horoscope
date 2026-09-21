@@ -1,18 +1,13 @@
 {
-  "date": "2026-09-21",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "제피로스가 보증하는 빛의 속도",
+  "date": "2026-09-22",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "오늘은 Gemini가 찢었다",
   "scenarios": [
     {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Gemini 3.1 Flash"
-    },
-    {
       "emoji": "💻",
-      "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "task": "디버깅",
+      "model": "Gemini 2.5 Flash"
     },
     {
       "emoji": "📝",
@@ -21,17 +16,22 @@
     },
     {
       "emoji": "📊",
-      "task": "분석",
+      "task": "데이터분석",
+      "model": "GPT-5.4"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
       "model": "Qwen3 235B A22B"
     }
   ],
   "avoid": {
     "model": "Claude Opus 4.6",
-    "reason": "무거움"
+    "reason": "느림"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] 제피로스가 보증하는 빛의 속도\n\n🔮 2026.09.21(월)\n\n⚡ 번역 → Gemini 3.1 Flash\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 분석 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "오늘 Gemini 3.1 Flash는 빛의 속도로 대용량 번역을 끝내주니 믿고 쓰자.",
-  "avoid_comment": "Claude Opus 4.6은 오늘 감성 충만해서 뜸들이다 사색에 빠질 수 있으니 조심해.",
-  "generated_at": "2026-09-21T08:01:38.299969+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Gemini가 찢었다\n\n🔮 2026.09.22(화)\n\n💻 디버깅 → Gemini 2.5 Flash\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "빛의 속도로 에러를 잡아내는 기적을 보여주는군.",
+  "avoid_comment": "답변이 오기 전에 목이 빠질 수 있으니 주의해.",
+  "generated_at": "2026-09-22T08:01:36.609764+09:00"
 }
