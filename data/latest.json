@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-22",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "오늘은 Gemini가 찢었다",
+  "date": "2026-09-23",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "Kimi k2 기운이 역대급이다",
   "scenarios": [
     {
       "emoji": "💻",
-      "task": "디버깅",
-      "model": "Gemini 2.5 Flash"
+      "task": "코딩",
+      "model": "Kimi k2"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
-      "task": "데이터분석",
-      "model": "GPT-5.4"
+      "task": "분석",
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Claude Opus 4.6",
-    "reason": "느림"
+    "model": "GPT-5.4 Codex",
+    "reason": "무한루프"
   },
-  "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Gemini가 찢었다\n\n🔮 2026.09.22(화)\n\n💻 디버깅 → Gemini 2.5 Flash\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "빛의 속도로 에러를 잡아내는 기적을 보여주는군.",
-  "avoid_comment": "답변이 오기 전에 목이 빠질 수 있으니 주의해.",
-  "generated_at": "2026-09-22T08:01:36.609764+09:00"
+  "lucky_prompt": "출력 생략 금지",
+  "full_tweet": "[제피로스 오늘의 점괘] Kimi k2 기운이 역대급이다\n\n🔮 2026.09.23(수)\n\n💻 코딩 → Kimi k2\n📝 글쓰기 → Claude Opus 4.6\n📊 분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → GPT-5.4 Codex\n\n🍀 \"출력 생략 금지\"\n\n#AI운세",
+  "top_comment": "Kimi k2가 코딩 판을 완전히 휘어잡는 날이야.",
+  "avoid_comment": "GPT-5.4 Codex는 오늘 루프 지옥에 빠지니 건드리지 마.",
+  "generated_at": "2026-09-23T08:01:34.801892+09:00"
 }
