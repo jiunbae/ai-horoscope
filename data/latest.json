@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-25",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "오늘은 Claude가 좀 쎄다",
+  "date": "2026-09-26",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "Grok 3, 실시간 웹을 씹어먹다",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
@@ -17,21 +17,21 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.4"
+      "model": "Gemini 3.1 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Kimi k2"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
+    "model": "Qwen3 235B A22B",
     "reason": "TMI 폭주"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Claude가 좀 쎄다\n\n🔮 2026.09.25(금)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Kimi k2\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "Claude Opus 4.6의 기운이 맑아 복잡한 로직도 한 번에 뚫어버린다.",
-  "avoid_comment": "Gemini 2.5 Flash는 뜬금없는 소리로 대화를 산으로 보내니 조심해라.",
-  "generated_at": "2026-09-25T08:01:38.029152+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] Grok 3, 실시간 웹을 씹어먹다\n\n🔮 2026.09.26(토)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 3.1 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "Grok 3의 기운이 깃들어 실시간 트렌드 코딩이 거침없어.",
+  "avoid_comment": "Qwen3 235B A22B는 주말인데도 혼자 과부걸려서 헛소리를 늘어놓으니 주의해라.",
+  "generated_at": "2026-09-26T08:01:46.129390+09:00"
 }
