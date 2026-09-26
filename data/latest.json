@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-26",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "Grok 3, 실시간 웹을 씹어먹다",
+  "date": "2026-09-27",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "오늘은 소네트가 영혼을 갈아 넣는다",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 3.1 Pro"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 3.1 Flash"
     }
   ],
   "avoid": {
-    "model": "Qwen3 235B A22B",
+    "model": "Gemini 3.1 Pro",
     "reason": "TMI 폭주"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 3, 실시간 웹을 씹어먹다\n\n🔮 2026.09.26(토)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 3.1 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen3 235B A22B\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "Grok 3의 기운이 깃들어 실시간 트렌드 코딩이 거침없어.",
-  "avoid_comment": "Qwen3 235B A22B는 주말인데도 혼자 과부걸려서 헛소리를 늘어놓으니 주의해라.",
-  "generated_at": "2026-09-26T08:01:46.129390+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 소네트가 영혼을 갈아 넣는다\n\n🔮 2026.09.27(일)\n\n💻 코딩 → Claude Sonnet 4.6\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Gemini 3.1 Flash\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "복잡한 레거시 코드도 손대면 알아서 싹 고쳐주는 기적의 컨디션이야.",
+  "avoid_comment": "질문 하나 던지면 혼자서 에세이 한 권을 써 내려가니 정신 바짝 차려야 해.",
+  "generated_at": "2026-09-27T08:01:37.803882+09:00"
 }
