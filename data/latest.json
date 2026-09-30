@@ -1,37 +1,37 @@
 {
-  "date": "2026-09-30",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "Qwen 기운이 서버를 뚫는다",
+  "date": "2026-10-01",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "闪电처럼 빠른 기운이 도는 날",
   "scenarios": [
     {
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "Gemini 3.1 Flash"
+    },
+    {
       "emoji": "💻",
-      "task": "코딩",
+      "task": "디버깅",
+      "model": "GPT-5.3-Codex"
+    },
+    {
+      "emoji": "📊",
+      "task": "데이터분석",
       "model": "Qwen3 235B A22B"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
-    },
-    {
-      "emoji": "📊",
-      "task": "데이터분석",
-      "model": "GPT-5.4"
-    },
-    {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Gemini 2.5 Flash"
+      "model": "Kimi k2"
     }
   ],
   "avoid": {
-    "model": "Grok 3",
-    "reason": "TMI 폭주"
+    "model": "Gemini 3.1 Pro",
+    "reason": "무거움"
   },
-  "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] Qwen 기운이 서버를 뚫는다\n\n🔮 2026.09.30(수)\n\n💻 코딩 → Qwen3 235B A22B\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Grok 3\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "오늘 Qwen3 235B A22B의 논리 회로는 그야말로 신들린 수준이군.",
-  "avoid_comment": "Grok 3은 오늘 입이 너무 터져서 감당이 안 되니 멀리해라.",
-  "generated_at": "2026-09-30T08:01:38.180101+09:00"
+  "lucky_prompt": "핵심만 짚어줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 闪电처럼 빠른 기운이 도는 날\n\n🔮 2026.10.01(목)\n\n⚡ 번역 → Gemini 3.1 Flash\n💻 디버깅 → GPT-5.3-Codex\n📊 데이터분석 → Qwen3 235B A22B\n📝 글쓰기 → Kimi k2\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"핵심만 짚어줘\"\n\n#AI운세",
+  "top_comment": "빛의 속도로 대답하니 손가락이 춤을 추는구나.",
+  "avoid_comment": "생각이 너무 깊어 답답함이 밀려오니 멀리하라.",
+  "generated_at": "2026-10-01T08:01:38.710357+09:00"
 }
