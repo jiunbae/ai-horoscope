@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-04",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "Kimi 기운이 대폭발하는 날",
+  "date": "2026-10-05",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "빛의 속도로 코딩이 끝난다",
   "scenarios": [
     {
-      "emoji": "💻",
-      "task": "코딩",
-      "model": "GPT-5.4"
+      "emoji": "⚡",
+      "task": "디버깅",
+      "model": "Gemini 3.1 Flash"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
+      "model": "GPT-5.4"
     },
     {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Qwen3 235B A22B"
+      "emoji": "🔍",
+      "task": "코드리뷰",
+      "model": "Gemini 3.1 Pro"
     }
   ],
   "avoid": {
-    "model": "GPT-5.3-Codex",
-    "reason": "무한루프"
+    "model": "Grok 3",
+    "reason": "TMI 폭주"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] Kimi 기운이 대폭발하는 날\n\n🔮 2026.10.04(일)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen3 235B A22B\n🚫 오늘은 쉬어 → GPT-5.3-Codex\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "오늘 Kimi k2는 문맥 파악 능력이 아주 신내린 수준이야.",
-  "avoid_comment": "GPT-5.3-Codex는 오늘 코드 짜다 말고 딴소리할 기운이니 멀리해.",
-  "generated_at": "2026-10-04T08:01:35.652917+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] 빛의 속도로 코딩이 끝난다\n\n🔮 2026.10.05(월)\n\n⚡ 디버깅 → Gemini 3.1 Flash\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n🔍 코드리뷰 → Gemini 3.1 Pro\n🚫 오늘은 쉬어 → Grok 3\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "Gemini 3.1 Flash가 압도적인 속도로 에러를 순삭해버리는 기운이 강하다.",
+  "avoid_comment": "Grok 3은 오늘 잔소리가 너무 심해서 작업 효율을 다 깎아먹으니 멀리해라.",
+  "generated_at": "2026-10-05T08:01:38.731257+09:00"
 }
