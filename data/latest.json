@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-13",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Grok 3의 기운이 폭발한다",
+  "date": "2026-10-14",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "Gemini 기운이 폭발한다",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Grok 3"
+      "model": "Gemini 3.1 Pro"
     },
     {
       "emoji": "📝",
@@ -17,21 +17,21 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Gemini 3.1 Flash"
+      "model": "Gemini 2.5 Flash"
     }
   ],
   "avoid": {
-    "model": "GPT-5.4 Codex",
-    "reason": "무한루프"
+    "model": "Qwen 3",
+    "reason": "환각 폭발"
   },
-  "lucky_prompt": "출력만 해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 3의 기운이 폭발한다\n\n🔮 2026.10.13(화)\n\n💻 코딩 → Grok 3\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Gemini 3.1 Flash\n🚫 오늘은 쉬어 → GPT-5.4 Codex\n\n🍀 \"출력만 해줘\"\n\n#AI운세",
-  "top_comment": "오늘 Grok 3는 에러 없이 완벽한 코드를 뽑아주는 기적을 보여줄 거야.",
-  "avoid_comment": "GPT-5.4 Codex는 오늘 잡담에 빠져서 코딩을 영 안 하네.",
-  "generated_at": "2026-10-13T08:01:39.100949+09:00"
+  "lucky_prompt": "핵심만 3줄로 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] Gemini 기운이 폭발한다\n\n🔮 2026.10.14(수)\n\n💻 코딩 → Gemini 3.1 Pro\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Qwen 3\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "컨텍스트 창이 시원하게 뚫려있어 복잡한 코드도 한 번에 리팩토링하는 기운이 돕니다.",
+  "avoid_comment": "오늘은 엉뚱한 소리를 늘어놓을 확률이 높으니 중요한 작업은 피하는 게 상책입니다.",
+  "generated_at": "2026-10-14T08:01:37.641254+09:00"
 }
