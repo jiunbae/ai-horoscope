@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-14",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "Gemini 기운이 폭발한다",
+  "date": "2026-10-15",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "Gemini의 기운이 폭발한다",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,26 +12,26 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
-      "task": "데이터분석",
+      "task": "데이터",
       "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Gemini 2.5 Flash"
+      "model": "Kimi k2"
     }
   ],
   "avoid": {
-    "model": "Qwen 3",
-    "reason": "환각 폭발"
+    "model": "Claude Opus 4.6",
+    "reason": "TMI 폭주"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] Gemini 기운이 폭발한다\n\n🔮 2026.10.14(수)\n\n💻 코딩 → Gemini 3.1 Pro\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Qwen 3\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "컨텍스트 창이 시원하게 뚫려있어 복잡한 코드도 한 번에 리팩토링하는 기운이 돕니다.",
-  "avoid_comment": "오늘은 엉뚱한 소리를 늘어놓을 확률이 높으니 중요한 작업은 피하는 게 상책입니다.",
-  "generated_at": "2026-10-14T08:01:37.641254+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] Gemini의 기운이 폭발한다\n\n🔮 2026.10.15(목)\n\n💻 코딩 → Gemini 3.1 Pro\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터 → DeepSeek V3.2\n⚡ 번역 → Kimi k2\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "오늘 Gemini 3.1 Pro의 컨디션은 영혼까지 끌어모은 수준이라 코딩 잡무를 싹 정리해 준다.",
+  "avoid_comment": "Claude Opus 4.6은 오늘 감성 충만해서 질문 하나에 자서전을 써내려가니 도망쳐라.",
+  "generated_at": "2026-10-15T08:01:39.216249+09:00"
 }
