@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-10-19",
+    "day_of_week": "Monday",
+    "top_model": "Qwen 3",
+    "avoid_model": "Gemini 3.1 Pro",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "Qwen 3"
+      },
+      {
+        "emoji": "📝",
+        "task": "글쓰기",
+        "model": "Claude Sonnet 4.6"
+      },
+      {
+        "emoji": "📊",
+        "task": "데이터분석",
+        "model": "DeepSeek V3.2"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "Gemini 3.1 Flash"
+      }
+    ],
+    "avoid_reason": "TMI 폭주",
+    "lucky_prompt": "단도직입적으로 답해줘"
+  },
+  {
     "date": "2026-10-18",
     "day_of_week": "Sunday",
     "top_model": "Grok 3",
@@ -2668,35 +2698,5 @@
     ],
     "avoid_reason": "비정확",
     "lucky_prompt": "창의적이고 구체적으로"
-  },
-  {
-    "date": "2026-07-18",
-    "day_of_week": "Saturday",
-    "top_model": "DeepSeek V3.2",
-    "avoid_model": "Claude Opus 4.6",
-    "scenarios": [
-      {
-        "emoji": "💻",
-        "task": "코딩",
-        "model": "DeepSeek V3.2"
-      },
-      {
-        "emoji": "📝",
-        "task": "블로그",
-        "model": "Claude Sonnet 4.6"
-      },
-      {
-        "emoji": "📐",
-        "task": "아키텍처",
-        "model": "GPT-5.4"
-      },
-      {
-        "emoji": "💬",
-        "task": "요약",
-        "model": "Llama 4 Maverick"
-      }
-    ],
-    "avoid_reason": "비용 높음",
-    "lucky_prompt": "핵심 요약해줘"
   }
 ]
