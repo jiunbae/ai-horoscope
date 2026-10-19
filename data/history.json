@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-10-20",
+    "day_of_week": "Tuesday",
+    "top_model": "Kimi k2",
+    "avoid_model": "Gemini 3.1 Pro",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "디버깅",
+        "model": "Kimi k2"
+      },
+      {
+        "emoji": "📝",
+        "task": "블로그",
+        "model": "GPT-5.4"
+      },
+      {
+        "emoji": "📊",
+        "task": "데이터분석",
+        "model": "DeepSeek V3.2"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "Gemini 2.5 Flash"
+      }
+    ],
+    "avoid_reason": "불안정",
+    "lucky_prompt": "핵심만 짚어서 요약해줘"
+  },
+  {
     "date": "2026-10-19",
     "day_of_week": "Monday",
     "top_model": "Qwen 3",
@@ -2668,35 +2698,5 @@
     ],
     "avoid_reason": "느려터짐",
     "lucky_prompt": "명확하게 써줘"
-  },
-  {
-    "date": "2026-07-19",
-    "day_of_week": "Sunday",
-    "top_model": "DeepSeek V3.2",
-    "avoid_model": "Llama 4 Maverick",
-    "scenarios": [
-      {
-        "emoji": "💻",
-        "task": "코딩",
-        "model": "DeepSeek V3.2"
-      },
-      {
-        "emoji": "📝",
-        "task": "글쓰기",
-        "model": "Claude Opus 4.6"
-      },
-      {
-        "emoji": "⚡",
-        "task": "번역",
-        "model": "Gemini 2.5 Flash"
-      },
-      {
-        "emoji": "📊",
-        "task": "데이터분석",
-        "model": "Gemini 2.5 Pro"
-      }
-    ],
-    "avoid_reason": "비정확",
-    "lucky_prompt": "창의적이고 구체적으로"
   }
 ]
