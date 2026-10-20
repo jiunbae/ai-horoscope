@@ -1,37 +1,37 @@
 {
-  "date": "2026-10-20",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Kimi k2 기운이 엄청나다",
+  "date": "2026-10-21",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "GPT-5.4 코덱스가 일을 낸다",
   "scenarios": [
     {
       "emoji": "💻",
-      "task": "디버깅",
-      "model": "Kimi k2"
+      "task": "코딩",
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
-      "task": "블로그",
-      "model": "GPT-5.4"
+      "task": "글쓰기",
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Gemini 2.5 Flash"
+      "model": "Qwen 3"
     }
   ],
   "avoid": {
-    "model": "Gemini 3.1 Pro",
-    "reason": "불안정"
+    "model": "Gemini 2.5 Flash",
+    "reason": "답변 헛소리"
   },
-  "lucky_prompt": "핵심만 짚어서 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Kimi k2 기운이 엄청나다\n\n🔮 2026.10.20(화)\n\n💻 디버깅 → Kimi k2\n📝 블로그 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"핵심만 짚어서 요약해줘\"\n\n#AI운세",
-  "top_comment": "Kimi k2의 손길이 닿는 곳마다 버그가 사르르 녹아내리는 날이야.",
-  "avoid_comment": "Gemini 3.1 Pro는 오늘따라 엉뚱한 소리를 하니 피하는 게 상책이지.",
-  "generated_at": "2026-10-20T08:01:42.187196+09:00"
+  "lucky_prompt": "완벽하게 짜줘",
+  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4 코덱스가 일을 낸다\n\n🔮 2026.10.21(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen 3\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"완벽하게 짜줘\"\n\n#AI운세",
+  "top_comment": "GPT-5.4가 에러 없이 싹 다 밀어버리는 날이다.",
+  "avoid_comment": "Gemini 2.5 Flash는 오늘 정신을 못 차리니 피하자.",
+  "generated_at": "2026-10-21T08:01:35.766741+09:00"
 }
