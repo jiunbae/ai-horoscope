@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-21",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "GPT-5.4 코덱스가 일을 낸다",
+  "date": "2026-10-22",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "GPT에 코딩 신 내림",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📝",
@@ -16,22 +16,22 @@
     },
     {
       "emoji": "📊",
-      "task": "데이터분석",
+      "task": "분석",
       "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen 3"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Gemini 2.5 Flash",
-    "reason": "답변 헛소리"
+    "model": "Llama 4 Maverick",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "완벽하게 짜줘",
-  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4 코덱스가 일을 낸다\n\n🔮 2026.10.21(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen 3\n🚫 오늘은 쉬어 → Gemini 2.5 Flash\n\n🍀 \"완벽하게 짜줘\"\n\n#AI운세",
-  "top_comment": "GPT-5.4가 에러 없이 싹 다 밀어버리는 날이다.",
-  "avoid_comment": "Gemini 2.5 Flash는 오늘 정신을 못 차리니 피하자.",
-  "generated_at": "2026-10-21T08:01:35.766741+09:00"
+  "lucky_prompt": "한 방에 짜줘",
+  "full_tweet": "[제피로스 오늘의 점괘] GPT에 코딩 신 내림\n\n🔮 2026.10.22(목)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Sonnet 4.6\n📊 분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"한 방에 짜줘\"\n\n#AI운세",
+  "top_comment": "GPT-5.4, 오늘 복사-붙여넣기만 해도 밥값 한다.",
+  "avoid_comment": "Llama 4 Maverick, 쓸데없는 소리 늘어놓으니 주의해라.",
+  "generated_at": "2026-10-22T08:01:42.557803+09:00"
 }
