@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-25",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "Grok 기운이 우주를 뚫는다",
+  "date": "2026-10-26",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "Grok 기운이 아주 맵돌다",
   "scenarios": [
     {
       "emoji": "💻",
@@ -16,22 +16,22 @@
     },
     {
       "emoji": "📊",
-      "task": "데이터분석",
-      "model": "GPT-5.4"
+      "task": "분석",
+      "model": "Qwen 3"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen 3"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Claude Opus 4.6",
-    "reason": "느림"
+    "model": "Gemini 3.1 Pro",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "핵심만 딱 요약해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 기운이 우주를 뚫는다\n\n🔮 2026.10.25(일)\n\n💻 코딩 → Grok 3\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Qwen 3\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심만 딱 요약해줘\"\n\n#AI운세",
-  "top_comment": "Grok 3의 드립력과 속도가 드디어 하나로 폭발했어.",
-  "avoid_comment": "Claude Opus 4.6은 오늘 생각에 잠겨서 답답할 거야.",
-  "generated_at": "2026-10-25T08:02:12.600804+09:00"
+  "lucky_prompt": "핵심만 3줄로 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok 기운이 아주 맵돌다\n\n🔮 2026.10.26(월)\n\n💻 코딩 → Grok 3\n📝 글쓰기 → Claude Sonnet 4.6\n📊 분석 → Qwen 3\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "Grok 3, 오늘 실시간 데이터 씹어먹는 기세가 장난 아님.",
+  "avoid_comment": "Gemini 3.1 Pro는 질문 하나에 영혼까지 털어내니 조심.",
+  "generated_at": "2026-10-26T08:01:38.818714+09:00"
 }
