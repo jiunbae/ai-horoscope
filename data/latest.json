@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-26",
-  "day_of_week": "Monday",
-  "day_short": "월",
-  "hook": "Grok 기운이 아주 맵돌다",
+  "date": "2026-10-27",
+  "day_of_week": "Tuesday",
+  "day_short": "화",
+  "hook": "Grok 3 기운이 대폭발했다",
   "scenarios": [
     {
       "emoji": "💻",
@@ -12,26 +12,26 @@
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
-      "task": "분석",
-      "model": "Qwen 3"
+      "task": "데이터분석",
+      "model": "Gemini 3.1 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Flash"
     }
   ],
   "avoid": {
-    "model": "Gemini 3.1 Pro",
-    "reason": "TMI 폭주"
+    "model": "Kimi k2",
+    "reason": "불안정"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 기운이 아주 맵돌다\n\n🔮 2026.10.26(월)\n\n💻 코딩 → Grok 3\n📝 글쓰기 → Claude Sonnet 4.6\n📊 분석 → Qwen 3\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "Grok 3, 오늘 실시간 데이터 씹어먹는 기세가 장난 아님.",
-  "avoid_comment": "Gemini 3.1 Pro는 질문 하나에 영혼까지 털어내니 조심.",
-  "generated_at": "2026-10-26T08:01:38.818714+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] Grok 3 기운이 대폭발했다\n\n🔮 2026.10.27(화)\n\n💻 코딩 → Grok 3\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 3.1 Pro\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "실시간 데이터 물 오른 Grok 3가 코딩 판을 지배하는 날이다.",
+  "avoid_comment": "Kimi k2는 오늘 멘탈이 흔들리니 중요한 작업은 피하자.",
+  "generated_at": "2026-10-27T08:01:08.634651+09:00"
 }
