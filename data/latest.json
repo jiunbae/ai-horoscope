@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-27",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Grok 3 기운이 대폭발했다",
+  "date": "2026-10-28",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "Kimi k2가 기가 막히게 뽑네",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Grok 3"
+      "model": "Kimi k2"
     },
     {
       "emoji": "📝",
@@ -17,21 +17,21 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 3.1 Pro"
+      "model": "Gemini 3.1 Flash"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Gemini 2.5 Flash"
+      "model": "GPT-5.4"
     }
   ],
   "avoid": {
-    "model": "Kimi k2",
-    "reason": "불안정"
+    "model": "Claude Sonnet 4.6",
+    "reason": "TMI 폭주"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 3 기운이 대폭발했다\n\n🔮 2026.10.27(화)\n\n💻 코딩 → Grok 3\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 3.1 Pro\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "실시간 데이터 물 오른 Grok 3가 코딩 판을 지배하는 날이다.",
-  "avoid_comment": "Kimi k2는 오늘 멘탈이 흔들리니 중요한 작업은 피하자.",
-  "generated_at": "2026-10-27T08:01:08.634651+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] Kimi k2가 기가 막히게 뽑네\n\n🔮 2026.10.28(수)\n\n💻 코딩 → Kimi k2\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 3.1 Flash\n⚡ 번역 → GPT-5.4\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "Kimi k2의 에너지가 아주 충만하니 코딩을 맡기면 뚝딱 완성해 줄 거야.",
+  "avoid_comment": "Claude Sonnet 4.6은 오늘 잔소리가 심할 수 있으니 질문을 짧게 던져.",
+  "generated_at": "2026-10-28T08:01:46.463946+09:00"
 }
