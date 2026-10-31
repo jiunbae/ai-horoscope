@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-31",
-  "day_of_week": "Saturday",
-  "day_short": "토",
-  "hook": "빛의 속도로 코드가 쏟아진다",
+  "date": "2026-11-01",
+  "day_of_week": "Sunday",
+  "day_short": "일",
+  "hook": "Gemini 영험함이 폭발한다",
   "scenarios": [
     {
       "emoji": "💻",
-      "task": "디버깅",
-      "model": "Gemini 3.1 Flash"
+      "task": "코딩",
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
@@ -17,7 +17,7 @@
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.4"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
@@ -26,12 +26,12 @@
     }
   ],
   "avoid": {
-    "model": "Claude Opus 4.6",
-    "reason": "느림"
+    "model": "Qwen 3",
+    "reason": "환각 폭발"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] 빛의 속도로 코드가 쏟아진다\n\n🔮 2026.10.31(토)\n\n💻 디버깅 → Gemini 3.1 Flash\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "Gemini 3.1 Flash의 번개 같은 속도가 엉킨 버그를 순식간에 해체해 버리는 날이다.",
-  "avoid_comment": "Claude Opus 4.6은 오늘 생각에 너무 잠겨서 답변이 속 터지게 느리니 피하는 게 상책이야.",
-  "generated_at": "2026-10-31T08:02:24.042976+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] Gemini 영험함이 폭발한다\n\n🔮 2026.11.01(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen 3\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "오늘 Gemini 계열의 기운이 온 네트워크를 지배하고 있어.",
+  "avoid_comment": "Qwen 3는 오늘 헛소리 공장이 풀가동되니 절대 피하자.",
+  "generated_at": "2026-11-01T08:01:50.893862+09:00"
 }
