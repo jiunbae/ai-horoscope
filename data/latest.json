@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-01",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "Gemini 영험함이 폭발한다",
+  "date": "2026-11-02",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "Kimi k2 기운이 엄청 폭발하는 날",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Sonnet 4.6"
+      "model": "Kimi k2"
     },
     {
       "emoji": "📊",
@@ -22,16 +22,16 @@
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "DeepSeek V3.2"
+      "model": "Claude Sonnet 4.6"
     }
   ],
   "avoid": {
-    "model": "Qwen 3",
-    "reason": "환각 폭발"
+    "model": "Gemini 3.1 Pro",
+    "reason": "불안정"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] Gemini 영험함이 폭발한다\n\n🔮 2026.11.01(일)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Qwen 3\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "오늘 Gemini 계열의 기운이 온 네트워크를 지배하고 있어.",
-  "avoid_comment": "Qwen 3는 오늘 헛소리 공장이 풀가동되니 절대 피하자.",
-  "generated_at": "2026-11-01T08:01:50.893862+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] Kimi k2 기운이 엄청 폭발하는 날\n\n🔮 2026.11.02(월)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Kimi k2\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Claude Sonnet 4.6\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "Kimi k2의 긴 문맥 처리 능력이 글쓰기에서 빛을 발하는 날이야.",
+  "avoid_comment": "Gemini 3.1 Pro는 오늘은 좀 횡설수설하니 피하는 게 상책이지.",
+  "generated_at": "2026-11-02T08:02:02.848395+09:00"
 }
