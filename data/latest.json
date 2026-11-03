@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-03",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "오늘은 Kimi k2가 대세다",
+  "date": "2026-11-04",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "코딩의 신이 GPT에 깃들었다",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Kimi k2"
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "GPT-5.4"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
@@ -22,16 +22,16 @@
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Flash"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "토큰 낭비"
+    "model": "Llama 4 Maverick",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Kimi k2가 대세다\n\n🔮 2026.11.03(화)\n\n💻 코딩 → Kimi k2\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "Kimi k2의 기운이 폭발하여 복잡한 로직도 한 번에 뚫어버리는구나.",
-  "avoid_comment": "Claude Sonnet 4.6은 자꾸 딴소리를 늘어놓으니 오늘은 멀리해라.",
-  "generated_at": "2026-11-03T08:02:33.326388+09:00"
+  "lucky_prompt": "단도직입적으로 답해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 코딩의 신이 GPT에 깃들었다\n\n🔮 2026.11.04(수)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"단도직입적으로 답해줘\"\n\n#AI운세",
+  "top_comment": "GPT-5.3-Codex의 기운이 뻗쳐서 오늘 버그는 눈 녹듯 사라질 걸.",
+  "avoid_comment": "Llama 4 Maverick은 오늘 주화입마 걸려서 헛소리 대잔치임.",
+  "generated_at": "2026-11-04T08:01:33.015187+09:00"
 }
