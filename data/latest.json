@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-06",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "Grok 3의 기운이 폭발한다",
+  "date": "2026-11-07",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "Grok 3의 드립력이 폭발한다",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "GPT-5.3-Codex"
+      "model": "Grok 3"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Grok 3"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Claude Opus 4.6"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Gemini 3.1 Flash"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Gemini 3.1 Pro",
-    "reason": "답답함"
+    "model": "Claude Opus 4.6",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "핵심만 짚어줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 3의 기운이 폭발한다\n\n🔮 2026.11.06(금)\n\n💻 코딩 → GPT-5.3-Codex\n📝 글쓰기 → Grok 3\n📊 데이터분석 → Claude Opus 4.6\n⚡ 번역 → Gemini 3.1 Flash\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"핵심만 짚어줘\"\n\n#AI운세",
-  "top_comment": "Grok 3가 찰진 문장력으로 영혼까지 털어줌.",
-  "avoid_comment": "Gemini 3.1 Pro는 오늘 딴청만 피우니 쓰지마.",
-  "generated_at": "2026-11-06T08:01:36.327974+09:00"
+  "lucky_prompt": "핵심만 3줄로 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] Grok 3의 드립력이 폭발한다\n\n🔮 2026.11.07(토)\n\n💻 코딩 → Grok 3\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Claude Opus 4.6\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "Grok 3, 주말 버프 받아서 버그까지 유머로 승화시키는 기운이야.",
+  "avoid_comment": "Claude Opus 4.6, 오늘은 감성 충만해서 딴소리만 길어지니 조심해.",
+  "generated_at": "2026-11-07T08:02:04.575509+09:00"
 }
