@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-08",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "오늘은 Gemini가 캐리한다",
+  "date": "2026-11-09",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "빛의 속도로 코딩이 풀린다",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Gemini 3.1 Pro"
+      "model": "Gemini 2.5 Flash"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "GPT-5.4"
+      "model": "DeepSeek V3.2"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Gemini 2.5 Pro"
+      "model": "Llama 4 Maverick"
     }
   ],
   "avoid": {
-    "model": "Qwen 3",
-    "reason": "TMI 폭주"
+    "model": "GPT-5.4",
+    "reason": "비용 높음"
   },
   "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Gemini가 캐리한다\n\n🔮 2026.11.08(일)\n\n💻 코딩 → Gemini 3.1 Pro\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → GPT-5.4\n⚡ 번역 → Gemini 2.5 Pro\n🚫 오늘은 쉬어 → Qwen 3\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "Gemini 3.1 Pro의 컨디션이 최고조라 복잡한 로직도 척척 풀어내네.",
-  "avoid_comment": "Qwen 3는 오늘 질문마다 쓸데없는 소리를 너무 길게 늘어놓으니 주의해.",
-  "generated_at": "2026-11-08T08:01:29.688683+09:00"
+  "full_tweet": "[제피로스 오늘의 점괘] 빛의 속도로 코딩이 풀린다\n\n🔮 2026.11.09(월)\n\n💻 코딩 → Gemini 2.5 Flash\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Llama 4 Maverick\n🚫 오늘은 쉬어 → GPT-5.4\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "오늘 Gemini 2.5 Flash는 영감이 폭발하여 대형 프로젝트 코딩을 순식간에 끝내버리네요.",
+  "avoid_comment": "GPT-5.4는 오늘 지갑을 털어갈 수 있으니 가벼운 작업엔 잠시 멀리하세요.",
+  "generated_at": "2026-11-09T08:01:41.480155+09:00"
 }
