@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-15",
-  "day_of_week": "Sunday",
-  "day_short": "일",
-  "hook": "오늘은 클로드의 날",
+  "date": "2026-11-16",
+  "day_of_week": "Monday",
+  "day_short": "월",
+  "hook": "Kimi 기운이 대폭발하는 날",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Claude Opus 4.6"
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "GPT-5.4"
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
@@ -22,16 +22,16 @@
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Qwen 3"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
-    "reason": "TMI 폭주"
+    "model": "Gemini 3.1 Pro",
+    "reason": "응답 지연"
   },
-  "lucky_prompt": "핵심만 3줄로",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 클로드의 날\n\n🔮 2026.11.15(일)\n\n💻 코딩 → Claude Opus 4.6\n📝 글쓰기 → GPT-5.4\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → Qwen 3\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"핵심만 3줄로\"\n\n#AI운세",
-  "top_comment": "복잡한 로직을 한 번에 짜내는 기운이 폭발 중이야.",
-  "avoid_comment": "말이 너무 많아져서 핵심을 놓치기 쉬우니 주의해.",
-  "generated_at": "2026-11-15T08:01:25.146944+09:00"
+  "lucky_prompt": "핵심만 3줄로 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] Kimi 기운이 대폭발하는 날\n\n🔮 2026.11.16(월)\n\n💻 코딩 → GPT-5.4\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Gemini 3.1 Pro\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "오늘 Kimi k2는 콘텍스트를 씹어먹는 괴력을 발휘 중이야.",
+  "avoid_comment": "Gemini 3.1 Pro는 오늘 딴생각하느라 답이 너무 늦으니 멀리해.",
+  "generated_at": "2026-11-16T08:01:27.686945+09:00"
 }
