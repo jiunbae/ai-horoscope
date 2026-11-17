@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-17",
-  "day_of_week": "Tuesday",
-  "day_short": "화",
-  "hook": "Grok 기운이 남다르다",
+  "date": "2026-11-18",
+  "day_of_week": "Wednesday",
+  "day_short": "수",
+  "hook": "GPT-5.4 코덱스의 기운이 폭발한다",
   "scenarios": [
     {
       "emoji": "💻",
       "task": "코딩",
-      "model": "Grok 3"
+      "model": "GPT-5.4-Codex"
     },
     {
       "emoji": "📝",
       "task": "글쓰기",
-      "model": "Claude Opus 4.6"
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Pro"
     },
     {
       "emoji": "⚡",
       "task": "번역",
-      "model": "Gemini 2.5 Flash"
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Gemini 3.1 Flash",
-    "reason": "답변 꼬임"
+    "model": "Llama 4 Maverick",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "핵심만 3줄로",
-  "full_tweet": "[제피로스 오늘의 점괘] Grok 기운이 남다르다\n\n🔮 2026.11.17(화)\n\n💻 코딩 → Grok 3\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → DeepSeek V3.2\n⚡ 번역 → Gemini 2.5 Flash\n🚫 오늘은 쉬어 → Gemini 3.1 Flash\n\n🍀 \"핵심만 3줄로\"\n\n#AI운세",
-  "top_comment": "Grok 3가 오늘 논리 회로 풀가동 중이라 코딩 뚝딱이다.",
-  "avoid_comment": "Gemini 3.1 Flash는 오늘 잔실수가 잦으니 피해라.",
-  "generated_at": "2026-11-17T08:01:24.677220+09:00"
+  "lucky_prompt": "핵심만 3줄로 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4 코덱스의 기운이 폭발한다\n\n🔮 2026.11.18(수)\n\n💻 코딩 → GPT-5.4-Codex\n📝 글쓰기 → Claude Sonnet 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "GPT-5.4 Codex의 코드 생성 속도와 정확도가 영점을 완벽히 관통하는 날이야.",
+  "avoid_comment": "Llama 4 Maverick은 묻지도 않은 말까지 꺼내서 디버깅을 지연시키니 피해라.",
+  "generated_at": "2026-11-18T08:01:24.379204+09:00"
 }
