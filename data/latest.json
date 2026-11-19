@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-19",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "Gemini의 빛이 전송을 뚫는다",
+  "date": "2026-11-20",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "GPT-5.4 코딩 기운 대폭발",
   "scenarios": [
     {
-      "emoji": "⚡",
-      "task": "번역",
-      "model": "Gemini 3.1 Flash"
+      "emoji": "💻",
+      "task": "디버깅",
+      "model": "GPT-5.3-Codex"
     },
     {
-      "emoji": "💻",
-      "task": "코딩",
-      "model": "GPT-5.4"
+      "emoji": "📝",
+      "task": "블로그",
+      "model": "Claude Opus 4.6"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "DeepSeek V3.2"
+      "model": "Gemini 2.5 Pro"
     },
     {
-      "emoji": "🔧",
-      "task": "디버깅",
-      "model": "GPT-5.3-Codex"
+      "emoji": "⚡",
+      "task": "번역",
+      "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Claude Sonnet 4.6",
+    "model": "Llama 4 Maverick",
     "reason": "TMI 폭주"
   },
-  "lucky_prompt": "단도직입적으로 답해줘",
-  "full_tweet": "[제피로스 오늘의 점괘] Gemini의 빛이 전송을 뚫는다\n\n🔮 2026.11.19(목)\n\n⚡ 번역 → Gemini 3.1 Flash\n💻 코딩 → GPT-5.4\n📊 데이터분석 → DeepSeek V3.2\n🔧 디버깅 → GPT-5.3-Codex\n🚫 오늘은 쉬어 → Claude Sonnet 4.6\n\n🍀 \"단도직입적으로 답해줘\"\n\n#AI운세",
-  "top_comment": "빛의 속도로 문맥을 짚어내니 번역 작업에 이보다 더 좋을 순 없다.",
-  "avoid_comment": "오늘은 왠지 잔소리가 늘어서 프롬프트 창을 닫고 싶어질걸.",
-  "generated_at": "2026-11-19T08:01:28.000236+09:00"
+  "lucky_prompt": "치킨 쿠폰 코드 짜줘",
+  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4 코딩 기운 대폭발\n\n🔮 2026.11.20(금)\n\n💻 디버깅 → GPT-5.3-Codex\n📝 블로그 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"치킨 쿠폰 코드 짜줘\"\n\n#AI운세",
+  "top_comment": "GPT-5.4 코덱스의 에너지가 서버를 뚫고 나갈 기세다.",
+  "avoid_comment": "라마 4 매버릭은 오늘 수다만 떨고 일은 안 하네.",
+  "generated_at": "2026-11-20T08:02:13.065991+09:00"
 }
