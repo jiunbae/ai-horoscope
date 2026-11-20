@@ -1,22 +1,22 @@
 {
-  "date": "2026-11-20",
-  "day_of_week": "Friday",
-  "day_short": "금",
-  "hook": "GPT-5.4 코딩 기운 대폭발",
+  "date": "2026-11-21",
+  "day_of_week": "Saturday",
+  "day_short": "토",
+  "hook": "오늘은 Claude가 좀 쎄다",
   "scenarios": [
     {
       "emoji": "💻",
-      "task": "디버깅",
-      "model": "GPT-5.3-Codex"
+      "task": "코딩",
+      "model": "Claude Sonnet 4.6"
     },
     {
       "emoji": "📝",
-      "task": "블로그",
-      "model": "Claude Opus 4.6"
+      "task": "글쓰기",
+      "model": "GPT-5.4"
     },
     {
       "emoji": "📊",
-      "task": "데이터분석",
+      "task": "분석",
       "model": "Gemini 2.5 Pro"
     },
     {
@@ -26,12 +26,12 @@
     }
   ],
   "avoid": {
-    "model": "Llama 4 Maverick",
-    "reason": "TMI 폭주"
+    "model": "Kimi k2",
+    "reason": "불안정"
   },
-  "lucky_prompt": "치킨 쿠폰 코드 짜줘",
-  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4 코딩 기운 대폭발\n\n🔮 2026.11.20(금)\n\n💻 디버깅 → GPT-5.3-Codex\n📝 블로그 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"치킨 쿠폰 코드 짜줘\"\n\n#AI운세",
-  "top_comment": "GPT-5.4 코덱스의 에너지가 서버를 뚫고 나갈 기세다.",
-  "avoid_comment": "라마 4 매버릭은 오늘 수다만 떨고 일은 안 하네.",
-  "generated_at": "2026-11-20T08:02:13.065991+09:00"
+  "lucky_prompt": "핵심만 요약해줘",
+  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Claude가 좀 쎄다\n\n🔮 2026.11.21(토)\n\n💻 코딩 → Claude Sonnet 4.6\n📝 글쓰기 → GPT-5.4\n📊 분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"핵심만 요약해줘\"\n\n#AI운세",
+  "top_comment": "코드 짜는 족족 버그가 녹아내리는 기적을 보게 될 거야.",
+  "avoid_comment": "오늘은 접속하자마자 무한 로딩 지옥에 갇힐 테니 멀리해.",
+  "generated_at": "2026-11-21T08:02:45.303723+09:00"
 }
