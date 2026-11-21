@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-11-22",
+    "day_of_week": "Sunday",
+    "top_model": "Qwen 3",
+    "avoid_model": "Kimi k2",
+    "scenarios": [
+      {
+        "emoji": "💻",
+        "task": "코딩",
+        "model": "Qwen 3"
+      },
+      {
+        "emoji": "📝",
+        "task": "글쓰기",
+        "model": "Claude Opus 4.6"
+      },
+      {
+        "emoji": "📊",
+        "task": "데이터분석",
+        "model": "Gemini 2.5 Pro"
+      },
+      {
+        "emoji": "⚡",
+        "task": "번역",
+        "model": "DeepSeek V3.2"
+      }
+    ],
+    "avoid_reason": "답답함",
+    "lucky_prompt": "완벽하게 요약해줘"
+  },
+  {
     "date": "2026-11-21",
     "day_of_week": "Saturday",
     "top_model": "Claude Sonnet 4.6",
@@ -2668,35 +2698,5 @@
     ],
     "avoid_reason": "버벅임",
     "lucky_prompt": "핵심만 뽑아줘"
-  },
-  {
-    "date": "2026-08-20",
-    "day_of_week": "Thursday",
-    "top_model": "Gemini 2.5 Pro",
-    "avoid_model": "Claude Sonnet 4.6",
-    "scenarios": [
-      {
-        "emoji": "📐",
-        "task": "API설계",
-        "model": "Gemini 2.5 Pro"
-      },
-      {
-        "emoji": "✍️",
-        "task": "블로그",
-        "model": "Qwen3 235B A22B"
-      },
-      {
-        "emoji": "🔍",
-        "task": "디버깅",
-        "model": "GPT-5.3-Codex"
-      },
-      {
-        "emoji": "📚",
-        "task": "논문요약",
-        "model": "Claude Opus 4.6"
-      }
-    ],
-    "avoid_reason": "빈틈 많음",
-    "lucky_prompt": "논리적으로 추론"
   }
 ]
