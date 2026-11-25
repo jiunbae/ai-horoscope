@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-25",
-  "day_of_week": "Wednesday",
-  "day_short": "수",
-  "hook": "오늘은 Sonnet이 멱살 잡는다",
+  "date": "2026-11-26",
+  "day_of_week": "Thursday",
+  "day_short": "목",
+  "hook": "GPT-5.4에 코딩신이 강림했다",
   "scenarios": [
     {
       "emoji": "💻",
-      "task": "코딩",
-      "model": "Claude Sonnet 4.6"
+      "task": "디버깅",
+      "model": "GPT-5.3-Codex"
     },
     {
       "emoji": "📝",
-      "task": "글쓰기",
+      "task": "블로그",
       "model": "Claude Opus 4.6"
+    },
+    {
+      "emoji": "⚡",
+      "task": "요약",
+      "model": "Gemini 2.5 Flash"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
-      "model": "Gemini 2.5 Pro"
-    },
-    {
-      "emoji": "⚡",
-      "task": "번역",
       "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "GPT-5.4 Codex",
-    "reason": "TMI 폭주"
+    "model": "Llama 4 Maverick",
+    "reason": "답변 꼬임"
   },
-  "lucky_prompt": "핵심만 3줄로 요약해",
-  "full_tweet": "[제피로스 오늘의 점괘] 오늘은 Sonnet이 멱살 잡는다\n\n🔮 2026.11.25(수)\n\n💻 코딩 → Claude Sonnet 4.6\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → GPT-5.4 Codex\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
-  "top_comment": "복잡한 레거시 코드도 척척 정리해 주는 마법 같은 집중력을 보여주네.",
-  "avoid_comment": "쓸데없는 주석을 너무 길게 달아 오히려 혼란을 주는구먼.",
-  "generated_at": "2026-11-25T08:02:07.575586+09:00"
+  "lucky_prompt": "완벽하게 짜줘",
+  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4에 코딩신이 강림했다\n\n🔮 2026.11.26(목)\n\n💻 디버깅 → GPT-5.3-Codex\n📝 블로그 → Claude Opus 4.6\n⚡ 요약 → Gemini 2.5 Flash\n📊 데이터분석 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"완벽하게 짜줘\"\n\n#AI운세",
+  "top_comment": "GPT-5.4 코딩 기운이 역대급으로 맑다.",
+  "avoid_comment": "Llama 4 Maverick은 오늘 말귀를 못 알아먹으니 멀리해라.",
+  "generated_at": "2026-11-26T08:02:12.432087+09:00"
 }
