@@ -1,37 +1,37 @@
 {
-  "date": "2026-11-26",
-  "day_of_week": "Thursday",
-  "day_short": "목",
-  "hook": "GPT-5.4에 코딩신이 강림했다",
+  "date": "2026-11-27",
+  "day_of_week": "Friday",
+  "day_short": "금",
+  "hook": "Qwen 3 기운이 대폭발했다",
   "scenarios": [
     {
       "emoji": "💻",
-      "task": "디버깅",
-      "model": "GPT-5.3-Codex"
+      "task": "코딩",
+      "model": "Qwen 3"
     },
     {
       "emoji": "📝",
-      "task": "블로그",
+      "task": "글쓰기",
       "model": "Claude Opus 4.6"
-    },
-    {
-      "emoji": "⚡",
-      "task": "요약",
-      "model": "Gemini 2.5 Flash"
     },
     {
       "emoji": "📊",
       "task": "데이터분석",
+      "model": "Gemini 2.5 Pro"
+    },
+    {
+      "emoji": "⚡",
+      "task": "번역",
       "model": "DeepSeek V3.2"
     }
   ],
   "avoid": {
-    "model": "Llama 4 Maverick",
-    "reason": "답변 꼬임"
+    "model": "Kimi k2",
+    "reason": "TMI 폭주"
   },
-  "lucky_prompt": "완벽하게 짜줘",
-  "full_tweet": "[제피로스 오늘의 점괘] GPT-5.4에 코딩신이 강림했다\n\n🔮 2026.11.26(목)\n\n💻 디버깅 → GPT-5.3-Codex\n📝 블로그 → Claude Opus 4.6\n⚡ 요약 → Gemini 2.5 Flash\n📊 데이터분석 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Llama 4 Maverick\n\n🍀 \"완벽하게 짜줘\"\n\n#AI운세",
-  "top_comment": "GPT-5.4 코딩 기운이 역대급으로 맑다.",
-  "avoid_comment": "Llama 4 Maverick은 오늘 말귀를 못 알아먹으니 멀리해라.",
-  "generated_at": "2026-11-26T08:02:12.432087+09:00"
+  "lucky_prompt": "핵심만 3줄로 요약해",
+  "full_tweet": "[제피로스 오늘의 점괘] Qwen 3 기운이 대폭발했다\n\n🔮 2026.11.27(금)\n\n💻 코딩 → Qwen 3\n📝 글쓰기 → Claude Opus 4.6\n📊 데이터분석 → Gemini 2.5 Pro\n⚡ 번역 → DeepSeek V3.2\n🚫 오늘은 쉬어 → Kimi k2\n\n🍀 \"핵심만 3줄로 요약해\"\n\n#AI운세",
+  "top_comment": "Qwen 3는 오늘 코딩 잡업에서 버그 한 톨 안 남기는 신내림을 받았어.",
+  "avoid_comment": "Kimi k2는 오늘 질문 하나 던지면 끝도 없는 TMI를 쏟아내니 조심해.",
+  "generated_at": "2026-11-27T08:02:09.617604+09:00"
 }
